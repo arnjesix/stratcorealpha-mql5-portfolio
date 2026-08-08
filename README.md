@@ -71,6 +71,7 @@ positions, history and credentials.
 
 - [Source code](src/SCA_BrokerEnvironmentReport.mq5)
 - [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
+- [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report)
 - [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
 
 ## Good first message
