@@ -55,6 +55,7 @@ Additional public CodeBase work is available on the
 
 - [MT5 Expert Advisor specification checklist](https://stratcorealpha.com/guides/mt5-ea-specification-checklist)
 - [MQL5 Expert Advisor bug report checklist](https://stratcorealpha.com/guides/mql5-bug-report-checklist)
+- [Why an MT5 EA works on one broker but not another](https://stratcorealpha.com/guides/why-mt5-ea-works-on-one-broker)
 - [Pine Script to MT5 conversion checklist](https://stratcorealpha.com/guides/pine-script-to-mt5-conversion-checklist)
 
 These guides show the information needed for a useful feasibility check and a
@@ -70,6 +71,7 @@ execution problems. It deliberately excludes account identity, balances,
 positions, history and credentials.
 
 - [Source code](src/SCA_BrokerEnvironmentReport.mq5)
+- [Version 1.0.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.0.0)
 - [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
 - [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report)
 - [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
