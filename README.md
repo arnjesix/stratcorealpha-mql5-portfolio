@@ -89,7 +89,10 @@ distance, protective stops and filling policies. It never sends a trade and
 excludes private account data from its report.
 
 - [Source code](src/SCA_MT5OrderPreflight.mq5)
+- [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75874)
+- [Version 1.1.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.1.0)
 - [Installation, checks and safe-sharing guide](docs/MT5_ORDER_PREFLIGHT.md)
+- [Tool overview and download](https://stratcorealpha.com/tools/mt5-order-preflight)
 - [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
 
 ## Good first message

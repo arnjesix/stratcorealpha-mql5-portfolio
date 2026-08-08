@@ -4,6 +4,10 @@
 hypothetical order against the current symbol rules before debugging the same
 request inside a larger Expert Advisor.
 
+- [Official MQL5 CodeBase page](https://www.mql5.com/en/code/75874)
+- [Version 1.1.0 release](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.1.0)
+- [Tool overview](https://stratcorealpha.com/tools/mt5-order-preflight)
+
 It does not send, modify or cancel trades.
 
 ## Checks
