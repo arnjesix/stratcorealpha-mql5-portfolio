@@ -1,0 +1,70 @@
+name: Public scope request
+description: Request a non-confidential feasibility and scope check for MQL4, MQL5 or an authorized Pine-to-MT5 conversion.
+title: "Scope request: "
+labels:
+  - scope-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue will be public. Do not include proprietary source code, credentials, account numbers, API keys, private strategy rules or buyer/seller platform messages. Use the website contact form for confidential material: https://stratcorealpha.com/#contact
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - MetaTrader 5 / MQL5
+        - MetaTrader 4 / MQL4
+        - TradingView Pine Script to MT5
+        - Not sure yet
+    validations:
+      required: true
+  - type: dropdown
+    id: work_type
+    attributes:
+      label: Work type
+      options:
+        - One reproducible bug fix
+        - One bounded modification
+        - Custom Expert Advisor from explicit rules
+        - Indicator, dashboard or alert tool
+        - Authorized Pine Script conversion
+        - Specification or feasibility review
+    validations:
+      required: true
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current situation
+      description: Describe the current behaviour or starting point without sharing confidential implementation details.
+      placeholder: Existing editable source / written rules / current symptom...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected result
+      description: State one testable outcome and, if possible, one should-happen and one should-not-happen example.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Symbol, timeframe and account mode
+      placeholder: EURUSD, M15, hedging account
+  - type: input
+    id: budget
+    attributes:
+      label: Budget and preferred deadline
+      placeholder: EUR 100, within 5 days
+  - type: checkboxes
+    id: authorization
+    attributes:
+      label: Public-request confirmation
+      options:
+        - label: I have not included credentials, account numbers, proprietary source code or private strategy details.
+          required: true
+        - label: I own or am authorized to use any source code referenced by this request.
+          required: true
+        - label: I understand that engineering work does not guarantee profit, win rate, drawdown or a prop-firm result.
+          required: true

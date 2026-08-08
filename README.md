@@ -73,6 +73,11 @@ For a fast scope check, include:
 
 Email: [contact@stratcorealpha.com](mailto:contact@stratcorealpha.com)
 
+For a non-confidential first check, you can also open the public
+[scope-request template](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/issues/new?template=scope-request.yml).
+Do not paste proprietary source code, credentials, account numbers or private
+strategy details into a public GitHub issue.
+
 ## Scope boundaries
 
 - No guaranteed profit, win rate, drawdown or prop-firm result.

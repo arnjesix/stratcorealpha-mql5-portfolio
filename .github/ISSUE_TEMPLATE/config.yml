@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Confidential website scope request
+    url: https://stratcorealpha.com/#contact
+    about: Use the website form instead of a public issue for confidential requirements or files.
+  - name: MT5 EA specification checklist
+    url: https://stratcorealpha.com/guides/mt5-ea-specification-checklist
+    about: Prepare explicit rules and acceptance examples before requesting a quote.
