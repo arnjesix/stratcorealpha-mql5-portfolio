@@ -11,6 +11,8 @@ MetaTrader 4 and MetaTrader 5.
 
 | Service | Typical starting scope | Details |
 | --- | ---: | --- |
+| MT5 EA specification audit before development | EUR 39 | [Check scope, ambiguities and acceptance criteria](https://stratcorealpha.com/services/mt5-ea-specification-audit) |
+| Authorized MQL4/MQL5 source-code audit | EUR 39 | [Prioritized findings and repair estimate](https://stratcorealpha.com/services/mql-code-audit) |
 | MQL5 Expert Advisor development from explicit rules | from EUR 249 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-developer) |
 | One bounded MQL4/MQL5 bug fix or modification | from EUR 89 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-bug-fix) |
 | Authorized Pine Script to MT5 conversion | from EUR 179 | [Scope and boundaries](https://stratcorealpha.com/services/pine-script-to-mt5) |
