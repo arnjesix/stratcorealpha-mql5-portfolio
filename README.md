@@ -71,6 +71,7 @@ execution problems. It deliberately excludes account identity, balances,
 positions, history and credentials.
 
 - [Source code](src/SCA_BrokerEnvironmentReport.mq5)
+- [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75871)
 - [Version 1.0.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.0.0)
 - [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
 - [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report)
