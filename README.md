@@ -60,6 +60,19 @@ Additional public CodeBase work is available on the
 These guides show the information needed for a useful feasibility check and a
 bounded quote. They can be used before contacting any developer.
 
+## Open-source diagnostic utility
+
+### MT5 Broker Environment Report
+
+A privacy-conscious MQL5 script that records the symbol, volume, order,
+filling, stop/freeze and account-mode properties needed to reproduce many EA
+execution problems. It deliberately excludes account identity, balances,
+positions, history and credentials.
+
+- [Source code](src/SCA_BrokerEnvironmentReport.mq5)
+- [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
+- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+
 ## Good first message
 
 For a fast scope check, include:
@@ -87,3 +100,5 @@ strategy details into a public GitHub issue.
   bounded implementation or repair.
 
 StratCoreAlpha is operated by Arnold Holm in Germany.
+
+The source code in this repository is licensed under the [MIT License](LICENSE).
