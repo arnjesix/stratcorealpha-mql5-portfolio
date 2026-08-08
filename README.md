@@ -13,6 +13,7 @@ MetaTrader 4 and MetaTrader 5.
 | --- | ---: | --- |
 | MT5 EA specification audit before development | EUR 39 | [Check scope, ambiguities and acceptance criteria](https://stratcorealpha.com/services/mt5-ea-specification-audit) |
 | Authorized MQL4/MQL5 source-code audit | EUR 39 | [Prioritized findings and repair estimate](https://stratcorealpha.com/services/mql-code-audit) |
+| MT4/MT5 indicator alert upgrade | from EUR 39 | [Add bounded popup, push, email, sound or chart alerts](https://stratcorealpha.com/services/mt4-mt5-indicator-alerts) |
 | MQL5 Expert Advisor development from explicit rules | from EUR 249 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-developer) |
 | One bounded MQL4/MQL5 bug fix or modification | from EUR 89 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-bug-fix) |
 | Authorized Pine Script to MT5 conversion | from EUR 179 | [Scope and boundaries](https://stratcorealpha.com/services/pine-script-to-mt5) |
@@ -58,6 +59,7 @@ Additional public CodeBase work is available on the
 - [MT5 Expert Advisor specification checklist](https://stratcorealpha.com/guides/mt5-ea-specification-checklist)
 - [MQL5 Expert Advisor bug report checklist](https://stratcorealpha.com/guides/mql5-bug-report-checklist)
 - [Why an MT5 EA works on one broker but not another](https://stratcorealpha.com/guides/why-mt5-ea-works-on-one-broker)
+- [MT4 and MT5 indicator alert requirements checklist](https://stratcorealpha.com/guides/mt4-mt5-indicator-alert-requirements)
 - [Pine Script to MT5 conversion checklist](https://stratcorealpha.com/guides/pine-script-to-mt5-conversion-checklist)
 
 These guides show the information needed for a useful feasibility check and a
@@ -77,6 +79,17 @@ positions, history and credentials.
 - [Version 1.0.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.0.0)
 - [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
 - [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report)
+- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+
+### MT5 Order Preflight
+
+A read-only script that checks a hypothetical market, limit or stop order
+against current symbol trade modes, volume constraints, tick size, pending
+distance, protective stops and filling policies. It never sends a trade and
+excludes private account data from its report.
+
+- [Source code](src/SCA_MT5OrderPreflight.mq5)
+- [Installation, checks and safe-sharing guide](docs/MT5_ORDER_PREFLIGHT.md)
 - [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
 
 ## Good first message
