@@ -120,17 +120,18 @@ void OnStart()
       return;
      }
 
-   MqlTick tick;
-   if(!SymbolInfoTick(symbol,tick))
-     {
-      PrintBlocked("current_tick_unavailable");
-      return;
-     }
-
    ENUM_ORDER_TYPE order_type=(InpSide==SCA_ORDER_BUY ? ORDER_TYPE_BUY : ORDER_TYPE_SELL);
    double entry=InpEntryPrice;
    if(entry<=0.0)
+     {
+      MqlTick tick;
+      if(!SymbolInfoTick(symbol,tick))
+        {
+         PrintBlocked("current_tick_unavailable");
+         return;
+        }
       entry=(InpSide==SCA_ORDER_BUY ? tick.ask : tick.bid);
+     }
 
    if(entry<=0.0)
      {
