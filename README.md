@@ -95,6 +95,17 @@ excludes private account data from its report.
 - [Tool overview and download](https://stratcorealpha.com/tools/mt5-order-preflight)
 - [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
 
+### MT5 Cash Risk Probe
+
+A read-only sizing script that uses the terminal's account-currency profit
+calculation, reserves explicit cash for fees/slippage and floors the result to
+the broker's volume grid. It includes five deterministic normalization tests,
+reports every input and boundary and never sends an order.
+
+- [Source code](src/SCA_MT5CashRiskProbe.mq5)
+- [Installation, boundary and limitation guide](docs/MT5_CASH_RISK_PROBE.md)
+- Relevant diagnostic scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
+
 ## Good first message
 
 For a fast scope check, include:
