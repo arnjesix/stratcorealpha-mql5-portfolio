@@ -40,6 +40,15 @@ The broker-dependent result then blocks missing or wrong-side stops, invalid
 cash/reserve values, unavailable ticks, invalid volume metadata, failed profit
 calculation and a budget below minimum volume.
 
+## Verification record
+
+- MetaEditor compile: 0 errors and 0 warnings.
+- Runtime smoke test on 2026-08-11: all five deterministic self-tests passed
+  in two separate MT5 installations.
+- The broker-dependent calculation then blocked because the test terminals had
+  no valid broker authorization. This is the intended fail-closed result, not
+  evidence of a successful connected-account calculation.
+
 This utility is software-engineering evidence, not trading advice or a
 performance claim. A passing calculation does not guarantee fill price,
 commission, slippage, margin availability or broker acceptance.
