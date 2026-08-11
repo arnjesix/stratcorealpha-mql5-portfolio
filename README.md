@@ -103,8 +103,10 @@ the broker's volume grid. It includes five deterministic normalization tests,
 reports every input and boundary and never sends an order.
 
 - [Source code](src/SCA_MT5CashRiskProbe.mq5)
+- [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75981)
 - [Version 1.2.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.2.0)
 - [Installation, boundary and limitation guide](docs/MT5_CASH_RISK_PROBE.md)
+- [Engineering case study](https://stratcorealpha.com/work/mt5-cash-risk-probe)
 - Relevant diagnostic scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
 
 ## Good first message
