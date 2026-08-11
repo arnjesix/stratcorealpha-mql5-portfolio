@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue will be public. Do not include proprietary source code, credentials, account numbers, API keys, private strategy rules or buyer/seller platform messages. Use the website contact form for confidential material: https://stratcorealpha.com/#contact
+        This issue will be public. Do not include proprietary source code, credentials, account numbers, API keys, private strategy rules or buyer/seller platform messages. Build a private local brief first at https://stratcorealpha.com/tools/trading-bot-scope-builder and use the website diagnostic form for confidential material: https://stratcorealpha.com/diagnostic
   - type: dropdown
     id: platform
     attributes:

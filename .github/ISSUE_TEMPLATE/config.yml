@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Confidential website scope request
-    url: https://stratcorealpha.com/#contact
-    about: Use the website form instead of a public issue for confidential requirements or files.
+    url: https://stratcorealpha.com/tools/trading-bot-scope-builder
+    about: Build a private local brief first; what you type stays in your browser until you choose to send it.
   - name: MT5 EA specification checklist
-    url: https://stratcorealpha.com/guides/mt5-ea-specification-checklist
+    url: https://stratcorealpha.com/diagnostic
     about: Prepare explicit rules and acceptance examples before requesting a quote.

@@ -5,7 +5,7 @@ MetaTrader 4 and MetaTrader 5.
 
 [Website](https://stratcorealpha.com/) ·
 [Public MQL5 profile](https://www.mql5.com/en/users/stratcorealpha) ·
-[Request a scope check](mailto:contact@stratcorealpha.com)
+[Build a free scope brief](https://stratcorealpha.com/tools/trading-bot-scope-builder)
 
 ## Services
 
@@ -109,7 +109,10 @@ reports every input and boundary and never sends an order.
 
 ## Good first message
 
-For a fast scope check, include:
+Use the browser-local
+[trading-bot scope builder](https://stratcorealpha.com/tools/trading-bot-scope-builder)
+to produce a copyable first brief without uploading what you type. For a fast
+scope check, include:
 
 1. MetaTrader 4, MetaTrader 5 or TradingView/Pine Script.
 2. Editable source code you own, or explicit written trading rules.
