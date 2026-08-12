@@ -117,7 +117,9 @@ reset. It provides an inspectable PASS/FAIL contract before those rules are
 connected to broker or order-send behavior.
 
 - [Source code](src/SCA_MT5AcceptanceHarness.mq5)
+- [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/76039)
 - [Fixture contract and safe-use guide](docs/MT5_EA_ACCEPTANCE_HARNESS.md)
+- [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness)
 - Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
 
 ## Good first message
