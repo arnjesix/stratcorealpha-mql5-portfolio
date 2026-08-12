@@ -118,6 +118,7 @@ connected to broker or order-send behavior.
 
 - [Source code](src/SCA_MT5AcceptanceHarness.mq5)
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/76039)
+- [Version 1.3.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.3.0)
 - [Fixture contract and safe-use guide](docs/MT5_EA_ACCEPTANCE_HARNESS.md)
 - [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness)
 - Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
