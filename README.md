@@ -109,6 +109,17 @@ reports every input and boundary and never sends an order.
 - [Engineering case study](https://stratcorealpha.com/work/mt5-cash-risk-probe)
 - Relevant diagnostic scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
 
+### MT5 EA Acceptance Harness
+
+A non-trading script that executes eight synthetic entry-state fixtures for
+completed-bar timing, duplicate suppression, cooldown, daily lock and new-day
+reset. It provides an inspectable PASS/FAIL contract before those rules are
+connected to broker or order-send behavior.
+
+- [Source code](src/SCA_MT5AcceptanceHarness.mq5)
+- [Fixture contract and safe-use guide](docs/MT5_EA_ACCEPTANCE_HARNESS.md)
+- Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
+
 ## Good first message
 
 Use the browser-local
