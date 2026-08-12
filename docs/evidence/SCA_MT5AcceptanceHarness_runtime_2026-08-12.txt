@@ -1,0 +1,16 @@
+StratCoreAlpha MT5 EA Acceptance Harness
+Synthetic fixtures only; order_sent=false; account_data_read=false
+
+[PASS] A1 valid closed-bar signal | expected=ENTER actual=ENTER | day=20260812 bar=100
+[PASS] A2 duplicate signal bar | expected=BLOCK_DUPLICATE_BAR actual=BLOCK_DUPLICATE_BAR | day=20260812 bar=100
+[PASS] A3 open-bar signal | expected=BLOCK_OPEN_BAR actual=BLOCK_OPEN_BAR | day=20260812 bar=101
+[PASS] A4 cooldown not elapsed | expected=BLOCK_COOLDOWN actual=BLOCK_COOLDOWN | day=20260812 bar=102
+[PASS] A5 cooldown elapsed | expected=ENTER actual=ENTER | day=20260812 bar=103
+[PASS] A6 no signal | expected=BLOCK_NO_SIGNAL actual=BLOCK_NO_SIGNAL | day=20260812 bar=104
+[PASS] A7 daily lock | expected=BLOCK_DAILY_LOCK actual=BLOCK_DAILY_LOCK | day=20260812 bar=106
+[PASS] A8 new-day reset | expected=ENTER actual=ENTER | day=20260813 bar=107
+
+Summary
+passed=8 failed=0 result=PASS
+Boundaries: this harness proves only the synthetic state contract above.
+It does not prove strategy quality, broker execution, profitability or live-account behavior.

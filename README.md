@@ -120,6 +120,7 @@ connected to broker or order-send behavior.
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/76039)
 - [Version 1.3.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.3.0)
 - [Fixture contract and safe-use guide](docs/MT5_EA_ACCEPTANCE_HARNESS.md)
+- [Captured MT5 runtime report: 8/8 synthetic cases passed](docs/evidence/SCA_MT5AcceptanceHarness_runtime_2026-08-12.txt)
 - [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness)
 - Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
 

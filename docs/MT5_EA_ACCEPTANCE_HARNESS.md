@@ -32,5 +32,11 @@ broker execution, strategy quality, profitability or live-account behavior.
 ## Verification record
 
 - MetaEditor 5 x64 compile on 2026-08-12: 0 errors and 0 warnings.
-- Runtime fixture execution remains deliberately unclaimed until the compiled
-  script is run in a terminal and all eight printed decisions are captured.
+- Isolated local MT5 portable-terminal run on 2026-08-12: 8 of 8 synthetic
+  decisions passed and the script itself wrote the captured
+  [runtime report](evidence/SCA_MT5AcceptanceHarness_runtime_2026-08-12.txt).
+- Runtime report SHA-256:
+  `E0B9ECA5BA713F7265F1D56ABF487DBDE3E306FEA6F0B07E8A2B072B491E7B20`.
+- This proves only script startup, deterministic fixture evaluation and report
+  output. Broker execution, market-data behavior and trading performance remain
+  unclaimed.
