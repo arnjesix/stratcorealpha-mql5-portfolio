@@ -7,6 +7,8 @@ $sourcePath = Join-Path $root 'src\SCA_MT5DealEvidenceExporter.mq5'
 $comparatorPath = Join-Path $root 'tools\Compare-MT5DealEvidence.ps1'
 $reporterPath = Join-Path $root 'tools\New-MT5DealEvidenceReport.ps1'
 $docPath = Join-Path $root 'docs\MT5_DEAL_EVIDENCE_TOOLKIT.md'
+$buyerGuidePath = Join-Path $root `
+    'docs\MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md'
 $samplePath = Join-Path $root `
     'docs\evidence\MT5_Execution_Reconciliation_Sample.html'
 $coverPath = Join-Path $root `
@@ -23,6 +25,7 @@ foreach ($path in @(
         $comparatorPath,
         $reporterPath,
         $docPath,
+        $buyerGuidePath,
         $samplePath,
         $coverPath,
         $previewPath,
@@ -127,6 +130,16 @@ if ($sample -notmatch '5 differences require review' -or
     throw 'Published synthetic report is incomplete or unsafe.'
 }
 
+$buyerGuide = Get-Content -LiteralPath $buyerGuidePath -Raw -Encoding utf8
+$buyerGuideLinks = @([regex]::Matches($buyerGuide, 'https://github\.com/arnjesix/stratcorealpha-mql5-portfolio/'))
+if ($buyerGuide -notmatch 'Five differences that lead to different investigations' -or
+    $buyerGuide -notmatch 'A bounded first milestone' -or
+    $buyerGuide -notmatch 'It is not\s+investment advice' -or
+    $buyerGuideLinks.Count -ne 3 -or
+    $buyerGuide -match '(?i)guaranteed? profit|C:\\Users\\|AppData|password\s*[:=]') {
+    throw 'Buyer guide is incomplete, unbounded or contains unsafe text.'
+}
+
 Add-Type -AssemblyName System.Drawing
 $cover = [Drawing.Image]::FromFile($coverPath)
 try {
@@ -157,5 +170,6 @@ finally {
     HtmlExternalRoutes = 0
     Cover = '750x500'
     Preview = '1518x780'
+    BuyerGuideLinks = $buyerGuideLinks.Count
     Passed = $true
 }

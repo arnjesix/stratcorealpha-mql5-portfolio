@@ -61,6 +61,7 @@ Additional public CodeBase work is available on the
 - [Why an MT5 EA works on one broker but not another](https://stratcorealpha.com/guides/why-mt5-ea-works-on-one-broker)
 - [MT4 and MT5 indicator alert requirements checklist](https://stratcorealpha.com/guides/mt4-mt5-indicator-alert-requirements)
 - [Pine Script to MT5 conversion checklist](https://stratcorealpha.com/guides/pine-script-to-mt5-conversion-checklist)
+- [Before you pay for an MT5 live-vs-backtest fix](docs/MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md)
 
 These guides show the information needed for a useful feasibility check and a
 bounded quote. They can be used before contacting any developer.
@@ -143,6 +144,7 @@ reason, profit and missing-row differences without client data.
 - [CSV comparator](tools/Compare-MT5DealEvidence.ps1)
 - [Self-contained HTML report builder](tools/New-MT5DealEvidenceReport.ps1)
 - [Installation, evidence contract and safe-use guide](docs/MT5_DEAL_EVIDENCE_TOOLKIT.md)
+- [Buyer guide: scope an execution reconciliation before paying for a fix](docs/MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md)
 - [Synthetic five-difference report](docs/evidence/MT5_Execution_Reconciliation_Sample.html)
 - Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit)
 
