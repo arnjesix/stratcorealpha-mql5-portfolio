@@ -133,6 +133,7 @@ contains no order path. A synthetic handoff demonstrates exact time, price,
 reason, profit and missing-row differences without client data.
 
 - [MQL5 exporter source](src/SCA_MT5DealEvidenceExporter.mq5)
+- [Version 1.4.0 release and direct source/report downloads](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0)
 - [CSV comparator](tools/Compare-MT5DealEvidence.ps1)
 - [Self-contained HTML report builder](tools/New-MT5DealEvidenceReport.ps1)
 - [Installation, evidence contract and safe-use guide](docs/MT5_DEAL_EVIDENCE_TOOLKIT.md)
