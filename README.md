@@ -124,6 +124,21 @@ connected to broker or order-send behavior.
 - [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness)
 - Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
 
+### MT5 Deal Evidence Toolkit
+
+A read-only MQL5 exporter plus deterministic PowerShell comparison and HTML
+report tools for inspecting stored tester-versus-deployment deal differences.
+The fixed 19-field contract omits account and broker identity and the source
+contains no order path. A synthetic handoff demonstrates exact time, price,
+reason, profit and missing-row differences without client data.
+
+- [MQL5 exporter source](src/SCA_MT5DealEvidenceExporter.mq5)
+- [CSV comparator](tools/Compare-MT5DealEvidence.ps1)
+- [Self-contained HTML report builder](tools/New-MT5DealEvidenceReport.ps1)
+- [Installation, evidence contract and safe-use guide](docs/MT5_DEAL_EVIDENCE_TOOLKIT.md)
+- [Synthetic five-difference report](docs/evidence/MT5_Execution_Reconciliation_Sample.html)
+- Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit)
+
 ## Good first message
 
 Use the browser-local
