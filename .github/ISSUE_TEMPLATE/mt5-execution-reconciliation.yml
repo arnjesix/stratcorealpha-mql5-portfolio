@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue is public. Do not paste or attach proprietary source code, SET files, full trade-history files, account numbers, account names, broker logins, credentials, private strategy rules or platform messages. Use only non-confidential version IDs, hashes and one redacted expected-versus-observed example. The public toolkit is available at https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0.
+        This issue is public. Do not paste or attach proprietary source code, SET files, full trade-history files, account numbers, account names, broker logins, credentials, private strategy rules or platform messages. Use only non-confidential version IDs, hashes and one redacted expected-versus-observed example. The public toolkit is available at https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0. Before opening an issue, copy the nine-section scope template at https://github.com/arnjesix/stratcorealpha-mql5-portfolio/blob/main/templates/MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md.
   - type: dropdown
     id: evidence_format
     attributes:

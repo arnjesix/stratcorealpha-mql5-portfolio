@@ -22,6 +22,7 @@ foreach ($required in @(
         'id: public_request_confirmation',
         'This issue is public',
         'Do not paste or attach proprietary source code',
+        'templates/MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md',
         'private evidence must stay on an approved funded project route',
         'does not prove historical fillability, broker parity, profitability or future performance'
     )) {
@@ -53,5 +54,6 @@ if ($form -match '(?i)\b(upload|attach)\s+(?:your\s+)?(?:source|set|history)|acc
     RequiredValidations = 11
     PrivateFileRequests = 0
     AccountIdentityRequests = 0
+    ScopeTemplateLinked = $true
     Passed = $true
 }
