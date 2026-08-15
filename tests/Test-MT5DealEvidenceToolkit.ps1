@@ -9,6 +9,7 @@ $reporterPath = Join-Path $root 'tools\New-MT5DealEvidenceReport.ps1'
 $docPath = Join-Path $root 'docs\MT5_DEAL_EVIDENCE_TOOLKIT.md'
 $buyerGuidePath = Join-Path $root `
     'docs\MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md'
+$checksumPath = Join-Path $root 'docs\evidence\SHA256SUMS_v1.4.0.txt'
 $samplePath = Join-Path $root `
     'docs\evidence\MT5_Execution_Reconciliation_Sample.html'
 $coverPath = Join-Path $root `
@@ -26,6 +27,7 @@ foreach ($path in @(
         $reporterPath,
         $docPath,
         $buyerGuidePath,
+        $checksumPath,
         $samplePath,
         $coverPath,
         $previewPath,
@@ -140,6 +142,14 @@ if ($buyerGuide -notmatch 'Five differences that lead to different investigation
     throw 'Buyer guide is incomplete, unbounded or contains unsafe text.'
 }
 
+$checksumLines = @(Get-Content -LiteralPath $checksumPath -Encoding utf8 |
+    Where-Object { -not [string]::IsNullOrWhiteSpace($_) })
+if ($checksumLines.Count -ne 4 -or
+    @($checksumLines | Where-Object { $_ -notmatch '^[0-9A-F]{64}  [A-Za-z0-9_.-]+$' }).Count -ne 0 -or
+    @($checksumLines | Where-Object { $_ -match "^$sourceHash  SCA_MT5DealEvidenceExporter\.mq5$" }).Count -ne 1) {
+    throw 'Release checksum manifest is incomplete or malformed.'
+}
+
 Add-Type -AssemblyName System.Drawing
 $cover = [Drawing.Image]::FromFile($coverPath)
 try {
@@ -171,5 +181,6 @@ finally {
     Cover = '750x500'
     Preview = '1518x780'
     BuyerGuideLinks = $buyerGuideLinks.Count
+    ReleaseChecksums = $checksumLines.Count
     Passed = $true
 }

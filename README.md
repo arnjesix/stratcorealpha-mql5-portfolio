@@ -141,6 +141,7 @@ reason, profit and missing-row differences without client data.
 - [Version 1.4.0 release and direct source/report downloads](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0)
 - [Toolkit ZIP: exporter, comparator, report builder, guide, tests and fixtures](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Deal_Evidence_Toolkit_v1.4.0.zip)
 - [Three-page synthetic buyer proof PDF](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Execution_Reconciliation_Proof.pdf)
+- [Release asset SHA-256 checksums](docs/evidence/SHA256SUMS_v1.4.0.txt)
 - [CSV comparator](tools/Compare-MT5DealEvidence.ps1)
 - [Self-contained HTML report builder](tools/New-MT5DealEvidenceReport.ps1)
 - [Installation, evidence contract and safe-use guide](docs/MT5_DEAL_EVIDENCE_TOOLKIT.md)
