@@ -78,6 +78,7 @@ from turning into unlimited strategy research.
 
 - [Three-page synthetic proof PDF](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Execution_Reconciliation_Proof.pdf)
 - [Complete MT5 Deal Evidence Toolkit release](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0)
+- [Copyable non-confidential scope template](../templates/MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md)
 - [Public safe-scope form](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/issues/new?template=mt5-execution-reconciliation.yml)
 
 The toolkit records stored MT5 deal history. It has no order path and omits
@@ -87,4 +88,3 @@ profit, win-rate, drawdown or future-performance claim.
 
 This guide concerns software verification and evidence design. It is not
 investment advice.
-

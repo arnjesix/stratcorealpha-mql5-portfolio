@@ -10,6 +10,8 @@ $docPath = Join-Path $root 'docs\MT5_DEAL_EVIDENCE_TOOLKIT.md'
 $buyerGuidePath = Join-Path $root `
     'docs\MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md'
 $checksumPath = Join-Path $root 'docs\evidence\SHA256SUMS_v1.4.0.txt'
+$scopeTemplatePath = Join-Path $root `
+    'templates\MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md'
 $samplePath = Join-Path $root `
     'docs\evidence\MT5_Execution_Reconciliation_Sample.html'
 $coverPath = Join-Path $root `
@@ -28,6 +30,7 @@ foreach ($path in @(
         $docPath,
         $buyerGuidePath,
         $checksumPath,
+        $scopeTemplatePath,
         $samplePath,
         $coverPath,
         $previewPath,
@@ -150,6 +153,24 @@ if ($checksumLines.Count -ne 4 -or
     throw 'Release checksum manifest is incomplete or malformed.'
 }
 
+$scopeTemplate = Get-Content -LiteralPath $scopeTemplatePath -Raw -Encoding utf8
+foreach ($requiredHeading in @(
+        '## 2. Reference identity',
+        '## 3. Candidate identity',
+        '## 4. Frozen environment',
+        '## 5. Comparison contract',
+        '## 6. One event that should match',
+        '## 7. One suspected divergence',
+        '## 9. Claim and handling confirmation'
+    )) {
+    if ($scopeTemplate -notmatch [regex]::Escape($requiredHeading)) {
+        throw "Scope template missing: $requiredHeading"
+    }
+}
+if ($scopeTemplate -match '(?i)C:\\Users\\|AppData|password\s*[:=]|guaranteed? profit') {
+    throw 'Scope template contains an unsafe local path, secret field or claim.'
+}
+
 Add-Type -AssemblyName System.Drawing
 $cover = [Drawing.Image]::FromFile($coverPath)
 try {
@@ -182,5 +203,6 @@ finally {
     Preview = '1518x780'
     BuyerGuideLinks = $buyerGuideLinks.Count
     ReleaseChecksums = $checksumLines.Count
+    ScopeTemplateSections = 9
     Passed = $true
 }

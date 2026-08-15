@@ -146,6 +146,7 @@ reason, profit and missing-row differences without client data.
 - [Self-contained HTML report builder](tools/New-MT5DealEvidenceReport.ps1)
 - [Installation, evidence contract and safe-use guide](docs/MT5_DEAL_EVIDENCE_TOOLKIT.md)
 - [Buyer guide: scope an execution reconciliation before paying for a fix](docs/MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md)
+- [Copyable MT5 execution reconciliation scope template](templates/MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md)
 - [Synthetic five-difference report](docs/evidence/MT5_Execution_Reconciliation_Sample.html)
 - Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit)
 
