@@ -158,6 +158,7 @@ before a trailing-stop, partial-close, recovery or trade-management repair and
 omits account identity, tickets, volume, price and profit from the report.
 
 - [Source code](src/SCA_MT5OwnershipAudit.mq5)
+- [Version 1.5.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.5.0)
 - [Installation, interpretation and privacy guide](docs/MT5_OWNERSHIP_AUDIT.md)
 - Relevant diagnostic scope: [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
 
