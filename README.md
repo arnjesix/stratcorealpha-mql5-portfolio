@@ -134,6 +134,8 @@ The fixed 19-field contract omits account and broker identity and the source
 contains no order path. A synthetic handoff demonstrates exact time, price,
 reason, profit and missing-row differences without client data.
 
+![Synthetic MT5 reconciliation output with five intentional differences](assets/mt5-execution-reconciliation-synthetic-preview.png)
+
 - [MQL5 exporter source](src/SCA_MT5DealEvidenceExporter.mq5)
 - [Version 1.4.0 release and direct source/report downloads](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0)
 - [Toolkit ZIP: exporter, comparator, report builder, guide, tests and fixtures](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Deal_Evidence_Toolkit_v1.4.0.zip)

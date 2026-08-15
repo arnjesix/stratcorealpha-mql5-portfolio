@@ -20,6 +20,9 @@ not strategy evaluation or account operation.
 - [Three-page synthetic buyer proof PDF](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Execution_Reconciliation_Proof.pdf)
   summarizes the frozen contract, exact five-difference sample, delivery flow
   and claim boundary in an attachable A4 landscape format.
+- [Synthetic comparison preview](../assets/mt5-execution-reconciliation-synthetic-preview.png)
+  shows the exact sample difference table and tolerance contract without a
+  download, client data or account identity.
 - [Toolkit ZIP](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Deal_Evidence_Toolkit_v1.4.0.zip)
   contains exactly these public tools, guide, tests, fixtures and the MIT
   license; SHA-256

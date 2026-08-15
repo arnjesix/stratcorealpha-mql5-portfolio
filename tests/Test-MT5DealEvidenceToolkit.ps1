@@ -11,6 +11,8 @@ $samplePath = Join-Path $root `
     'docs\evidence\MT5_Execution_Reconciliation_Sample.html'
 $coverPath = Join-Path $root `
     'assets\mt5-deal-evidence-exporter-cover-750x500.png'
+$previewPath = Join-Path $root `
+    'assets\mt5-execution-reconciliation-synthetic-preview.png'
 $fixtures = Join-Path $root 'tests\fixtures\mt5-deal-evidence'
 $referencePath = Join-Path $fixtures 'reference.sample.csv'
 $matchPath = Join-Path $fixtures 'candidate-match.sample.csv'
@@ -23,6 +25,7 @@ foreach ($path in @(
         $docPath,
         $samplePath,
         $coverPath,
+        $previewPath,
         $referencePath,
         $matchPath,
         $driftPath
@@ -135,6 +138,16 @@ finally {
     $cover.Dispose()
 }
 
+$preview = [Drawing.Image]::FromFile($previewPath)
+try {
+    if ($preview.Width -ne 1518 -or $preview.Height -ne 780) {
+        throw "Synthetic preview has wrong dimensions: $($preview.Width)x$($preview.Height)"
+    }
+}
+finally {
+    $preview.Dispose()
+}
+
 [pscustomobject]@{
     SourceHash = $sourceHash
     TransactionApis = 0
@@ -143,5 +156,6 @@ finally {
     DriftDifferences = 5
     HtmlExternalRoutes = 0
     Cover = '750x500'
+    Preview = '1518x780'
     Passed = $true
 }
