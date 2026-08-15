@@ -17,6 +17,10 @@ not strategy evaluation or account operation.
   contains synthetic match and drift examples.
 - [Synthetic reconciliation report](evidence/MT5_Execution_Reconciliation_Sample.html)
   demonstrates five intentional differences without client or account data.
+- [Toolkit ZIP](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/download/v1.4.0/StratCoreAlpha_MT5_Deal_Evidence_Toolkit_v1.4.0.zip)
+  contains exactly these public tools, guide, tests, fixtures and the MIT
+  license; SHA-256
+  `1C89645A8BB0C44C04633A87C24C4C9F8553FC4C2111814F4ED29D1C677DF2E9`.
 
 ## Safety and privacy boundary
 

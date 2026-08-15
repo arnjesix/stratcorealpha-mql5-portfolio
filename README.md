@@ -126,6 +126,8 @@ connected to broker or order-send behavior.
 
 ### MT5 Deal Evidence Toolkit
 
+![MT5 Deal Evidence Exporter: read-only history to structured CSV](assets/mt5-deal-evidence-exporter-cover-750x500.png)
+
 A read-only MQL5 exporter plus deterministic PowerShell comparison and HTML
 report tools for inspecting stored tester-versus-deployment deal differences.
 The fixed 19-field contract omits account and broker identity and the source
