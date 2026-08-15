@@ -161,6 +161,11 @@ For a non-confidential first check, you can also open the public
 Do not paste proprietary source code, credentials, account numbers or private
 strategy details into a public GitHub issue.
 
+For a non-confidential tester-versus-deployment question, use the narrower
+[MT5 execution reconciliation template](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/issues/new?template=mt5-execution-reconciliation.yml).
+It requests only version identities, the frozen comparison contract and one
+redacted expected-versus-observed event. Evidence files stay off public issues.
+
 ## Scope boundaries
 
 - No guaranteed profit, win rate, drawdown or prop-firm result.

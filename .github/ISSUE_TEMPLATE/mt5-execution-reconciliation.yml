@@ -1,0 +1,82 @@
+name: MT5 execution reconciliation scope
+description: Request a non-confidential scope check for comparing one frozen MT5 tester export with one demo or owner-reviewed history export.
+title: "MT5 evidence comparison: "
+labels:
+  - scope-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Do not paste or attach proprietary source code, SET files, full trade-history files, account numbers, account names, broker logins, credentials, private strategy rules or platform messages. Use only non-confidential version IDs, hashes and one redacted expected-versus-observed example. The public toolkit is available at https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.4.0.
+  - type: dropdown
+    id: evidence_format
+    attributes:
+      label: Evidence available
+      options:
+        - Two reviewed 19-field toolkit CSV exports
+        - Two owner-reviewed MT5 reports or history exports
+        - One export and one report
+        - Not sure which evidence is safe or sufficient
+    validations:
+      required: true
+  - type: input
+    id: reference_identity
+    attributes:
+      label: Reference version identity
+      description: Enter only a non-confidential EA version label or file hash plus the MT5 build.
+      placeholder: EA 2.4.1 / SHA-256 prefix / MT5 build 6063
+    validations:
+      required: true
+  - type: input
+    id: candidate_identity
+    attributes:
+      label: Candidate version identity
+      description: Enter only a non-confidential EA version label or file hash plus the MT5 build.
+      placeholder: EA 2.4.1 / SHA-256 prefix / MT5 build 6063
+    validations:
+      required: true
+  - type: textarea
+    id: frozen_scope
+    attributes:
+      label: Frozen comparison scope
+      description: State symbol or suffix, timeframe, date window, server timezone, account mode and the cost assumptions. Do not include an account identifier.
+      placeholder: EURUSD.a, M15, 2026-07-01 through 2026-07-31, UTC+2 server time, hedging, commission and swap included...
+    validations:
+      required: true
+  - type: textarea
+    id: tolerances
+    attributes:
+      label: Proposed tolerances
+      description: State allowed time, price, volume and cash differences and whether MT5 deal, order and position tickets should be ignored or compared.
+      placeholder: Time 1000 ms; price 0.00001; volume exact; cash 0.01; identifiers ignored...
+    validations:
+      required: true
+  - type: textarea
+    id: expected_match
+    attributes:
+      label: One expected match
+      description: Give one redacted event that should agree under the frozen contract.
+      placeholder: On the completed 09:30 server-time bar, both runs should request one buy with the same volume and fixed SL/TP...
+    validations:
+      required: true
+  - type: textarea
+    id: suspected_divergence
+    attributes:
+      label: One suspected divergence
+      description: Describe one non-confidential expected-versus-observed difference without claiming a cause.
+      placeholder: The tester records a stop-loss exit while the reviewed candidate history records a client exit about one second later...
+    validations:
+      required: true
+  - type: checkboxes
+    id: public_request_confirmation
+    attributes:
+      label: Public-request confirmation
+      options:
+        - label: I have not included or attached source code, SET files, account or broker identity, credentials, private strategy rules or trade-history files.
+          required: true
+        - label: I own or am authorized to use the software and evidence referenced by this request.
+          required: true
+        - label: I understand that a public issue is for non-confidential scope only and that private evidence must stay on an approved funded project route.
+          required: true
+        - label: I understand that event comparison does not prove historical fillability, broker parity, profitability or future performance.
+          required: true
