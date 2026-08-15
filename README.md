@@ -150,6 +150,17 @@ reason, profit and missing-row differences without client data.
 - [Synthetic five-difference report](docs/evidence/MT5_Execution_Reconciliation_Sample.html)
 - Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit)
 
+### MT5 Position and Order Ownership Audit
+
+A read-only script that classifies current positions and active pending orders
+against one expected EA magic number. It helps freeze the ownership boundary
+before a trailing-stop, partial-close, recovery or trade-management repair and
+omits account identity, tickets, volume, price and profit from the report.
+
+- [Source code](src/SCA_MT5OwnershipAudit.mq5)
+- [Installation, interpretation and privacy guide](docs/MT5_OWNERSHIP_AUDIT.md)
+- Relevant diagnostic scope: [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+
 ## Good first message
 
 Use the browser-local
