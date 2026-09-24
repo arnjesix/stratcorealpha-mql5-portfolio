@@ -1,0 +1,41 @@
+CS	0	23:04:41.990	Tester	EURUSD,H1 (HolaPrime-Server1): 1 minutes OHLC ticks generating
+CS	0	23:04:41.990	Tester	EURUSD,H1: testing of Experts\SCAParityDemo\SCA_EA_ParityDemo.ex5 from 2026.09.21 00:00 to 2026.09.24 00:00 started with inputs:
+CS	0	23:04:41.990	Tester	  InpAllowTrading=true
+CS	0	23:04:41.995	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 02:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.21 02:00:00 fast=1.14822 slow=1.14833
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 02:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=2 deal=2 retcode=10009 (done at 1.14804) (completed + position verified).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 05:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.21 05:00:00 fast=1.14807 slow=1.14805
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 05:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=2 retcode=10009 (done at 1.14834) closed=1 (completed deal confirmed).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 05:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=4 deal=4 retcode=10009 (done at 1.14834) (completed + position verified).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 07:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.21 07:00:00 fast=1.14784 slow=1.14789
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 07:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=4 retcode=10009 (done at 1.14752) closed=1 (completed deal confirmed).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 07:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=6 deal=6 retcode=10009 (done at 1.14752) (completed + position verified).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 12:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.21 12:00:00 fast=1.14771 slow=1.14759
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 12:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=6 retcode=10009 (done at 1.14803) closed=1 (completed deal confirmed).
+CS	0	23:04:41.997	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 12:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=8 deal=8 retcode=10009 (done at 1.14803) (completed + position verified).
+CS	0	23:04:41.998	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 18:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.21 18:00:00 fast=1.14769 slow=1.14802
+CS	0	23:04:41.998	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 18:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=8 retcode=10009 (done at 1.14725) closed=1 (completed deal confirmed).
+CS	0	23:04:41.998	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.21 18:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=10 deal=10 retcode=10009 (done at 1.14725) (completed + position verified).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 04:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.22 04:00:00 fast=1.14661 slow=1.14653
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 04:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=10 retcode=10009 (done at 1.14709) closed=1 (completed deal confirmed).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 04:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=12 deal=12 retcode=10009 (done at 1.14709) (completed + position verified).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 10:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.22 10:00:00 fast=1.14712 slow=1.14714
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 10:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=12 retcode=10009 (done at 1.14647) closed=1 (completed deal confirmed).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 10:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=14 deal=14 retcode=10009 (done at 1.14647) (completed + position verified).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 14:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.22 14:00:00 fast=1.14635 slow=1.14604
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 14:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=14 retcode=10009 (done at 1.14660) closed=1 (completed deal confirmed).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 14:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=16 deal=16 retcode=10009 (done at 1.14660) (completed + position verified).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 16:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.22 16:00:00 fast=1.14615 slow=1.14618
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 16:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=16 retcode=10009 (done at 1.14561) closed=1 (completed deal confirmed).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 16:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=18 deal=18 retcode=10009 (done at 1.14561) (completed + position verified).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 22:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.22 22:00:00 fast=1.14394 slow=1.14385
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 22:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=18 retcode=10009 (done at 1.14422) closed=1 (completed deal confirmed).
+CS	0	23:04:41.999	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.22 22:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=20 deal=20 retcode=10009 (done at 1.14422) (completed + position verified).
+CS	0	23:04:42.000	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 04:00:00   SCA_PARITY SIGNAL BEAR bar=2026.09.23 04:00:00 fast=1.14470 slow=1.14476
+CS	0	23:04:42.000	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 04:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=20 retcode=10009 (done at 1.14464) closed=1 (completed deal confirmed).
+CS	0	23:04:42.000	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 04:00:00   SCA_PARITY ORDER_PLACED SELL lots=0.01000000 order=22 deal=22 retcode=10009 (done at 1.14464) (completed + position verified).
+CS	0	23:04:42.001	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.23 23:00:00 fast=1.13878 slow=1.13870
+CS	0	23:04:42.001	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=22 retcode=10009 (done at 1.13846) closed=1 (completed deal confirmed).
+CS	0	23:04:42.001	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=24 deal=24 retcode=10009 (done at 1.13846) (completed + position verified).
+CS	0	23:04:42.001	Tester	final balance 10003.12 USD
+CS	0	23:04:42.004	Tester	EURUSD,H1: 17173 ticks, 72 bars generated. Environment synchronized in 0:00:00.308. Test passed in 0:00:00.062.
+CS	0	23:04:42.006	Tester	test Experts\SCAParityDemo\SCA_EA_ParityDemo.ex5 on EURUSD,H1 thread finished

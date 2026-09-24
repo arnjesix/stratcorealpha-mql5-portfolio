@@ -24,6 +24,8 @@ documented inputs, setup notes and reproducible test cases.
 
 ## Public MQL5 engineering proof
 
+[Owned SMA(3)/SMA(5) EA and Pine parity sample](docs/EA_PARITY_HOLAPRIME_TRADINGVIEW_PROOF.md): editable sources, shared 12-bar fixture, actual HolaPrime Strategy Tester log and original TradingView chart snapshot. Exact cross-platform parity is limited to the shared fixture.
+
 The following projects are published on the official MQL5 CodeBase. They are
 implementation examples, not trading-performance claims.
 

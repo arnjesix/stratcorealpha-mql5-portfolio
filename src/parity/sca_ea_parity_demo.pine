@@ -1,0 +1,101 @@
+// This Pine Script® code is subject to the terms of the Mozilla Public License 2.0 at https://mozilla.org/MPL/2.0/
+// © StratCoreAlpha — owned sample. No customer case, no live track record, no profit claim.
+
+//@version=6
+indicator("SCA EA Parity Demo — SMA(3)/SMA(5) [StratCoreAlpha]", overlay = true, max_labels_count = 0)
+
+// Frozen rule (must match README + MQL5 + fixture_ohlc.csv):
+// completed-bar SMA(3) vs SMA(5) on close; BULL = prevFast <= prevSlow and fast > slow;
+// BEAR = prevFast >= prevSlow and fast < slow; first eligible bar index 5; one bar one event.
+int   FAST_LEN = input.int(3, "Fast SMA length", minval = 1)
+int   SLOW_LEN = input.int(5, "Slow SMA length", minval = 2)
+bool  SHOW_FIXTURE_TABLE = input.bool(true, "Show owned-fixture parity table")
+bool  PLOT_LIVE_SIGNALS  = input.bool(true, "Plot live-chart crossover markers")
+
+// ---- Live-chart rule path (confirmed historical bars; forming bar never decides) ----
+float liveFast = ta.sma(close, FAST_LEN)
+float liveSlow = ta.sma(close, SLOW_LEN)
+bool  liveBull = liveFast[1] <= liveSlow[1] and liveFast > liveSlow
+bool  liveBear = liveFast[1] >= liveSlow[1] and liveFast < liveSlow
+
+plotshape(PLOT_LIVE_SIGNALS and liveBull, title = "Live BULL cross", style = shape.triangleup, location = location.belowbar, color = color.teal, size = size.small)
+plotshape(PLOT_LIVE_SIGNALS and liveBear, title = "Live BEAR cross", style = shape.triangledown, location = location.abovebar, color = color.red, size = size.small)
+
+// ---- Owned fixture path: 12 explicit closes, byte-identical to fixture_ohlc.csv ----
+array<float> FX_CLOSE = array.from(10.0, 10.0, 10.0, 10.0, 10.0, 12.0, 12.0, 12.0, 8.0, 8.0, 8.0, 8.0)
+array<string> FX_DATE = array.from("01-05 09:00", "01-05 10:00", "01-05 11:00", "01-05 12:00", "01-05 13:00", "01-05 14:00", "01-05 15:00", "01-05 16:00", "01-05 17:00", "01-05 18:00", "01-05 19:00", "01-05 20:00")
+
+fxSMA(array<float> a, int idx, int len) =>
+    float s = na
+    if idx + 1 >= len
+        float sum = 0.0
+        for k = idx - len + 1 to idx
+            sum := sum + array.get(a, k)
+        s := sum / len
+    s
+
+var int    fxCount = 0
+var int    fxFirstIdx = -1
+var int    fxFirstVal = 0
+var int    fxSecondIdx = -1
+var int    fxSecondVal = 0
+var string fxList = ""
+var bool   fxDone = false
+
+if barstate.islast and not fxDone
+    for i = 0 to 11
+        float fNow = fxSMA(FX_CLOSE, i, FAST_LEN)
+        float sNow = fxSMA(FX_CLOSE, i, SLOW_LEN)
+        int sig = 0
+        if i >= 5 and i >= 1 and not na(fNow) and not na(sNow)
+            float fPrev = fxSMA(FX_CLOSE, i - 1, FAST_LEN)
+            float sPrev = fxSMA(FX_CLOSE, i - 1, SLOW_LEN)
+            if not na(fPrev) and not na(sPrev)
+                bool bull = fPrev <= sPrev and fNow > sNow
+                bool bear = fPrev >= sPrev and fNow < sNow
+                if bull and not bear
+                    sig := 1
+                if bear and not bull
+                    sig := -1
+        if sig != 0
+            fxCount += 1
+            fxList := fxList + (str.length(fxList) > 0 ? ", " : "") + str.tostring(i) + ":" + (sig > 0 ? "BULL" : "BEAR")
+            if fxFirstIdx == -1
+                fxFirstIdx := i
+                fxFirstVal := sig
+            else if fxSecondIdx == -1
+                fxSecondIdx := i
+                fxSecondVal := sig
+    fxDone := true
+
+bool acc01 = fxFirstIdx >= 5
+bool acc02 = fxFirstIdx == 5 and fxFirstVal == 1
+bool acc03 = fxCount == 2 and fxSecondIdx == 8 and fxSecondVal == -1
+bool allPass = acc01 and acc02 and acc03
+string verdict = allPass ? "PASS" : "FAIL"
+
+// Visible on ANY TradingView chart: compares this embedded fixture run to the
+// frozen expectation [5:BULL, 8:BEAR]. Browser check needs no broker data.
+var table fxTable = table.new(position.bottom_right, 3, 6, border_width = 1)
+if barstate.islast and SHOW_FIXTURE_TABLE
+    table.cell(fxTable, 0, 0, "SCA fixture parity", text_color = color.white, bgcolor = color.new(color.blue, 20))
+    table.cell(fxTable, 1, 0, "expected", text_color = color.white, bgcolor = color.new(color.blue, 20))
+    table.cell(fxTable, 2, 0, "computed", text_color = color.white, bgcolor = color.new(color.blue, 20))
+    table.cell(fxTable, 0, 1, "ACC-01 warmup 0-4 silent", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 1, 1, "none < idx5", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 2, 1, acc01 ? "silent" : "LEAK", text_color = acc01 ? color.teal : color.red, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 0, 2, "ACC-02 bull", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 1, 2, "5:BULL", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 2, 2, acc02 ? "5:BULL" : "MISMATCH", text_color = acc02 ? color.teal : color.red, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 0, 3, "ACC-03 bear", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 1, 3, "8:BEAR", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 2, 3, acc03 ? "8:BEAR" : "MISMATCH", text_color = acc03 ? color.teal : color.red, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 0, 4, "Ordered list [" + fxList + "]", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 1, 4, "[5:BULL, 8:BEAR]", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 2, 4, verdict, text_color = allPass ? color.teal : color.red, bgcolor = allPass ? color.new(color.teal, 85) : color.new(color.red, 85))
+    table.cell(fxTable, 0, 5, "Note: static fixture parity; live-chart markers use broker bars, not this fixture.", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 1, 5, "fixture: 12 owned H1 bars", text_color = color.white, bgcolor = color.new(color.black, 10))
+    table.cell(fxTable, 2, 5, "SMA(3)/SMA(5) close", text_color = color.white, bgcolor = color.new(color.black, 10))
+
+if barstate.islast and not SHOW_FIXTURE_TABLE
+    table.clear(fxTable, 0, 0, 2, 5)
