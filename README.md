@@ -68,6 +68,20 @@ bounded quote. They can be used before contacting any developer.
 
 ## Open-source diagnostic utility
 
+### MT5 EA Journal Doctor
+
+A read-only MQL5 script that groups common error phrases in copied current-day
+Experts and Journal logs and gives the next check for each match. Its public
+runtime evidence is an actual HolaPrime MT5 run; synthetic classifier checks
+are labelled separately.
+
+![Actual HolaPrime MT5 Journal Doctor run](assets/sca-journal-doctor-holaprime-2026-09-24.png)
+
+- [Source code](src/SCA_MT5JournalDoctor.mq5)
+- [Install, input, limits and real-run evidence](docs/MT5_JOURNAL_DOCTOR.md)
+- [Saved report from the actual MT5 run](docs/evidence/SCA_JournalDoctor_HolaPrime_runtime_2026-09-24.txt)
+- [Need an EA error fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws4-github&intent=mt5-repair)
+
 ### MT5 Broker Environment Report
 
 A privacy-conscious MQL5 script that records the symbol, volume, order,
