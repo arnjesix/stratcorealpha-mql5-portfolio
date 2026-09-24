@@ -1,0 +1,10 @@
+CJ	0	21:31:40.750	SCA_R49_HolaPrime_BeforeProof (EURUSD,M1)	R49_BEFORE PASS BAR-01 first tick
+FO	0	21:31:40.750	SCA_R49_HolaPrime_BeforeProof (EURUSD,M1)	R49_BEFORE FAIL BAR-02 second tick same bar
+IS	0	21:31:40.750	SCA_R49_HolaPrime_BeforeProof (EURUSD,M1)	R49_BEFORE PASS BAR-03 absent bar time
+JK	0	21:31:40.750	SCA_R49_HolaPrime_BeforeProof (EURUSD,M1)	R49_BEFORE SUMMARY passed=2 failed=1
+DK	0	21:31:42.281	SCA_R49_HolaPrime_BeforeProof (EURUSD,M1)	R49_BEFORE screenshot_saved=true
+JN	0	21:32:32.128	SCA_R49_HolaPrime_AfterProof (EURUSD,M1)	R49_AFTER PASS BAR-01 first tick
+FR	0	21:32:32.128	SCA_R49_HolaPrime_AfterProof (EURUSD,M1)	R49_AFTER PASS BAR-02 second tick same bar
+LD	0	21:32:32.128	SCA_R49_HolaPrime_AfterProof (EURUSD,M1)	R49_AFTER PASS BAR-03 absent bar time
+OJ	0	21:32:32.128	SCA_R49_HolaPrime_AfterProof (EURUSD,M1)	R49_AFTER SUMMARY passed=3 failed=0
+CJ	0	21:32:33.645	SCA_R49_HolaPrime_AfterProof (EURUSD,M1)	R49_AFTER screenshot_saved=true

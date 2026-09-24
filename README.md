@@ -68,6 +68,16 @@ bounded quote. They can be used before contacting any developer.
 
 ## Open-source diagnostic utility
 
+### R49 duplicate-bar repair proof
+
+One deliberately broken MT5 bar gate, one bounded fix, and three acceptance
+cases run in the actual HolaPrime MT5 terminal: 2/3 before and 3/3 after.
+The screenshots and 64-second window recording show the real runs, not
+generated test imagery. No orders are sent.
+
+- [Source, screenshots, original log and actual recording](docs/R49_HOLAPRIME_REPAIR_PROOF.md)
+- [Need a reproducible EA defect fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws2-github&intent=mt5-repair)
+
 ### MT5 Prop Rule Guard demo
 
 A non-trading EA that shows a daily equity-loss threshold, server-hour window
