@@ -68,6 +68,18 @@ bounded quote. They can be used before contacting any developer.
 
 ## Open-source diagnostic utility
 
+### MT5 Prop Rule Guard demo
+
+A non-trading EA that shows a daily equity-loss threshold, server-hour window
+and same-day baseline restoration after a terminal restart. The tester and
+restart evidence comes from actual HolaPrime MT5 runs; loss-boundary fixtures
+are explicitly synthetic.
+
+- [Source code](src/SCA_PropRuleGuardDemo.mq5)
+- [Rule, limitations, original recording and 72-second viewing copy](docs/PROP_RULE_GUARD_DEMO.md)
+- [Actual tester and restart log excerpts](docs/evidence/SCA_PropRuleGuardDemo_HolaPrime_runtime_2026-09-24.txt)
+- [Need an authorized EA rule repaired?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws3-github&intent=mt5-repair)
+
 ### MT5 EA Journal Doctor
 
 A read-only MQL5 script that groups common error phrases in copied current-day

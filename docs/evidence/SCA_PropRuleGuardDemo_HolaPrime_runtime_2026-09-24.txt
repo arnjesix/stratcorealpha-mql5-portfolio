@@ -1,0 +1,29 @@
+# Actual HolaPrime MT5 evidence, 2026-09-24
+
+Final source compiled with HolaPrime MetaEditor: 0 errors, 0 warnings.
+The following tester lines are selected verbatim from the HolaPrime local strategy-tester agent log.
+They show a real EURUSD M1 tester run, 5703 generated ticks, 1435 bars, zero order path in the EA and six separate synthetic state fixtures.
+
+CS	0	21:06:25.667	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 00:00:00   SCA_PROP_GUARD SYNTHETIC_SELFTEST passed=6 failed=0
+CS	0	21:06:25.667	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 00:00:00   SCA_PROP_GUARD DAY=20260923 BASIS=FIRST_OBSERVED; no day-opening or compliance claim.
+CS	0	21:06:25.667	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 00:00:00   SCA_PROP_GUARD DAY=20260923 BASIS=FIRST_OBSERVED STATE=BLOCK_HOURS; no orders sent.
+CS	0	21:06:25.667	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 00:00:00   SCA_PROP_GUARD screenshot saved in terminal MQL5\Files\SCA_PropGuardDemo_20260923.png
+CS	0	21:06:25.728	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 08:00:00   SCA_PROP_GUARD DAY=20260923 BASIS=FIRST_OBSERVED STATE=ALLOW; no orders sent.
+CS	0	21:06:25.804	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 18:00:00   SCA_PROP_GUARD DAY=20260923 BASIS=FIRST_OBSERVED STATE=BLOCK_HOURS; no orders sent.
+CS	0	21:06:25.852	Tester	OnTester result 1
+CS	0	21:06:25.852	SCA_PropRuleGuardDemo (EURUSD,M1)	2026.09.23 23:59:59   SCA_PROP_GUARD stopped reason=1; no orders sent.
+CS	0	21:06:25.859	Tester	EURUSD,M1: 5703 ticks, 1435 bars generated. Environment synchronized in 0:00:00.017. Test passed in 0:00:00.250.
+
+The following terminal Experts lines are selected verbatim from two actual HolaPrime terminal starts on the same Berlin day.
+The second start restored the persisted equity basis. Neither run sent orders.
+
+IK	0	20:59:17.993	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD SYNTHETIC_SELFTEST passed=6 failed=0
+NS	0	20:59:17.994	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD DAY=20260924 BASIS=FIRST_OBSERVED; no day-opening or compliance claim.
+GL	0	20:59:17.994	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD DAY=20260924 BASIS=FIRST_OBSERVED STATE=BLOCK_HOURS; no orders sent.
+RK	0	20:59:18.017	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD screenshot saved in terminal MQL5\Files\SCA_PropGuardDemo_20260924.png
+ED	0	20:59:26.381	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD stopped reason=9; no orders sent.
+IM	0	20:59:43.970	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD SYNTHETIC_SELFTEST passed=6 failed=0
+FL	0	20:59:43.970	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD DAY=20260924 BASIS=RESTORED; no day-opening or compliance claim.
+KN	0	20:59:43.970	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD DAY=20260924 BASIS=RESTORED STATE=BLOCK_HOURS; no orders sent.
+LO	0	20:59:43.992	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD screenshot saved in terminal MQL5\Files\SCA_PropGuardDemo_20260924.png
+KP	0	20:59:52.430	SCA_PropRuleGuardDemo (EURUSD,M1)	SCA_PROP_GUARD stopped reason=9; no orders sent.
