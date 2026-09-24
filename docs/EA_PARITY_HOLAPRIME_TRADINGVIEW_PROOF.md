@@ -14,8 +14,18 @@ On 24 September 2026, the EA was compiled with a private portable copy of the in
 
 The [tester-generated balance plot](../assets/parity/E149_HolaPrime_tester_balance_20260924.png) is retained as an original run artifact; its balance is not used as a performance claim. The window capture removes only the title and bottom account-status lines, which contained the demo account identifier.
 
+## 68-second original visualizer recording
+
+The same compiled EA source and input settings were run again on 25 September 2026 in the isolated **HolaPrime** visualizer, EURUSD H1 from 1 January to 24 September 2026, 1-minute OHLC. [Watch the 68-second direct screen recording](../assets/parity/E149_HolaPrime_visualizer_run_68s_20260925.mp4): historic bars move, tester trade markers appear, and the live Journal shows completed simulated orders and the test finishing. It is normal-speed original window capture at 8 fps, without added or replaced frames. Video SHA-256: `660DA93B4CA9315DFCDE982C8E1EED7AB986655CBC2E302F3AD861FD987FA782`.
+
+![Original 31 August visualizer frame from the recording](../assets/parity/E149_HolaPrime_visualizer_Aug31_20260925.png)
+
+![Original end-of-test visualizer frame from the recording](../assets/parity/E149_HolaPrime_visualizer_test_end_20260925.png)
+
+The [original agent-log excerpt](../assets/parity/E149_HolaPrime_visualizer_log_excerpt_20260925.txt) matches the pictured 31 August BULL close-before-BUY and the final 23 September BULL close-before-BUY, both with retcode `10009`. The test completed with 1,081,522 generated ticks and 4,536 bars in 4:08. These are simulated deals only; the account balance and outcome are not performance claims.
+
 ## Limits
 
-The exact Pine/MQL5 parity claim is **only for the shared 12-bar fixture**. TradingView displayed OANDA EURUSD bars, while the EA tester used HolaPrime EURUSD history. Different feeds prevent a candle-by-candle live-chart parity claim. A single-feed cross-platform chart comparison and a genuine 60–90-second run recording are still open for the full B1 proof kit. Still images and this log are original run evidence; no generated illustration is used as proof.
+The exact Pine/MQL5 parity claim is **only for the shared 12-bar fixture**. TradingView displayed OANDA EURUSD bars, while the EA tester used HolaPrime EURUSD history. Different feeds prevent a candle-by-candle live-chart parity claim. E149's genuine 68-second recording is complete. M179's own 60–90-second recording and a same-chart cross-platform comparison remain open for the full B1 proof kit. All stills and recordings are from actual runs; no generated illustration is used as proof.
 
 [Need a bounded Pine-to-MT5 conversion with explicit parity cases?](https://stratcorealpha.com/services/pine-script-to-mt5?ref=symb-ws4-github&intent=parity-check)

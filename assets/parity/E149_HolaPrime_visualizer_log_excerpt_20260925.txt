@@ -1,0 +1,11 @@
+CS	0	00:06:58.647	Tester	EURUSD,H1 (HolaPrime-Server1): 1 minutes OHLC ticks generating
+CS	0	00:06:58.647	Tester	EURUSD,H1: testing of Experts\SCAParityDemo\SCA_EA_ParityDemo.ex5 from 2026.01.01 00:00 to 2026.09.24 00:00 started with inputs:
+CS	0	00:06:58.647	Tester	  InpAllowTrading=true
+CS	0	00:10:43.402	SCA_EA_ParityDemo (EURUSD,H1)	2026.08.31 04:00:00   SCA_PARITY SIGNAL BULL bar=2026.08.31 04:00:00 fast=1.15884 slow=1.15849
+CS	0	00:10:43.404	SCA_EA_ParityDemo (EURUSD,H1)	2026.08.31 04:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=1782 retcode=10009 (done at 1.15923) closed=1 (completed deal confirmed).
+CS	0	00:10:43.406	SCA_EA_ParityDemo (EURUSD,H1)	2026.08.31 04:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=1784 deal=1784 retcode=10009 (done at 1.15923) (completed + position verified).
+CS	0	00:11:06.800	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY SIGNAL BULL bar=2026.09.23 23:00:00 fast=1.13878 slow=1.13870
+CS	0	00:11:06.802	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY ORDER_CLOSE_PLACED ticket=1986 retcode=10009 (done at 1.13846) closed=1 (completed deal confirmed).
+CS	0	00:11:06.804	SCA_EA_ParityDemo (EURUSD,H1)	2026.09.23 23:00:00   SCA_PARITY ORDER_PLACED BUY lots=0.01000000 order=1988 deal=1988 retcode=10009 (done at 1.13846) (completed + position verified).
+CS	0	00:11:06.862	Tester	EURUSD,H1: 1081522 ticks, 4536 bars generated. Environment synchronized in 0:00:00.040. Test passed in 0:04:08.234 (including ticks preprocessing 0:00:00.031).
+CS	0	00:11:06.865	Tester	test Experts\SCAParityDemo\SCA_EA_ParityDemo.ex5 on EURUSD,H1 thread finished
