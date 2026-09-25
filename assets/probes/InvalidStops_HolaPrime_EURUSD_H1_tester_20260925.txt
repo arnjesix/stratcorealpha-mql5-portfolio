@@ -1,0 +1,2 @@
+CS	2	08:20:26.337	Trades	2026.09.21 00:05:00   failed market buy 0.01 EURUSD sl: 1.14913 [Invalid stops]
+CS	0	08:20:26.337	SCA_InvalidStopsTesterProbe (EURUSD,H1)	2026.09.21 00:05:00   SCA_INVALID_STOPS_PROBE accepted=false retcode=10016 comment=Invalid stops symbol=EURUSD

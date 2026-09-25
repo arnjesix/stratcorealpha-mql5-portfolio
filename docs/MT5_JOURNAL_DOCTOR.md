@@ -47,6 +47,19 @@ second run. Raw terminal logs remain private because they can contain account
 and network details. The tool does not diagnose an EA, confirm a trade,
 guarantee prop-firm compliance, or imply trading performance.
 
+## Invalid-stops example from a real tester run
+
+On 25 September, a separate tester-only probe was compiled with the isolated
+Hola Prime MetaEditor (0 errors, 0 warnings) and run on EURUSD H1 in the
+HolaPrime Strategy Tester. It intentionally put a BUY stop loss above the ask.
+The [original tester-log excerpt](../assets/probes/InvalidStops_HolaPrime_EURUSD_H1_tester_20260925.txt)
+shows `failed market buy ... [Invalid stops]` and `retcode=10016`. The
+[probe source](../src/probes/SCA_InvalidStopsTesterProbe.mq5) exits unless it is
+inside the Strategy Tester. No live-account order was sent. This is a
+reproducible error example, not a customer incident or evidence that the
+Journal Doctor repaired an EA. For a BUY, inspect the current Bid, the requested
+SL and the symbol's minimum stop distance before changing entry logic.
+
 Need a bounded repair after finding the original error? [Send the exact error,
 platform version, authorized source and expected behavior](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws4-github&intent=mt5-repair).
 
