@@ -24,8 +24,31 @@ The same compiled EA source and input settings were run again on 25 September 20
 
 The [original agent-log excerpt](../assets/parity/E149_HolaPrime_visualizer_log_excerpt_20260925.txt) matches the pictured 31 August BULL close-before-BUY and the final 23 September BULL close-before-BUY, both with retcode `10009`. The test completed with 1,081,522 generated ticks and 4,536 bars in 4:08. These are simulated deals only; the account balance and outcome are not performance claims.
 
+## M179: observed cross-platform signal data
+
+The [M179 data kit](../assets/parity/m179/README.md) compares one real
+TradingView OANDA:EURUSD H1 Pine chart with one real HolaPrime MT5 EURUSD H1
+script run on the same 2026-09-08–09 UTC window. It includes original screenshots
+from both platforms, each platform's 48 observed H1 OHLC bars and 16 signal
+rows, the read-only MQL5 exporter and Experts-log excerpt, and a reproducible
+Python comparison. HolaPrime chart timestamps are UTC+3 in this run and are
+converted to UTC before matching bars. The [overlay](../assets/parity/m179/M179_signal_overlay.png)
+and [48-bar agreement table](../assets/parity/m179/M179_signal_agreement.csv)
+show 16/16 corresponding BULL/BEAR markers and **zero signal mismatches**.
+The [discrepancy table](../assets/parity/m179/M179_signal_discrepancies.csv)
+is header-only because none occurred. Broker OHLC values differ slightly;
+the maximum absolute close gap here is 0.00023. The TradingView CSV was read
+from the authenticated chart's visible Table view because native file Download
+prompted for a paid plan. No plan was purchased.
+
 ## Limits
 
-The exact Pine/MQL5 parity claim is **only for the shared 12-bar fixture**. TradingView displayed OANDA EURUSD bars, while the EA tester used HolaPrime EURUSD history. Different feeds prevent a candle-by-candle live-chart parity claim. E149's genuine 68-second recording is complete. M179's own 60–90-second recording and a same-chart cross-platform comparison remain open for the full B1 proof kit. All stills and recordings are from actual runs; no generated illustration is used as proof.
+The fixture establishes exact rule parity on identical 12-bar inputs. The
+two-day market comparison establishes observed marker agreement for this
+symbol, timeframe, and window after the measured broker-time conversion.
+It does not establish feed equality or parity for other periods and rules.
+M179 requires no video under the 25 September owner revision. E149's genuine
+68-second recording is separate. All proof stills come from actual platform
+runs; the Python overlay is an explanatory visualization, not a run screenshot.
 
 [Need a bounded Pine-to-MT5 conversion with explicit parity cases?](https://stratcorealpha.com/services/pine-script-to-mt5?ref=symb-ws4-github&intent=parity-check)
