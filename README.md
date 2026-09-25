@@ -104,7 +104,21 @@ are labelled separately.
 - [Source code](src/SCA_MT5JournalDoctor.mq5)
 - [Install, input, limits and real-run evidence](docs/MT5_JOURNAL_DOCTOR.md)
 - [Saved report from the actual MT5 run](docs/evidence/SCA_JournalDoctor_HolaPrime_runtime_2026-09-24.txt)
+- [Step-by-step guide](https://stratcorealpha.com/guides/mt5-ea-journal-error-checklist?ref=symb-ws4-github)
 - [Need an EA error fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws4-github&intent=mt5-repair)
+
+Actual output excerpt from the saved HolaPrime run above:
+
+```text
+SCA EA Journal Doctor v1.00 | 20260924
+Experts: READ | lines read: 6
+No matching error phrases in the copied data.
+Journal: READ | lines read: 42
+No matching error phrases in the copied data.
+```
+
+This run verifies log access and report generation. A zero count means no
+matching phrase in the copied portion, not that the EA or account is error-free.
 
 ### MT5 Broker Environment Report
 
