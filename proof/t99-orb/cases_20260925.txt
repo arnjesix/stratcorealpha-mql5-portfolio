@@ -1,0 +1,13 @@
+T99 native case receipts — verbatim tester-agent log lines, run 2026-09-25 (PID 256292).
+Timestamps inside lines are SERVER wall time; leading record stamps are local log metadata, not trade time.
+Source (raw, stays on D:): D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/logs/20260925.log
+
+[init] CS	0	21:16:05.384	SCA_T99_ORB_TestEA (EURUSD,M15)	2025.09.01 00:00:00   T99 reason=init_ok: ORB-v1.0 frozen rules active on EURUSD (tester only; compile log owned by parent terminal run).
+[case1-entry] CS	0	21:16:05.504	SCA_T99_ORB_TestEA (EURUSD,M15)	2025.09.01 09:45:00   T99 reason=entry: BUY vol=0.52 entry=1.17320 sl=1.17129 tp=1.17702 range=[1.17129, 1.17245] deal=2
+[case1-deal] CS	0	21:16:05.503	Trades	2025.09.01 09:45:00   deal #2 buy 0.52 EURUSD at 1.17320 done (based on order #2)
+[case2-no_break] CS	0	21:17:20.838	SCA_T99_ORB_TestEA (EURUSD,M15)	2026.08.31 09:45:00   T99 reason=no_break: close=1.15884 inside [1.15867, 1.15913].
+[case3-flatten] CS	0	21:17:21.087	SCA_T99_ORB_TestEA (EURUSD,M15)	2026.08.31 17:00:00   T99 reason=flatten: session end, own position closed, deal=519
+[case3-deal] CS	0	21:17:21.086	Trades	2026.08.31 17:00:00   deal #519 sell 1.49 EURUSD at 1.15998 done (based on order #519)
+[finish-balance] CS	0	21:17:21.342	Tester	final balance 11419.26 USD
+[finish-export] CS	0	21:17:21.342	SCA_T99_ORB_TestEA (EURUSD,M15)	2026.08.31 23:59:59   T99 reason=deinit_export: final bar/equity/deals flushed; coverage_end_server=2026.08.31 23:59:59
+[finish-perf] CS	0	21:17:21.350	Tester	EURUSD,M15: 1482897 ticks, 24864 bars generated. Test passed in 0:01:16.019 (including ticks preprocessing 0:00:00.094).

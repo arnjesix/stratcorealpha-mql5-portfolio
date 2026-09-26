@@ -24,6 +24,11 @@ documented inputs, setup notes and reproducible test cases.
 
 ## Public MQL5 engineering proof
 
+[ORB-v1.0 historical MT5 rehearsal](proof/t99-orb/README.md): fixed EURUSD M15
+rules, exact tester-only EA source, native HolaPrime chart and log cases,
+plus the audit method and its limits. This is a generated-tick historical
+test, with no prop verdict or future-performance claim.
+
 [Owned SMA(3)/SMA(5) EA and Pine parity sample](docs/EA_PARITY_HOLAPRIME_TRADINGVIEW_PROOF.md): editable sources, shared 12-bar fixture, actual HolaPrime Strategy Tester log and original TradingView chart snapshot. Exact cross-platform parity is limited to the shared fixture.
 
 The following projects are published on the official MQL5 CodeBase. They are

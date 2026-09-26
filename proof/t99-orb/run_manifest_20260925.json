@@ -1,0 +1,57 @@
+{
+  "run_id": "T99-ORB-v1.0-20250901-20260901",
+  "freeze_ref": "freeze.json (same folder; preserved byte-identical, parameters unchanged)",
+  "prior_attempt_ref": "run_attempt_20260925.json (preserved; its blocker is now cleared)",
+  "capability_reverify_utc": "2026-09-25T19:09Z: D: writable (probe created+removed), powershell.exe interop OK, no isolated-terminal process running; user terminal C:\\Program Files\\Hola Prime MT5 Terminal\\terminal64.exe PID 107868 present, never touched",
+  "staging_fix": "run_attempt ini used Expert=SCA_T99\\\\SCA_T99_ORB_TestEA (2 backslash bytes); tester log proves the terminal ignored it and kept the previous expert (SCA_InvalidStopsTesterProbe, 0 trades). Reference inis on D: use ONE backslash byte (hex-verified). Fix is staging-only: single backslash; all parameter VALUES identical to freeze (EA defaults logged by core at run start). No source change, no tuning.",
+  "launches": [
+    {
+      "pid": 67244,
+      "launched_utc": "2026-09-25T19:10:18Z",
+      "method": "Start-Process -FilePath D:\\CodexWork\\sca_symbiose_holaprime_20260924\\terminal64.exe -ArgumentList /portable, /config:D:\\CodexWork\\sca_symbiose_holaprime_20260924\\t99_orb_20250901_20260901.ini -WindowStyle Hidden -PassThru",
+      "ini_sha256": "34169b808175df9632ccdeef0cacff45c4ce3e412b90967ef5900142df2bd323",
+      "ini_bytes": 310,
+      "result": "MISFIRE (wrong EA, 0 trades). Evidence preserved on D as t99_orb_20250901_20260901-MISFIRE_wrongEA.htm (23576 B, sha256 44118b2e6238be97600e1ef92872a3787d62d569c02fc29d613e86ebe492b683). Process exited alone (ShutdownTerminal=1); no kill issued."
+    },
+    {
+      "pid": 256292,
+      "launched_utc": "2026-09-25T19:15:53Z",
+      "method": "same exact Start-Process call as above",
+      "ini_sha256": "45bb6ce1ac67405eb45536e8e72b3a8ae3f1bdb29babb43548979f6f7f3a0964",
+      "ini_bytes": 309,
+      "result": "VALID: tester loaded Experts\\SCA_T99\\SCA_T99_ORB_TestEA.ex5, EURUSD M15 2025.09.01-2026.09.01, inputs == freeze defaults; test passed in 0:01:16; terminal exit code 0 / shutdown with 0 at 21:17:24 local. No timeout, no kill. Sequential (first PID already exited); no parallel starts."
+    }
+  ],
+  "raw_outputs_on_D": [
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901.htm", "bytes": 541410, "sha256": "bd99dfcd45e5dbec5d7839dba439e6b46440b60d5126ef8736a9548a730a3bcf"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901.png", "bytes": 11530, "sha256": "99d85e2d2dace7c4c01732b5717c5c0d940eb561a5f46032523785d2477133f6"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901-holding.png", "bytes": 19125, "sha256": "a124d7b9605eb2b886a9daa642e878c777ad18547a226d64c97c1cf66c53ea4b"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901-hst.png", "bytes": 31023, "sha256": "ff162b4a70211f649cc8f42e8b9a1d4399dcc6248a252e92974450f5a7fa38cb"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901-mfemae.png", "bytes": 34940, "sha256": "8b3aa27d28e79d3dab5b18e17398e5d814ae2e9b82948b202f345e0e630f1e2e"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/t99_orb_20250901_20260901.ini", "bytes": 309, "sha256": "45bb6ce1ac67405eb45536e8e72b3a8ae3f1bdb29babb43548979f6f7f3a0964"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/MQL5/Files/T99_bars.csv", "bytes": 3906244, "sha256": "e39be9700ca194d5b65b91c20f7709fe843f00d566dc7d21977fda72fc9db3c6", "rows": 24863},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/MQL5/Files/T99_deals.csv", "bytes": 88046, "sha256": "118cf4ebd5b910726d70c68eadf2103da3518da82e8f20a679fbdcfc99b4c8d4", "rows": 518},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/MQL5/Files/T99_equity.csv", "bytes": 136406936, "sha256": "c52c4707939c1fbdfb43a46b15cc41671292c960f86cf063e4a89b941c3695ea", "rows": 2965800},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/MQL5/Files/T99_run.json", "bytes": 718, "sha256": "b77a7555f91463d74e579c65d3b9b82f7dd30b63e21b1ba9c2309de97cf5715c"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/Tester/Agent-127.0.0.1-3003/logs/20260925.log", "note": "verbose native log (case receipts source); stays on D"},
+    {"path": "D:/CodexWork/sca_symbiose_holaprime_20260924/logs/20260925.log + Tester/logs/20260925.log", "note": "terminal/tester logs proving EA selection, pass, shutdown 0; stay on D"}
+  ],
+  "reconciliation": {
+    "expert_report_vs_freeze": "SCA_T99_ORB_TestEA, EURUSD M15, 2025.09.01-2026.09.01, 10000 USD, 1:100, Model 1 (1-minute OHLC generated ticks), quality 100%, 24864 bars / 1482897 ticks",
+    "net": "report +1419.26 == deals CSV (profit 3100.94 + commission -1681.68 + swap 0.00) == log final balance 11419.26",
+    "counts": "report 518 deals == 518 CSV rows; report 259 trades == 259 IN/259 OUT pairs; won 107 (41.31%) lost 152 (58.69%); sell-positions 131 / buy-positions 128",
+    "gross": "gross profit 18432.72, gross loss -17013.46, profit factor 1.08, expected payoff 5.48",
+    "drawdown": "max balance DD 2342.43 (19.74%), max equity DD 2566.37 (21.25%)",
+    "deals_scope": "all 518 deals symbol=EURUSD, magic=20260925",
+    "coverage_server": "bars CSV 2025.09.01 00:00 -> 2026.08.31 23:30; deinit coverage_end_server=2026.08.31 23:59:59; ToDate 2026.09.01 00:00 is the exclusive end. 24863 exported vs 24864 generated: last bar completes exactly at the ToDate boundary.",
+    "inputs_logged_by_core": "InpSymbol=(empty) InpTimeframe=15 InpRiskPercent=1.0 InpSessionStart=09:00 InpSessionEnd=17:00 InpRangeMinutes=30 InpMaxTradesDay=1 InpMagic=20260925 InpRRMultiple=2.0 InpMaxDeviation=10 InpSessionFlatten=true"
+  },
+  "cases_file": "cases_20260925.txt (same folder; verbatim entry / no_break / flatten receipts, SERVER timestamps)",
+  "gaps": [
+    "UTC overlay still BLOCKED: all times are SERVER wall time; no UTC relabeling (whole-year HolaPrime clock/DST policy still unsourced). T99_run.json broker_offset_policy=PENDING_PARENT_POLICY.",
+    "No profit promise and no prop verdict: shipped example_*_v1.json files are templates with placeholder numbers, not a firm verdict.",
+    "Regression tests not run: EA source untouched (no source fix occurred), so the assignment's run-tests condition did not trigger.",
+    "136 MB per-tick equity CSV and full verbose logs stay on D: outside the repo; only hashes recorded here."
+  ],
+  "untouched": "user terminal PID 107868 intact; FundingPips never launched; browser untouched; freeze.json + run_attempt_20260925.json preserved; no commits (new files left untracked for parent)"
+}
