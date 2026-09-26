@@ -1,22 +1,25 @@
 # StratCoreAlpha — MQL4/MQL5 Development Portfolio
 
-Custom Expert Advisors, indicators, dashboards and trade-management tools for
-MetaTrader 4 and MetaTrader 5.
+![StratCoreAlpha: Know before you risk. Historical simulation, not a forecast.](docs/brand/github-banner.png)
 
-[Website](https://stratcorealpha.com/) ·
+Know before you risk. I test written trading rules before building software for
+use, and repair reproducible defects in existing MetaTrader bots. The source,
+logs and charts below show exactly what ran. Historical simulations do not
+predict returns or establish a prop-firm pass.
+
+[Free Strategy Rule Check](https://stratcorealpha.com/rule-check?ref=github-mql5&intent=rule-check) ·
 [Public MQL5 profile](https://www.mql5.com/en/users/stratcorealpha) ·
-[Build a free scope brief](https://stratcorealpha.com/tools/trading-bot-scope-builder)
+[Build a free scope brief](https://stratcorealpha.com/tools/trading-bot-scope-builder?ref=github-mql5&intent=LM0)
 
 ## Services
 
-| Service | Typical starting scope | Details |
+| Catalogue step | Exact first scope | Details |
 | --- | ---: | --- |
-| MT5 EA specification audit before development | EUR 39 | [Check scope, ambiguities and acceptance criteria](https://stratcorealpha.com/services/mt5-ea-specification-audit) |
-| Authorized MQL4/MQL5 source-code audit | EUR 39 | [Prioritized findings and repair estimate](https://stratcorealpha.com/services/mql-code-audit) |
-| MT4/MT5 indicator alert upgrade | from EUR 39 | [Add bounded popup, push, email, sound or chart alerts](https://stratcorealpha.com/services/mt4-mt5-indicator-alerts) |
-| MQL5 Expert Advisor development from explicit rules | from EUR 249 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-developer) |
-| One bounded MQL4/MQL5 bug fix or modification | from EUR 89 | [Scope and boundaries](https://stratcorealpha.com/services/mql5-bug-fix) |
-| Authorized Pine Script to MT5 conversion | from EUR 179 | [Scope and boundaries](https://stratcorealpha.com/services/pine-script-to-mt5) |
+| LM0: one strategy rule sheet and missing decisions | Free template | [Start the Rule Check](https://stratcorealpha.com/rule-check?ref=github-mql5&intent=rule-check) |
+| T99: one written strategy, one symbol/timeframe, three cases and 12-month historical MT5 report | 99 EUR/USD | [See the Reality Check](https://stratcorealpha.com/reality-check?ref=github-mql5&intent=T99) |
+| R49: one authorized reproducible MT4/MT5 bot defect and three cases | 49 USD | [See the repair scope](https://stratcorealpha.com/bot-fix?ref=github-mql5&intent=R49) |
+| E149: one simple MT4/MT5 strategy from complete rules and three cases | 149 EUR/USD | [See the build scope](https://stratcorealpha.com/services/mql5-developer?ref=github-mql5&intent=E149) |
+| M179: one bounded cross-platform behaviour and three parity checks | 179 EUR/USD | [See the migration scope](https://stratcorealpha.com/services/pine-script-to-mt5?ref=github-mql5&intent=M179) |
 
 Every fixed scope starts by freezing entry, exit, risk, timing and acceptance
 rules. Deliverables can include editable MQ4/MQ5 source, the compiled build,
@@ -40,7 +43,7 @@ A chart-based monitor that visualizes where configured daily-loss or overall-
 drawdown limits would be reached using account equity and open exposure.
 
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/68087)
-- [Engineering case study](https://stratcorealpha.com/work/propguard-risk-dashboard)
+- [Engineering case study](https://stratcorealpha.com/work/propguard-risk-dashboard?ref=github-mql5&intent=proof)
 
 ### Multi-symbol wick rejection scanner
 
@@ -48,7 +51,7 @@ An MT5 dashboard that scans multiple symbols and timeframes for wick-based
 rejection candles, with strength, signal age, markers and alerts.
 
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/68101)
-- [Engineering case study](https://stratcorealpha.com/work/wick-rejection-scanner)
+- [Engineering case study](https://stratcorealpha.com/work/wick-rejection-scanner?ref=github-mql5&intent=proof)
 
 ### Modern dark-mode one-click trade panel
 
@@ -56,18 +59,18 @@ An on-chart MT5 execution panel with one-click buy/sell controls, automatic pip
 calculation and persistent per-symbol settings.
 
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/68038)
-- [Engineering case study](https://stratcorealpha.com/work/one-click-trade-panel)
+- [Engineering case study](https://stratcorealpha.com/work/one-click-trade-panel?ref=github-mql5&intent=proof)
 
 Additional public CodeBase work is available on the
 [StratCoreAlpha MQL5 publications page](https://www.mql5.com/en/users/stratcorealpha/publications).
 
 ## Free client preparation guides
 
-- [MT5 Expert Advisor specification checklist](https://stratcorealpha.com/guides/mt5-ea-specification-checklist)
-- [MQL5 Expert Advisor bug report checklist](https://stratcorealpha.com/guides/mql5-bug-report-checklist)
-- [Why an MT5 EA works on one broker but not another](https://stratcorealpha.com/guides/why-mt5-ea-works-on-one-broker)
-- [MT4 and MT5 indicator alert requirements checklist](https://stratcorealpha.com/guides/mt4-mt5-indicator-alert-requirements)
-- [Pine Script to MT5 conversion checklist](https://stratcorealpha.com/guides/pine-script-to-mt5-conversion-checklist)
+- [MT5 Expert Advisor specification checklist](https://stratcorealpha.com/guides/mt5-ea-specification-checklist?ref=github-mql5&intent=guide)
+- [MQL5 Expert Advisor bug report checklist](https://stratcorealpha.com/guides/mql5-bug-report-checklist?ref=github-mql5&intent=guide)
+- [Why an MT5 EA works on one broker but not another](https://stratcorealpha.com/guides/why-mt5-ea-works-on-one-broker?ref=github-mql5&intent=guide)
+- [MT4 and MT5 indicator alert requirements checklist](https://stratcorealpha.com/guides/mt4-mt5-indicator-alert-requirements?ref=github-mql5&intent=guide)
+- [Pine Script to MT5 conversion checklist](https://stratcorealpha.com/guides/pine-script-to-mt5-conversion-checklist?ref=github-mql5&intent=guide)
 - [Before you pay for an MT5 live-vs-backtest fix](docs/MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md)
 
 These guides show the information needed for a useful feasibility check and a
@@ -83,7 +86,7 @@ The screenshots and 64-second window recording show the real runs, not
 generated test imagery. No orders are sent.
 
 - [Source, screenshots, original log and actual recording](docs/R49_HOLAPRIME_REPAIR_PROOF.md)
-- [Need a reproducible EA defect fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws2-github&intent=mt5-repair)
+- [Need a reproducible EA defect fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 ### MT5 Prop Rule Guard demo
 
@@ -95,7 +98,7 @@ are explicitly synthetic.
 - [Source code](src/SCA_PropRuleGuardDemo.mq5)
 - [Rule, limitations, original recording and 72-second viewing copy](docs/PROP_RULE_GUARD_DEMO.md)
 - [Actual tester and restart log excerpts](docs/evidence/SCA_PropRuleGuardDemo_HolaPrime_runtime_2026-09-24.txt)
-- [Need an authorized EA rule repaired?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws3-github&intent=mt5-repair)
+- [Need an authorized EA rule repaired?](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 ### MT5 EA Journal Doctor
 
@@ -109,8 +112,8 @@ are labelled separately.
 - [Source code](src/SCA_MT5JournalDoctor.mq5)
 - [Install, input, limits and real-run evidence](docs/MT5_JOURNAL_DOCTOR.md)
 - [Saved report from the actual MT5 run](docs/evidence/SCA_JournalDoctor_HolaPrime_runtime_2026-09-24.txt)
-- [Step-by-step guide](https://stratcorealpha.com/guides/mt5-ea-journal-error-checklist?ref=symb-ws4-github)
-- [Need an EA error fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=symb-ws4-github&intent=mt5-repair)
+- [Step-by-step guide](https://stratcorealpha.com/guides/mt5-ea-journal-error-checklist?ref=github-mql5&intent=guide)
+- [Need an EA error fixed?](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 Actual output excerpt from the saved HolaPrime run above:
 
@@ -136,8 +139,8 @@ positions, history and credentials.
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75871)
 - [Version 1.0.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.0.0)
 - [Installation and safe-sharing guide](docs/BROKER_ENVIRONMENT_REPORT.md)
-- [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report)
-- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+- [Tool overview and download](https://stratcorealpha.com/tools/mt5-broker-environment-report?ref=github-mql5&intent=tool)
+- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 ### MT5 Order Preflight
 
@@ -150,8 +153,8 @@ excludes private account data from its report.
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75874)
 - [Version 1.1.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.1.0)
 - [Installation, checks and safe-sharing guide](docs/MT5_ORDER_PREFLIGHT.md)
-- [Tool overview and download](https://stratcorealpha.com/tools/mt5-order-preflight)
-- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+- [Tool overview and download](https://stratcorealpha.com/tools/mt5-order-preflight?ref=github-mql5&intent=tool)
+- [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 ### MT5 Cash Risk Probe
 
@@ -164,8 +167,8 @@ reports every input and boundary and never sends an order.
 - [Official MQL5 CodeBase listing](https://www.mql5.com/en/code/75981)
 - [Version 1.2.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.2.0)
 - [Installation, boundary and limitation guide](docs/MT5_CASH_RISK_PROBE.md)
-- [Engineering case study](https://stratcorealpha.com/work/mt5-cash-risk-probe)
-- Relevant diagnostic scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
+- [Engineering case study](https://stratcorealpha.com/work/mt5-cash-risk-probe?ref=github-mql5&intent=proof)
+- Relevant diagnostic scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit?ref=github-mql5&intent=diagnostic)
 
 ### MT5 EA Acceptance Harness
 
@@ -179,8 +182,8 @@ connected to broker or order-send behavior.
 - [Version 1.3.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.3.0)
 - [Fixture contract and safe-use guide](docs/MT5_EA_ACCEPTANCE_HARNESS.md)
 - [Captured MT5 runtime report: 8/8 synthetic cases passed](docs/evidence/SCA_MT5AcceptanceHarness_runtime_2026-08-12.txt)
-- [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness)
-- Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit)
+- [Engineering case study](https://stratcorealpha.com/work/mt5-ea-acceptance-harness?ref=github-mql5&intent=proof)
+- Relevant scope: [MT5 EA specification audit](https://stratcorealpha.com/services/mt5-ea-specification-audit?ref=github-mql5&intent=diagnostic)
 
 ### MT5 Deal Evidence Toolkit
 
@@ -205,7 +208,7 @@ reason, profit and missing-row differences without client data.
 - [Buyer guide: scope an execution reconciliation before paying for a fix](docs/MT5_EXECUTION_RECONCILIATION_BUYER_GUIDE.md)
 - [Copyable MT5 execution reconciliation scope template](templates/MT5_EXECUTION_RECONCILIATION_SCOPE_TEMPLATE.md)
 - [Synthetic five-difference report](docs/evidence/MT5_Execution_Reconciliation_Sample.html)
-- Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit)
+- Relevant diagnostic scope: [MQL code audit](https://stratcorealpha.com/services/mql-code-audit?ref=github-mql5&intent=diagnostic)
 
 ### MT5 Position and Order Ownership Audit
 
@@ -217,12 +220,12 @@ omits account identity, tickets, volume, price and profit from the report.
 - [Source code](src/SCA_MT5OwnershipAudit.mq5)
 - [Version 1.5.0 release and direct MQ5 download](https://github.com/arnjesix/stratcorealpha-mql5-portfolio/releases/tag/v1.5.0)
 - [Installation, interpretation and privacy guide](docs/MT5_OWNERSHIP_AUDIT.md)
-- Relevant diagnostic scope: [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix)
+- Relevant diagnostic scope: [MQL5 bug-fix service](https://stratcorealpha.com/services/mql5-bug-fix?ref=github-mql5&intent=R49)
 
 ## Good first message
 
 Use the browser-local
-[trading-bot scope builder](https://stratcorealpha.com/tools/trading-bot-scope-builder)
+[trading-bot scope builder](https://stratcorealpha.com/tools/trading-bot-scope-builder?ref=github-mql5&intent=LM0)
 to produce a copyable first brief without uploading what you type. For a fast
 scope check, include:
 
