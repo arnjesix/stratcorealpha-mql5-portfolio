@@ -1,0 +1,16 @@
+{
+  "rules_version": "v1.2",
+  "ea": "SCA_Getestet2_LondonBreakout_v12",
+  "symbol": "EURUSD",
+  "timeframe": "M15",
+  "clock_basis": "server_time_fixed_proxy (NOT claimed London wall time)",
+  "inputs": {"range": "10:00-11:00", "entry_end": "14:00", "flat": "19:00", "target_R": 1.00, "fixed_lot": 0.01, "magic": 20260927},
+  "init_server_time": "2025.09.01 00:00:00",
+  "end_server_time": "2026.08.31 23:59:59",
+  "n_bars": 24864,
+  "n_equity_ticks": 1482899,
+  "n_own_deals": 462,
+  "n_events": 1002,
+  "deinit_reason": 1,
+  "coverage_note": "span = first/last exported server times in g2_lb12_bars.csv"
+}

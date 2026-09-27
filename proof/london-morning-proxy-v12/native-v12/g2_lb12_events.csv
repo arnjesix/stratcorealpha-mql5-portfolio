@@ -1,0 +1,1003 @@
+seq,server_time,event,detail
+0,2025.09.01 00:00:00,init,rules=v1.2 symbol=EURUSD tf=M15 range=10:00-11:00 entry_end=14:00 flat=19:00 R=1.00 lot=0.01 magic=20260927
+1,2025.09.01 11:00:00,range,hi=1.17278 lo=1.17150 width_pips=12.80
+2,2025.09.01 12:00:00,signal,dir=BUY bar=2025.09.01 11:45:00 close=1.17352 hi=1.17278 lo=1.17150 entry=1.17352 sl=1.17150 tp=1.17554 vol=0.01
+3,2025.09.01 12:00:00,fill,dir=BUY vol=0.01 price=1.17352 sl=1.17150 tp=1.17554 deal=2
+4,2025.09.02 11:00:00,range,hi=1.17064 lo=1.16428 width_pips=63.60
+5,2025.09.02 11:30:00,signal,dir=SELL bar=2025.09.02 11:15:00 close=1.16404 hi=1.17064 lo=1.16428 entry=1.16402 sl=1.17064 tp=1.15740 vol=0.01
+6,2025.09.02 11:30:00,fill,dir=SELL vol=0.01 price=1.16402 sl=1.17064 tp=1.15740 deal=4
+7,2025.09.02 19:00:20,exit,time_exit price=1.16525 deal=5
+8,2025.09.03 11:00:00,range,hi=1.16359 lo=1.16081 width_pips=27.80
+9,2025.09.03 11:15:00,signal,dir=BUY bar=2025.09.03 11:00:00 close=1.16468 hi=1.16359 lo=1.16081 entry=1.16469 sl=1.16081 tp=1.16857 vol=0.01
+10,2025.09.03 11:15:00,fill,dir=BUY vol=0.01 price=1.16469 sl=1.16081 tp=1.16857 deal=6
+11,2025.09.03 19:00:20,exit,time_exit price=1.16750 deal=7
+12,2025.09.04 11:00:00,range,hi=1.16585 lo=1.16439 width_pips=14.60
+13,2025.09.04 12:30:00,signal,dir=SELL bar=2025.09.04 12:15:00 close=1.16415 hi=1.16585 lo=1.16439 entry=1.16415 sl=1.16585 tp=1.16245 vol=0.01
+14,2025.09.04 12:30:00,fill,dir=SELL vol=0.01 price=1.16415 sl=1.16585 tp=1.16245 deal=8
+15,2025.09.05 11:00:00,range,hi=1.16788 lo=1.16664 width_pips=12.40
+16,2025.09.05 11:30:00,signal,dir=BUY bar=2025.09.05 11:15:00 close=1.16809 hi=1.16788 lo=1.16664 entry=1.16811 sl=1.16664 tp=1.16958 vol=0.01
+17,2025.09.05 11:30:00,fill,dir=BUY vol=0.01 price=1.16811 sl=1.16664 tp=1.16958 deal=10
+18,2025.09.05 14:00:00,skip,one_a_day_cap_reached
+19,2025.09.08 11:00:00,range,hi=1.17338 lo=1.17203 width_pips=13.50
+20,2025.09.08 11:15:00,signal,dir=BUY bar=2025.09.08 11:00:00 close=1.17393 hi=1.17338 lo=1.17203 entry=1.17395 sl=1.17203 tp=1.17587 vol=0.01
+21,2025.09.08 11:15:00,fill,dir=BUY vol=0.01 price=1.17395 sl=1.17203 tp=1.17587 deal=12
+22,2025.09.09 11:00:00,range,hi=1.17686 lo=1.17476 width_pips=21.00
+23,2025.09.09 11:15:00,signal,dir=SELL bar=2025.09.09 11:00:00 close=1.17471 hi=1.17686 lo=1.17476 entry=1.17470 sl=1.17686 tp=1.17254 vol=0.01
+24,2025.09.09 11:15:00,fill,dir=SELL vol=0.01 price=1.17470 sl=1.17686 tp=1.17254 deal=14
+25,2025.09.10 11:00:00,range,hi=1.17078 lo=1.16823 width_pips=25.50
+26,2025.09.10 12:45:00,signal,dir=BUY bar=2025.09.10 12:30:00 close=1.17114 hi=1.17078 lo=1.16823 entry=1.17121 sl=1.16823 tp=1.17419 vol=0.01
+27,2025.09.10 12:45:00,fill,dir=BUY vol=0.01 price=1.17121 sl=1.16823 tp=1.17419 deal=16
+28,2025.09.10 19:00:20,exit,time_exit price=1.17134 deal=17
+29,2025.09.11 11:00:00,range,hi=1.16963 lo=1.16866 width_pips=9.70
+30,2025.09.11 12:45:00,signal,dir=SELL bar=2025.09.11 12:30:00 close=1.16816 hi=1.16963 lo=1.16866 entry=1.16817 sl=1.16963 tp=1.16671 vol=0.01
+31,2025.09.11 12:45:00,fill,dir=SELL vol=0.01 price=1.16817 sl=1.16963 tp=1.16671 deal=18
+32,2025.09.12 11:00:00,range,hi=1.17477 lo=1.17369 width_pips=10.80
+33,2025.09.12 11:15:00,signal,dir=SELL bar=2025.09.12 11:00:00 close=1.17315 hi=1.17477 lo=1.17369 entry=1.17314 sl=1.17477 tp=1.17151 vol=0.01
+34,2025.09.12 11:15:00,fill,dir=SELL vol=0.01 price=1.17314 sl=1.17477 tp=1.17151 deal=20
+35,2025.09.12 12:15:00,skip,one_a_day_cap_reached
+36,2025.09.12 12:30:00,skip,one_a_day_cap_reached
+37,2025.09.12 12:45:00,skip,one_a_day_cap_reached
+38,2025.09.12 13:00:00,skip,one_a_day_cap_reached
+39,2025.09.12 13:15:00,skip,one_a_day_cap_reached
+40,2025.09.12 13:30:00,skip,one_a_day_cap_reached
+41,2025.09.12 13:45:00,skip,one_a_day_cap_reached
+42,2025.09.12 14:00:00,skip,one_a_day_cap_reached
+43,2025.09.15 11:00:00,range,hi=1.17443 lo=1.17239 width_pips=20.40
+44,2025.09.15 12:30:00,signal,dir=BUY bar=2025.09.15 12:15:00 close=1.17469 hi=1.17443 lo=1.17239 entry=1.17469 sl=1.17239 tp=1.17699 vol=0.01
+45,2025.09.15 12:30:00,fill,dir=BUY vol=0.01 price=1.17469 sl=1.17239 tp=1.17699 deal=22
+46,2025.09.16 11:00:00,range,hi=1.18020 lo=1.17863 width_pips=15.70
+47,2025.09.16 12:15:00,signal,dir=BUY bar=2025.09.16 12:00:00 close=1.18057 hi=1.18020 lo=1.17863 entry=1.18058 sl=1.17863 tp=1.18253 vol=0.01
+48,2025.09.16 12:15:00,fill,dir=BUY vol=0.01 price=1.18058 sl=1.17863 tp=1.18253 deal=24
+49,2025.09.17 11:00:00,range,hi=1.18562 lo=1.18381 width_pips=18.10
+50,2025.09.17 13:15:00,signal,dir=SELL bar=2025.09.17 13:00:00 close=1.18351 hi=1.18562 lo=1.18381 entry=1.18352 sl=1.18562 tp=1.18142 vol=0.01
+51,2025.09.17 13:15:00,fill,dir=SELL vol=0.01 price=1.18352 sl=1.18562 tp=1.18142 deal=26
+52,2025.09.18 11:00:00,range,hi=1.18389 lo=1.17936 width_pips=45.30
+53,2025.09.18 12:30:00,signal,dir=BUY bar=2025.09.18 12:15:00 close=1.18397 hi=1.18389 lo=1.17936 entry=1.18393 sl=1.17936 tp=1.18850 vol=0.01
+54,2025.09.18 12:30:00,fill,dir=BUY vol=0.01 price=1.18393 sl=1.17936 tp=1.18850 deal=28
+55,2025.09.19 11:00:00,range,hi=1.17781 lo=1.17573 width_pips=20.80
+56,2025.09.19 11:30:00,signal,dir=SELL bar=2025.09.19 11:15:00 close=1.17559 hi=1.17781 lo=1.17573 entry=1.17560 sl=1.17781 tp=1.17339 vol=0.01
+57,2025.09.19 11:30:00,fill,dir=SELL vol=0.01 price=1.17560 sl=1.17781 tp=1.17339 deal=30
+58,2025.09.22 11:00:00,range,hi=1.17544 lo=1.17392 width_pips=15.20
+59,2025.09.22 11:15:00,signal,dir=BUY bar=2025.09.22 11:00:00 close=1.17620 hi=1.17544 lo=1.17392 entry=1.17618 sl=1.17392 tp=1.17844 vol=0.01
+60,2025.09.22 11:15:00,fill,dir=BUY vol=0.01 price=1.17618 sl=1.17392 tp=1.17844 deal=32
+61,2025.09.22 13:30:00,skip,one_a_day_cap_reached
+62,2025.09.22 13:45:00,skip,one_a_day_cap_reached
+63,2025.09.22 14:00:00,skip,one_a_day_cap_reached
+64,2025.09.23 11:00:00,range,hi=1.18000 lo=1.17770 width_pips=23.00
+65,2025.09.23 11:45:00,signal,dir=BUY bar=2025.09.23 11:30:00 close=1.18012 hi=1.18000 lo=1.17770 entry=1.18014 sl=1.17770 tp=1.18258 vol=0.01
+66,2025.09.23 11:45:00,fill,dir=BUY vol=0.01 price=1.18014 sl=1.17770 tp=1.18258 deal=34
+67,2025.09.23 19:00:20,exit,time_exit price=1.17983 deal=35
+68,2025.09.24 11:00:00,range,hi=1.17947 lo=1.17842 width_pips=10.50
+69,2025.09.24 11:15:00,signal,dir=SELL bar=2025.09.24 11:00:00 close=1.17754 hi=1.17947 lo=1.17842 entry=1.17753 sl=1.17947 tp=1.17559 vol=0.01
+70,2025.09.24 11:15:00,fill,dir=SELL vol=0.01 price=1.17753 sl=1.17947 tp=1.17559 deal=36
+71,2025.09.24 13:30:00,skip,one_a_day_cap_reached
+72,2025.09.24 13:45:00,skip,one_a_day_cap_reached
+73,2025.09.24 14:00:00,skip,one_a_day_cap_reached
+74,2025.09.25 11:00:00,range,hi=1.17480 lo=1.17314 width_pips=16.60
+75,2025.09.25 12:15:00,signal,dir=BUY bar=2025.09.25 12:00:00 close=1.17482 hi=1.17480 lo=1.17314 entry=1.17482 sl=1.17314 tp=1.17650 vol=0.01
+76,2025.09.25 12:15:00,fill,dir=BUY vol=0.01 price=1.17482 sl=1.17314 tp=1.17650 deal=38
+77,2025.09.26 11:00:00,range,hi=1.16830 lo=1.16684 width_pips=14.60
+78,2025.09.26 11:45:00,signal,dir=BUY bar=2025.09.26 11:30:00 close=1.16835 hi=1.16830 lo=1.16684 entry=1.16837 sl=1.16684 tp=1.16990 vol=0.01
+79,2025.09.26 11:45:00,fill,dir=BUY vol=0.01 price=1.16837 sl=1.16684 tp=1.16990 deal=40
+80,2025.09.26 14:00:00,skip,one_a_day_cap_reached
+81,2025.09.29 11:00:00,range,hi=1.17330 lo=1.17175 width_pips=15.50
+82,2025.09.29 11:30:00,signal,dir=SELL bar=2025.09.29 11:15:00 close=1.17139 hi=1.17330 lo=1.17175 entry=1.17140 sl=1.17330 tp=1.16950 vol=0.01
+83,2025.09.29 11:30:00,fill,dir=SELL vol=0.01 price=1.17140 sl=1.17330 tp=1.16950 deal=42
+84,2025.09.30 11:00:00,range,hi=1.17483 lo=1.17365 width_pips=11.80
+85,2025.09.30 11:15:00,signal,dir=BUY bar=2025.09.30 11:00:00 close=1.17493 hi=1.17483 lo=1.17365 entry=1.17495 sl=1.17365 tp=1.17625 vol=0.01
+86,2025.09.30 11:15:00,fill,dir=BUY vol=0.01 price=1.17495 sl=1.17365 tp=1.17625 deal=44
+87,2025.10.01 11:00:00,range,hi=1.17786 lo=1.17420 width_pips=36.60
+88,2025.10.01 13:00:00,signal,dir=SELL bar=2025.10.01 12:45:00 close=1.17329 hi=1.17786 lo=1.17420 entry=1.17330 sl=1.17786 tp=1.16874 vol=0.01
+89,2025.10.01 13:00:00,fill,dir=SELL vol=0.01 price=1.17330 sl=1.17786 tp=1.16874 deal=46
+90,2025.10.01 19:00:20,exit,time_exit price=1.17227 deal=47
+91,2025.10.02 11:00:00,range,hi=1.17568 lo=1.17410 width_pips=15.80
+92,2025.10.03 11:00:00,range,hi=1.17342 lo=1.17205 width_pips=13.70
+93,2025.10.03 11:15:00,signal,dir=BUY bar=2025.10.03 11:00:00 close=1.17362 hi=1.17342 lo=1.17205 entry=1.17364 sl=1.17205 tp=1.17523 vol=0.01
+94,2025.10.03 11:15:00,fill,dir=BUY vol=0.01 price=1.17364 sl=1.17205 tp=1.17523 deal=48
+95,2025.10.06 11:00:00,range,hi=1.17120 lo=1.16624 width_pips=49.60
+96,2025.10.06 11:15:00,signal,dir=SELL bar=2025.10.06 11:00:00 close=1.16558 hi=1.17120 lo=1.16624 entry=1.16557 sl=1.17120 tp=1.15994 vol=0.01
+97,2025.10.06 11:15:00,fill,dir=SELL vol=0.01 price=1.16557 sl=1.17120 tp=1.15994 deal=50
+98,2025.10.07 11:00:00,range,hi=1.16879 lo=1.16703 width_pips=17.60
+99,2025.10.07 12:00:00,signal,dir=SELL bar=2025.10.07 11:45:00 close=1.16658 hi=1.16879 lo=1.16703 entry=1.16658 sl=1.16879 tp=1.16437 vol=0.01
+100,2025.10.07 12:00:00,fill,dir=SELL vol=0.01 price=1.16658 sl=1.16879 tp=1.16437 deal=52
+101,2025.10.07 19:00:20,exit,time_exit price=1.16728 deal=53
+102,2025.10.08 11:00:00,range,hi=1.16343 lo=1.16118 width_pips=22.50
+103,2025.10.08 12:45:00,signal,dir=SELL bar=2025.10.08 12:30:00 close=1.16099 hi=1.16343 lo=1.16118 entry=1.16102 sl=1.16343 tp=1.15861 vol=0.01
+104,2025.10.08 12:45:00,fill,dir=SELL vol=0.01 price=1.16102 sl=1.16343 tp=1.15861 deal=54
+105,2025.10.09 11:00:00,range,hi=1.16232 lo=1.16064 width_pips=16.80
+106,2025.10.09 12:45:00,signal,dir=BUY bar=2025.10.09 12:30:00 close=1.16236 hi=1.16232 lo=1.16064 entry=1.16235 sl=1.16064 tp=1.16406 vol=0.01
+107,2025.10.09 12:45:00,fill,dir=BUY vol=0.01 price=1.16235 sl=1.16064 tp=1.16406 deal=56
+108,2025.10.10 11:00:00,range,hi=1.15800 lo=1.15640 width_pips=16.00
+109,2025.10.10 11:15:00,signal,dir=BUY bar=2025.10.10 11:00:00 close=1.15860 hi=1.15800 lo=1.15640 entry=1.15862 sl=1.15640 tp=1.16084 vol=0.01
+110,2025.10.10 11:15:00,fill,dir=BUY vol=0.01 price=1.15862 sl=1.15640 tp=1.16084 deal=58
+111,2025.10.13 11:00:00,range,hi=1.16156 lo=1.15977 width_pips=17.90
+112,2025.10.13 11:30:00,signal,dir=SELL bar=2025.10.13 11:15:00 close=1.15906 hi=1.16156 lo=1.15977 entry=1.15904 sl=1.16156 tp=1.15652 vol=0.01
+113,2025.10.13 11:30:00,fill,dir=SELL vol=0.01 price=1.15904 sl=1.16156 tp=1.15652 deal=60
+114,2025.10.14 11:00:00,range,hi=1.15747 lo=1.15423 width_pips=32.40
+115,2025.10.15 11:00:00,range,hi=1.16445 lo=1.16292 width_pips=15.30
+116,2025.10.15 13:30:00,signal,dir=SELL bar=2025.10.15 13:15:00 close=1.16242 hi=1.16445 lo=1.16292 entry=1.16243 sl=1.16445 tp=1.16041 vol=0.01
+117,2025.10.15 13:30:00,fill,dir=SELL vol=0.01 price=1.16243 sl=1.16445 tp=1.16041 deal=62
+118,2025.10.16 11:00:00,range,hi=1.16567 lo=1.16430 width_pips=13.70
+119,2025.10.16 11:45:00,signal,dir=BUY bar=2025.10.16 11:30:00 close=1.16586 hi=1.16567 lo=1.16430 entry=1.16587 sl=1.16430 tp=1.16744 vol=0.01
+120,2025.10.16 11:45:00,fill,dir=BUY vol=0.01 price=1.16587 sl=1.16430 tp=1.16744 deal=64
+121,2025.10.17 11:00:00,range,hi=1.17149 lo=1.16932 width_pips=21.70
+122,2025.10.17 14:00:00,signal,dir=SELL bar=2025.10.17 13:45:00 close=1.16896 hi=1.17149 lo=1.16932 entry=1.16897 sl=1.17149 tp=1.16645 vol=0.01
+123,2025.10.17 14:00:00,fill,dir=SELL vol=0.01 price=1.16897 sl=1.17149 tp=1.16645 deal=66
+124,2025.10.20 11:00:00,range,hi=1.16682 lo=1.16537 width_pips=14.50
+125,2025.10.20 14:00:00,signal,dir=SELL bar=2025.10.20 13:45:00 close=1.16534 hi=1.16682 lo=1.16537 entry=1.16535 sl=1.16682 tp=1.16388 vol=0.01
+126,2025.10.20 14:00:00,fill,dir=SELL vol=0.01 price=1.16535 sl=1.16682 tp=1.16388 deal=68
+127,2025.10.20 19:00:20,exit,time_exit price=1.16543 deal=69
+128,2025.10.21 11:00:00,range,hi=1.16355 lo=1.16216 width_pips=13.90
+129,2025.10.21 12:00:00,signal,dir=SELL bar=2025.10.21 11:45:00 close=1.16212 hi=1.16355 lo=1.16216 entry=1.16213 sl=1.16355 tp=1.16071 vol=0.01
+130,2025.10.21 12:00:00,fill,dir=SELL vol=0.01 price=1.16213 sl=1.16355 tp=1.16071 deal=70
+131,2025.10.21 13:30:00,skip,one_a_day_cap_reached
+132,2025.10.21 13:45:00,skip,one_a_day_cap_reached
+133,2025.10.21 14:00:00,skip,one_a_day_cap_reached
+134,2025.10.22 11:00:00,range,hi=1.16128 lo=1.15996 width_pips=13.20
+135,2025.10.22 11:15:00,signal,dir=SELL bar=2025.10.22 11:00:00 close=1.15915 hi=1.16128 lo=1.15996 entry=1.15915 sl=1.16128 tp=1.15702 vol=0.01
+136,2025.10.22 11:15:00,fill,dir=SELL vol=0.01 price=1.15915 sl=1.16128 tp=1.15702 deal=72
+137,2025.10.23 11:00:00,range,hi=1.16016 lo=1.15907 width_pips=10.90
+138,2025.10.23 11:30:00,signal,dir=BUY bar=2025.10.23 11:15:00 close=1.16040 hi=1.16016 lo=1.15907 entry=1.16037 sl=1.15907 tp=1.16167 vol=0.01
+139,2025.10.23 11:30:00,fill,dir=BUY vol=0.01 price=1.16037 sl=1.15907 tp=1.16167 deal=74
+140,2025.10.23 13:45:00,skip,one_a_day_cap_reached
+141,2025.10.23 14:00:00,skip,one_a_day_cap_reached
+142,2025.10.24 11:00:00,range,hi=1.16279 lo=1.16019 width_pips=26.00
+143,2025.10.27 11:00:00,range,hi=1.16279 lo=1.16199 width_pips=8.00
+144,2025.10.27 11:45:00,signal,dir=BUY bar=2025.10.27 11:30:00 close=1.16315 hi=1.16279 lo=1.16199 entry=1.16317 sl=1.16199 tp=1.16435 vol=0.01
+145,2025.10.27 11:45:00,fill,dir=BUY vol=0.01 price=1.16317 sl=1.16199 tp=1.16435 deal=76
+146,2025.10.27 13:30:00,skip,one_a_day_cap_reached
+147,2025.10.27 13:45:00,skip,one_a_day_cap_reached
+148,2025.10.27 14:00:00,skip,one_a_day_cap_reached
+149,2025.10.28 11:00:00,range,hi=1.16612 lo=1.16509 width_pips=10.30
+150,2025.10.28 12:15:00,signal,dir=SELL bar=2025.10.28 12:00:00 close=1.16499 hi=1.16612 lo=1.16509 entry=1.16501 sl=1.16612 tp=1.16390 vol=0.01
+151,2025.10.28 12:15:00,fill,dir=SELL vol=0.01 price=1.16501 sl=1.16612 tp=1.16390 deal=78
+152,2025.10.28 14:00:00,skip,one_a_day_cap_reached
+153,2025.10.29 11:00:00,range,hi=1.16379 lo=1.16284 width_pips=9.50
+154,2025.10.29 11:15:00,signal,dir=SELL bar=2025.10.29 11:00:00 close=1.16261 hi=1.16379 lo=1.16284 entry=1.16260 sl=1.16379 tp=1.16141 vol=0.01
+155,2025.10.29 11:15:00,fill,dir=SELL vol=0.01 price=1.16260 sl=1.16379 tp=1.16141 deal=80
+156,2025.10.29 13:00:00,skip,one_a_day_cap_reached
+157,2025.10.29 13:15:00,skip,one_a_day_cap_reached
+158,2025.10.29 13:30:00,skip,one_a_day_cap_reached
+159,2025.10.29 13:45:00,skip,one_a_day_cap_reached
+160,2025.10.29 14:00:00,skip,one_a_day_cap_reached
+161,2025.10.30 11:00:00,range,hi=1.16229 lo=1.16095 width_pips=13.40
+162,2025.10.30 12:30:00,signal,dir=BUY bar=2025.10.30 12:15:00 close=1.16256 hi=1.16229 lo=1.16095 entry=1.16256 sl=1.16095 tp=1.16417 vol=0.01
+163,2025.10.30 12:30:00,fill,dir=BUY vol=0.01 price=1.16256 sl=1.16095 tp=1.16417 deal=82
+164,2025.10.30 14:00:00,skip,one_a_day_cap_reached
+165,2025.10.31 11:00:00,range,hi=1.15659 lo=1.15550 width_pips=10.90
+166,2025.10.31 11:30:00,signal,dir=BUY bar=2025.10.31 11:15:00 close=1.15663 hi=1.15659 lo=1.15550 entry=1.15662 sl=1.15550 tp=1.15774 vol=0.01
+167,2025.10.31 11:30:00,fill,dir=BUY vol=0.01 price=1.15662 sl=1.15550 tp=1.15774 deal=84
+168,2025.11.03 11:00:00,range,hi=1.15402 lo=1.15097 width_pips=30.50
+169,2025.11.04 11:00:00,range,hi=1.15289 lo=1.15135 width_pips=15.40
+170,2025.11.04 11:30:00,signal,dir=SELL bar=2025.11.04 11:15:00 close=1.15101 hi=1.15289 lo=1.15135 entry=1.15100 sl=1.15289 tp=1.14911 vol=0.01
+171,2025.11.04 11:30:00,fill,dir=SELL vol=0.01 price=1.15100 sl=1.15289 tp=1.14911 deal=86
+172,2025.11.04 14:00:00,skip,one_a_day_cap_reached
+173,2025.11.05 11:00:00,range,hi=1.14955 lo=1.14857 width_pips=9.80
+174,2025.11.05 11:45:00,signal,dir=SELL bar=2025.11.05 11:30:00 close=1.14846 hi=1.14955 lo=1.14857 entry=1.14845 sl=1.14955 tp=1.14735 vol=0.01
+175,2025.11.05 11:45:00,fill,dir=SELL vol=0.01 price=1.14845 sl=1.14955 tp=1.14735 deal=88
+176,2025.11.06 11:00:00,range,hi=1.15234 lo=1.15059 width_pips=17.50
+177,2025.11.07 11:00:00,range,hi=1.15404 lo=1.15296 width_pips=10.80
+178,2025.11.07 12:15:00,signal,dir=BUY bar=2025.11.07 12:00:00 close=1.15439 hi=1.15404 lo=1.15296 entry=1.15439 sl=1.15296 tp=1.15582 vol=0.01
+179,2025.11.07 12:15:00,fill,dir=BUY vol=0.01 price=1.15439 sl=1.15296 tp=1.15582 deal=90
+180,2025.11.07 13:30:00,skip,one_a_day_cap_reached
+181,2025.11.07 13:45:00,skip,one_a_day_cap_reached
+182,2025.11.07 14:00:00,skip,one_a_day_cap_reached
+183,2025.11.10 11:00:00,range,hi=1.15832 lo=1.15651 width_pips=18.10
+184,2025.11.10 12:45:00,signal,dir=SELL bar=2025.11.10 12:30:00 close=1.15616 hi=1.15832 lo=1.15651 entry=1.15612 sl=1.15832 tp=1.15392 vol=0.01
+185,2025.11.10 12:45:00,fill,dir=SELL vol=0.01 price=1.15612 sl=1.15832 tp=1.15392 deal=92
+186,2025.11.10 19:00:20,exit,time_exit price=1.15453 deal=93
+187,2025.11.11 11:00:00,range,hi=1.15684 lo=1.15544 width_pips=14.00
+188,2025.11.11 12:30:00,signal,dir=BUY bar=2025.11.11 12:15:00 close=1.15720 hi=1.15684 lo=1.15544 entry=1.15720 sl=1.15544 tp=1.15896 vol=0.01
+189,2025.11.11 12:30:00,fill,dir=BUY vol=0.01 price=1.15720 sl=1.15544 tp=1.15896 deal=94
+190,2025.11.12 11:00:00,range,hi=1.15878 lo=1.15770 width_pips=10.80
+191,2025.11.12 11:15:00,signal,dir=SELL bar=2025.11.12 11:00:00 close=1.15742 hi=1.15878 lo=1.15770 entry=1.15743 sl=1.15878 tp=1.15608 vol=0.01
+192,2025.11.12 11:15:00,fill,dir=SELL vol=0.01 price=1.15743 sl=1.15878 tp=1.15608 deal=96
+193,2025.11.13 11:00:00,range,hi=1.16294 lo=1.16100 width_pips=19.40
+194,2025.11.13 11:15:00,signal,dir=BUY bar=2025.11.13 11:00:00 close=1.16316 hi=1.16294 lo=1.16100 entry=1.16318 sl=1.16100 tp=1.16536 vol=0.01
+195,2025.11.13 11:15:00,fill,dir=BUY vol=0.01 price=1.16318 sl=1.16100 tp=1.16536 deal=98
+196,2025.11.13 14:00:00,skip,one_a_day_cap_reached
+197,2025.11.14 11:00:00,range,hi=1.16369 lo=1.16204 width_pips=16.50
+198,2025.11.14 12:30:00,signal,dir=SELL bar=2025.11.14 12:15:00 close=1.16141 hi=1.16369 lo=1.16204 entry=1.16140 sl=1.16369 tp=1.15911 vol=0.01
+199,2025.11.14 12:30:00,fill,dir=SELL vol=0.01 price=1.16140 sl=1.16369 tp=1.15911 deal=100
+200,2025.11.17 11:00:00,range,hi=1.16148 lo=1.15990 width_pips=15.80
+201,2025.11.17 11:30:00,signal,dir=SELL bar=2025.11.17 11:15:00 close=1.15981 hi=1.16148 lo=1.15990 entry=1.15985 sl=1.16148 tp=1.15822 vol=0.01
+202,2025.11.17 11:30:00,fill,dir=SELL vol=0.01 price=1.15985 sl=1.16148 tp=1.15822 deal=102
+203,2025.11.18 11:00:00,range,hi=1.16064 lo=1.15898 width_pips=16.60
+204,2025.11.18 12:00:00,signal,dir=SELL bar=2025.11.18 11:45:00 close=1.15894 hi=1.16064 lo=1.15898 entry=1.15893 sl=1.16064 tp=1.15722 vol=0.01
+205,2025.11.18 12:00:00,fill,dir=SELL vol=0.01 price=1.15893 sl=1.16064 tp=1.15722 deal=104
+206,2025.11.19 11:00:00,range,hi=1.15892 lo=1.15712 width_pips=18.00
+207,2025.11.19 11:45:00,signal,dir=SELL bar=2025.11.19 11:30:00 close=1.15700 hi=1.15892 lo=1.15712 entry=1.15704 sl=1.15892 tp=1.15516 vol=0.01
+208,2025.11.19 11:45:00,fill,dir=SELL vol=0.01 price=1.15704 sl=1.15892 tp=1.15516 deal=106
+209,2025.11.20 11:00:00,range,hi=1.15233 lo=1.15115 width_pips=11.80
+210,2025.11.20 11:30:00,signal,dir=BUY bar=2025.11.20 11:15:00 close=1.15243 hi=1.15233 lo=1.15115 entry=1.15243 sl=1.15115 tp=1.15371 vol=0.01
+211,2025.11.20 11:30:00,fill,dir=BUY vol=0.01 price=1.15243 sl=1.15115 tp=1.15371 deal=108
+212,2025.11.21 11:00:00,range,hi=1.15526 lo=1.15341 width_pips=18.50
+213,2025.11.21 11:45:00,signal,dir=SELL bar=2025.11.21 11:30:00 close=1.15338 hi=1.15526 lo=1.15341 entry=1.15337 sl=1.15526 tp=1.15148 vol=0.01
+214,2025.11.21 11:45:00,fill,dir=SELL vol=0.01 price=1.15337 sl=1.15526 tp=1.15148 deal=110
+215,2025.11.21 12:15:00,skip,one_a_day_cap_reached
+216,2025.11.21 12:30:00,skip,one_a_day_cap_reached
+217,2025.11.21 12:45:00,skip,one_a_day_cap_reached
+218,2025.11.21 13:00:00,skip,one_a_day_cap_reached
+219,2025.11.21 13:15:00,skip,one_a_day_cap_reached
+220,2025.11.21 13:30:00,skip,one_a_day_cap_reached
+221,2025.11.21 13:45:00,skip,one_a_day_cap_reached
+222,2025.11.21 14:00:00,skip,one_a_day_cap_reached
+223,2025.11.24 11:00:00,range,hi=1.15344 lo=1.15097 width_pips=24.70
+224,2025.11.24 12:15:00,signal,dir=BUY bar=2025.11.24 12:00:00 close=1.15364 hi=1.15344 lo=1.15097 entry=1.15364 sl=1.15097 tp=1.15631 vol=0.01
+225,2025.11.24 12:15:00,fill,dir=BUY vol=0.01 price=1.15364 sl=1.15097 tp=1.15631 deal=112
+226,2025.11.24 19:00:20,exit,time_exit price=1.15177 deal=113
+227,2025.11.25 11:00:00,range,hi=1.15337 lo=1.15205 width_pips=13.20
+228,2025.11.25 11:45:00,signal,dir=BUY bar=2025.11.25 11:30:00 close=1.15355 hi=1.15337 lo=1.15205 entry=1.15358 sl=1.15205 tp=1.15511 vol=0.01
+229,2025.11.25 11:45:00,fill,dir=BUY vol=0.01 price=1.15358 sl=1.15205 tp=1.15511 deal=114
+230,2025.11.26 11:00:00,range,hi=1.15812 lo=1.15657 width_pips=15.50
+231,2025.11.27 11:00:00,range,hi=1.15955 lo=1.15866 width_pips=8.90
+232,2025.11.27 11:15:00,signal,dir=SELL bar=2025.11.27 11:00:00 close=1.15808 hi=1.15955 lo=1.15866 entry=1.15817 sl=1.15955 tp=1.15679 vol=0.01
+233,2025.11.27 11:15:00,fill,dir=SELL vol=0.01 price=1.15817 sl=1.15955 tp=1.15679 deal=116
+234,2025.11.28 11:00:00,range,hi=1.15814 lo=1.15666 width_pips=14.80
+235,2025.11.28 12:30:00,signal,dir=SELL bar=2025.11.28 12:15:00 close=1.15665 hi=1.15814 lo=1.15666 entry=1.15666 sl=1.15814 tp=1.15518 vol=0.01
+236,2025.11.28 12:30:00,fill,dir=SELL vol=0.01 price=1.15666 sl=1.15814 tp=1.15518 deal=118
+237,2025.12.01 11:00:00,range,hi=1.16217 lo=1.16041 width_pips=17.60
+238,2025.12.01 12:00:00,signal,dir=BUY bar=2025.12.01 11:45:00 close=1.16222 hi=1.16217 lo=1.16041 entry=1.16223 sl=1.16041 tp=1.16405 vol=0.01
+239,2025.12.01 12:00:00,fill,dir=BUY vol=0.01 price=1.16223 sl=1.16041 tp=1.16405 deal=120
+240,2025.12.02 11:00:00,range,hi=1.16161 lo=1.16088 width_pips=7.30
+241,2025.12.02 11:30:00,signal,dir=SELL bar=2025.12.02 11:15:00 close=1.16086 hi=1.16161 lo=1.16088 entry=1.16086 sl=1.16161 tp=1.16011 vol=0.01
+242,2025.12.02 11:30:00,fill,dir=SELL vol=0.01 price=1.16086 sl=1.16161 tp=1.16011 deal=122
+243,2025.12.02 12:30:00,skip,one_a_day_cap_reached
+244,2025.12.02 12:45:00,skip,one_a_day_cap_reached
+245,2025.12.02 13:00:00,skip,one_a_day_cap_reached
+246,2025.12.02 13:15:00,skip,one_a_day_cap_reached
+247,2025.12.02 13:30:00,skip,one_a_day_cap_reached
+248,2025.12.03 11:00:00,range,hi=1.16456 lo=1.16357 width_pips=9.90
+249,2025.12.03 11:45:00,signal,dir=BUY bar=2025.12.03 11:30:00 close=1.16460 hi=1.16456 lo=1.16357 entry=1.16461 sl=1.16357 tp=1.16565 vol=0.01
+250,2025.12.03 11:45:00,fill,dir=BUY vol=0.01 price=1.16461 sl=1.16357 tp=1.16565 deal=124
+251,2025.12.03 12:30:00,skip,one_a_day_cap_reached
+252,2025.12.03 12:45:00,skip,one_a_day_cap_reached
+253,2025.12.03 13:00:00,skip,one_a_day_cap_reached
+254,2025.12.03 13:15:00,skip,one_a_day_cap_reached
+255,2025.12.03 13:30:00,skip,one_a_day_cap_reached
+256,2025.12.03 13:45:00,skip,one_a_day_cap_reached
+257,2025.12.03 14:00:00,skip,one_a_day_cap_reached
+258,2025.12.04 11:00:00,range,hi=1.16819 lo=1.16633 width_pips=18.60
+259,2025.12.05 11:00:00,range,hi=1.16640 lo=1.16521 width_pips=11.90
+260,2025.12.05 11:30:00,signal,dir=SELL bar=2025.12.05 11:15:00 close=1.16490 hi=1.16640 lo=1.16521 entry=1.16490 sl=1.16640 tp=1.16340 vol=0.01
+261,2025.12.05 11:30:00,fill,dir=SELL vol=0.01 price=1.16490 sl=1.16640 tp=1.16340 deal=126
+262,2025.12.08 11:00:00,range,hi=1.16622 lo=1.16480 width_pips=14.20
+263,2025.12.09 11:00:00,range,hi=1.16496 lo=1.16336 width_pips=16.00
+264,2025.12.09 11:45:00,signal,dir=BUY bar=2025.12.09 11:30:00 close=1.16541 hi=1.16496 lo=1.16336 entry=1.16543 sl=1.16336 tp=1.16750 vol=0.01
+265,2025.12.09 11:45:00,fill,dir=BUY vol=0.01 price=1.16543 sl=1.16336 tp=1.16750 deal=128
+266,2025.12.10 11:00:00,range,hi=1.16577 lo=1.16435 width_pips=14.20
+267,2025.12.10 11:15:00,signal,dir=SELL bar=2025.12.10 11:00:00 close=1.16434 hi=1.16577 lo=1.16435 entry=1.16434 sl=1.16577 tp=1.16291 vol=0.01
+268,2025.12.10 11:15:00,fill,dir=SELL vol=0.01 price=1.16434 sl=1.16577 tp=1.16291 deal=130
+269,2025.12.10 13:00:00,skip,one_a_day_cap_reached
+270,2025.12.10 13:15:00,skip,one_a_day_cap_reached
+271,2025.12.10 13:30:00,skip,one_a_day_cap_reached
+272,2025.12.10 13:45:00,skip,one_a_day_cap_reached
+273,2025.12.10 14:00:00,skip,one_a_day_cap_reached
+274,2025.12.11 11:00:00,range,hi=1.17066 lo=1.16936 width_pips=13.00
+275,2025.12.11 11:15:00,signal,dir=SELL bar=2025.12.11 11:00:00 close=1.16901 hi=1.17066 lo=1.16936 entry=1.16901 sl=1.17066 tp=1.16736 vol=0.01
+276,2025.12.11 11:15:00,fill,dir=SELL vol=0.01 price=1.16901 sl=1.17066 tp=1.16736 deal=132
+277,2025.12.11 13:00:00,skip,one_a_day_cap_reached
+278,2025.12.11 13:15:00,skip,one_a_day_cap_reached
+279,2025.12.11 13:30:00,skip,one_a_day_cap_reached
+280,2025.12.11 13:45:00,skip,one_a_day_cap_reached
+281,2025.12.11 14:00:00,skip,one_a_day_cap_reached
+282,2025.12.12 11:00:00,range,hi=1.17421 lo=1.17278 width_pips=14.30
+283,2025.12.12 12:30:00,signal,dir=SELL bar=2025.12.12 12:15:00 close=1.17257 hi=1.17421 lo=1.17278 entry=1.17257 sl=1.17421 tp=1.17093 vol=0.01
+284,2025.12.12 12:30:00,fill,dir=SELL vol=0.01 price=1.17257 sl=1.17421 tp=1.17093 deal=134
+285,2025.12.15 11:00:00,range,hi=1.17388 lo=1.17263 width_pips=12.50
+286,2025.12.15 11:15:00,signal,dir=BUY bar=2025.12.15 11:00:00 close=1.17419 hi=1.17388 lo=1.17263 entry=1.17421 sl=1.17263 tp=1.17579 vol=0.01
+287,2025.12.15 11:15:00,fill,dir=BUY vol=0.01 price=1.17421 sl=1.17263 tp=1.17579 deal=136
+288,2025.12.16 11:00:00,range,hi=1.17640 lo=1.17465 width_pips=17.50
+289,2025.12.17 11:00:00,range,hi=1.17211 lo=1.17058 width_pips=15.30
+290,2025.12.17 13:00:00,signal,dir=BUY bar=2025.12.17 12:45:00 close=1.17252 hi=1.17211 lo=1.17058 entry=1.17255 sl=1.17058 tp=1.17452 vol=0.01
+291,2025.12.17 13:00:00,fill,dir=BUY vol=0.01 price=1.17255 sl=1.17058 tp=1.17452 deal=138
+292,2025.12.18 11:00:00,range,hi=1.17370 lo=1.17280 width_pips=9.00
+293,2025.12.18 11:15:00,signal,dir=SELL bar=2025.12.18 11:00:00 close=1.17266 hi=1.17370 lo=1.17280 entry=1.17266 sl=1.17370 tp=1.17162 vol=0.01
+294,2025.12.18 11:15:00,fill,dir=SELL vol=0.01 price=1.17266 sl=1.17370 tp=1.17162 deal=140
+295,2025.12.19 11:00:00,range,hi=1.17162 lo=1.17060 width_pips=10.20
+296,2025.12.19 13:00:00,signal,dir=BUY bar=2025.12.19 12:45:00 close=1.17165 hi=1.17162 lo=1.17060 entry=1.17164 sl=1.17060 tp=1.17268 vol=0.01
+297,2025.12.19 13:00:00,fill,dir=BUY vol=0.01 price=1.17164 sl=1.17060 tp=1.17268 deal=142
+298,2025.12.22 11:00:00,range,hi=1.17383 lo=1.17232 width_pips=15.10
+299,2025.12.23 11:00:00,range,hi=1.17844 lo=1.17752 width_pips=9.20
+300,2025.12.23 11:15:00,signal,dir=BUY bar=2025.12.23 11:00:00 close=1.17890 hi=1.17844 lo=1.17752 entry=1.17891 sl=1.17752 tp=1.18030 vol=0.01
+301,2025.12.23 11:15:00,fill,dir=BUY vol=0.01 price=1.17891 sl=1.17752 tp=1.18030 deal=144
+302,2025.12.24 11:00:00,range,hi=1.17994 lo=1.17796 width_pips=19.80
+303,2025.12.24 12:00:00,signal,dir=BUY bar=2025.12.24 11:45:00 close=1.17996 hi=1.17994 lo=1.17796 entry=1.17998 sl=1.17796 tp=1.18200 vol=0.01
+304,2025.12.24 12:00:00,fill,dir=BUY vol=0.01 price=1.17998 sl=1.17796 tp=1.18200 deal=146
+305,2025.12.26 11:00:00,range,hi=1.17777 lo=1.17664 width_pips=11.30
+306,2025.12.26 13:45:00,signal,dir=BUY bar=2025.12.26 13:30:00 close=1.17793 hi=1.17777 lo=1.17664 entry=1.17794 sl=1.17664 tp=1.17924 vol=0.01
+307,2025.12.26 13:45:00,fill,dir=BUY vol=0.01 price=1.17794 sl=1.17664 tp=1.17924 deal=148
+308,2025.12.29 11:00:00,range,hi=1.17887 lo=1.17711 width_pips=17.60
+309,2025.12.29 13:00:00,signal,dir=SELL bar=2025.12.29 12:45:00 close=1.17658 hi=1.17887 lo=1.17711 entry=1.17657 sl=1.17887 tp=1.17427 vol=0.01
+310,2025.12.29 13:00:00,fill,dir=SELL vol=0.01 price=1.17657 sl=1.17887 tp=1.17427 deal=150
+311,2025.12.30 11:00:00,range,hi=1.17752 lo=1.17659 width_pips=9.30
+312,2025.12.30 11:45:00,signal,dir=BUY bar=2025.12.30 11:30:00 close=1.17758 hi=1.17752 lo=1.17659 entry=1.17759 sl=1.17659 tp=1.17859 vol=0.01
+313,2025.12.30 11:45:00,fill,dir=BUY vol=0.01 price=1.17759 sl=1.17659 tp=1.17859 deal=152
+314,2025.12.31 11:00:00,range,hi=1.17398 lo=1.17201 width_pips=19.70
+315,2025.12.31 13:15:00,signal,dir=BUY bar=2025.12.31 13:00:00 close=1.17409 hi=1.17398 lo=1.17201 entry=1.17410 sl=1.17201 tp=1.17619 vol=0.01
+316,2025.12.31 13:15:00,fill,dir=BUY vol=0.01 price=1.17410 sl=1.17201 tp=1.17619 deal=154
+317,2025.12.31 19:00:20,exit,time_exit price=1.17355 deal=155
+318,2026.01.02 11:00:00,range,hi=1.17383 lo=1.17239 width_pips=14.40
+319,2026.01.02 12:00:00,signal,dir=SELL bar=2026.01.02 11:45:00 close=1.17215 hi=1.17383 lo=1.17239 entry=1.17215 sl=1.17383 tp=1.17047 vol=0.01
+320,2026.01.02 12:00:00,fill,dir=SELL vol=0.01 price=1.17215 sl=1.17383 tp=1.17047 deal=156
+321,2026.01.05 11:00:00,range,hi=1.16947 lo=1.16809 width_pips=13.80
+322,2026.01.05 11:15:00,signal,dir=SELL bar=2026.01.05 11:00:00 close=1.16793 hi=1.16947 lo=1.16809 entry=1.16793 sl=1.16947 tp=1.16639 vol=0.01
+323,2026.01.05 11:15:00,fill,dir=SELL vol=0.01 price=1.16793 sl=1.16947 tp=1.16639 deal=158
+324,2026.01.06 11:00:00,range,hi=1.17389 lo=1.17259 width_pips=13.00
+325,2026.01.06 11:15:00,signal,dir=SELL bar=2026.01.06 11:00:00 close=1.17181 hi=1.17389 lo=1.17259 entry=1.17180 sl=1.17389 tp=1.16971 vol=0.01
+326,2026.01.06 11:15:00,fill,dir=SELL vol=0.01 price=1.17180 sl=1.17389 tp=1.16971 deal=160
+327,2026.01.07 11:00:00,range,hi=1.16873 lo=1.16728 width_pips=14.50
+328,2026.01.07 12:15:00,signal,dir=BUY bar=2026.01.07 12:00:00 close=1.16883 hi=1.16873 lo=1.16728 entry=1.16883 sl=1.16728 tp=1.17038 vol=0.01
+329,2026.01.07 12:15:00,fill,dir=BUY vol=0.01 price=1.16883 sl=1.16728 tp=1.17038 deal=162
+330,2026.01.07 19:00:20,exit,time_exit price=1.16892 deal=163
+331,2026.01.08 11:00:00,range,hi=1.16789 lo=1.16688 width_pips=10.10
+332,2026.01.08 12:15:00,signal,dir=BUY bar=2026.01.08 12:00:00 close=1.16799 hi=1.16789 lo=1.16688 entry=1.16799 sl=1.16688 tp=1.16910 vol=0.01
+333,2026.01.08 12:15:00,fill,dir=BUY vol=0.01 price=1.16799 sl=1.16688 tp=1.16910 deal=164
+334,2026.01.09 11:00:00,range,hi=1.16531 lo=1.16411 width_pips=12.00
+335,2026.01.12 11:00:00,range,hi=1.16918 lo=1.16759 width_pips=15.90
+336,2026.01.12 11:30:00,signal,dir=BUY bar=2026.01.12 11:15:00 close=1.16954 hi=1.16918 lo=1.16759 entry=1.16955 sl=1.16759 tp=1.17151 vol=0.01
+337,2026.01.12 11:30:00,fill,dir=BUY vol=0.01 price=1.16955 sl=1.16759 tp=1.17151 deal=166
+338,2026.01.13 11:00:00,range,hi=1.16691 lo=1.16585 width_pips=10.60
+339,2026.01.13 11:45:00,signal,dir=BUY bar=2026.01.13 11:30:00 close=1.16693 hi=1.16691 lo=1.16585 entry=1.16693 sl=1.16585 tp=1.16801 vol=0.01
+340,2026.01.13 11:45:00,fill,dir=BUY vol=0.01 price=1.16693 sl=1.16585 tp=1.16801 deal=168
+341,2026.01.14 11:00:00,range,hi=1.16505 lo=1.16410 width_pips=9.50
+342,2026.01.14 12:00:00,signal,dir=BUY bar=2026.01.14 11:45:00 close=1.16518 hi=1.16505 lo=1.16410 entry=1.16519 sl=1.16410 tp=1.16628 vol=0.01
+343,2026.01.14 12:00:00,fill,dir=BUY vol=0.01 price=1.16519 sl=1.16410 tp=1.16628 deal=170
+344,2026.01.14 19:00:20,exit,time_exit price=1.16546 deal=171
+345,2026.01.15 11:00:00,range,hi=1.16354 lo=1.16268 width_pips=8.60
+346,2026.01.15 11:45:00,signal,dir=BUY bar=2026.01.15 11:30:00 close=1.16365 hi=1.16354 lo=1.16268 entry=1.16365 sl=1.16268 tp=1.16462 vol=0.01
+347,2026.01.15 11:45:00,fill,dir=BUY vol=0.01 price=1.16365 sl=1.16268 tp=1.16462 deal=172
+348,2026.01.16 11:00:00,range,hi=1.16146 lo=1.16085 width_pips=6.10
+349,2026.01.16 12:00:00,signal,dir=SELL bar=2026.01.16 11:45:00 close=1.16080 hi=1.16146 lo=1.16085 entry=1.16084 sl=1.16146 tp=1.16022 vol=0.01
+350,2026.01.16 12:00:00,fill,dir=SELL vol=0.01 price=1.16084 sl=1.16146 tp=1.16022 deal=174
+351,2026.01.16 12:45:00,skip,one_a_day_cap_reached
+352,2026.01.16 13:15:00,skip,one_a_day_cap_reached
+353,2026.01.16 13:30:00,skip,one_a_day_cap_reached
+354,2026.01.16 13:45:00,skip,one_a_day_cap_reached
+355,2026.01.16 14:00:00,skip,one_a_day_cap_reached
+356,2026.01.19 11:00:00,range,hi=1.16279 lo=1.16184 width_pips=9.50
+357,2026.01.19 11:15:00,signal,dir=SELL bar=2026.01.19 11:00:00 close=1.16178 hi=1.16279 lo=1.16184 entry=1.16177 sl=1.16279 tp=1.16075 vol=0.01
+358,2026.01.19 11:15:00,fill,dir=SELL vol=0.01 price=1.16177 sl=1.16279 tp=1.16075 deal=176
+359,2026.01.20 11:00:00,range,hi=1.17218 lo=1.16870 width_pips=34.80
+360,2026.01.20 11:30:00,signal,dir=BUY bar=2026.01.20 11:15:00 close=1.17249 hi=1.17218 lo=1.16870 entry=1.17249 sl=1.16870 tp=1.17628 vol=0.01
+361,2026.01.20 11:30:00,fill,dir=BUY vol=0.01 price=1.17249 sl=1.16870 tp=1.17628 deal=178
+362,2026.01.21 11:00:00,range,hi=1.17187 lo=1.17050 width_pips=13.70
+363,2026.01.21 12:00:00,signal,dir=SELL bar=2026.01.21 11:45:00 close=1.17035 hi=1.17187 lo=1.17050 entry=1.17035 sl=1.17187 tp=1.16883 vol=0.01
+364,2026.01.21 12:00:00,fill,dir=SELL vol=0.01 price=1.17035 sl=1.17187 tp=1.16883 deal=180
+365,2026.01.22 11:00:00,range,hi=1.16950 lo=1.16841 width_pips=10.90
+366,2026.01.22 13:00:00,signal,dir=BUY bar=2026.01.22 12:45:00 close=1.16952 hi=1.16950 lo=1.16841 entry=1.16956 sl=1.16841 tp=1.17071 vol=0.01
+367,2026.01.22 13:00:00,fill,dir=BUY vol=0.01 price=1.16956 sl=1.16841 tp=1.17071 deal=182
+368,2026.01.23 11:00:00,range,hi=1.17452 lo=1.17283 width_pips=16.90
+369,2026.01.26 11:00:00,range,hi=1.18596 lo=1.18382 width_pips=21.40
+370,2026.01.26 11:45:00,signal,dir=BUY bar=2026.01.26 11:30:00 close=1.18668 hi=1.18596 lo=1.18382 entry=1.18669 sl=1.18382 tp=1.18956 vol=0.01
+371,2026.01.26 11:45:00,fill,dir=BUY vol=0.01 price=1.18669 sl=1.18382 tp=1.18956 deal=184
+372,2026.01.27 11:00:00,range,hi=1.18675 lo=1.18503 width_pips=17.20
+373,2026.01.27 11:45:00,signal,dir=BUY bar=2026.01.27 11:30:00 close=1.18715 hi=1.18675 lo=1.18503 entry=1.18710 sl=1.18503 tp=1.18917 vol=0.01
+374,2026.01.27 11:45:00,fill,dir=BUY vol=0.01 price=1.18710 sl=1.18503 tp=1.18917 deal=186
+375,2026.01.27 13:15:00,skip,one_a_day_cap_reached
+376,2026.01.27 13:30:00,skip,one_a_day_cap_reached
+377,2026.01.27 13:45:00,skip,one_a_day_cap_reached
+378,2026.01.27 14:00:00,skip,one_a_day_cap_reached
+379,2026.01.28 11:00:00,range,hi=1.20048 lo=1.19704 width_pips=34.40
+380,2026.01.28 13:30:00,signal,dir=SELL bar=2026.01.28 13:15:00 close=1.19688 hi=1.20048 lo=1.19704 entry=1.19688 sl=1.20048 tp=1.19328 vol=0.01
+381,2026.01.28 13:30:00,fill,dir=SELL vol=0.01 price=1.19688 sl=1.20048 tp=1.19328 deal=188
+382,2026.01.29 11:00:00,range,hi=1.19857 lo=1.19613 width_pips=24.40
+383,2026.01.29 12:00:00,signal,dir=SELL bar=2026.01.29 11:45:00 close=1.19557 hi=1.19857 lo=1.19613 entry=1.19557 sl=1.19857 tp=1.19257 vol=0.01
+384,2026.01.29 12:00:00,fill,dir=SELL vol=0.01 price=1.19557 sl=1.19857 tp=1.19257 deal=190
+385,2026.01.30 11:00:00,range,hi=1.19431 lo=1.19233 width_pips=19.80
+386,2026.01.30 11:30:00,signal,dir=SELL bar=2026.01.30 11:15:00 close=1.19189 hi=1.19431 lo=1.19233 entry=1.19185 sl=1.19431 tp=1.18939 vol=0.01
+387,2026.01.30 11:30:00,fill,dir=SELL vol=0.01 price=1.19185 sl=1.19431 tp=1.18939 deal=192
+388,2026.01.30 14:00:00,skip,one_a_day_cap_reached
+389,2026.02.02 11:00:00,range,hi=1.18665 lo=1.18435 width_pips=23.00
+390,2026.02.02 12:15:00,signal,dir=BUY bar=2026.02.02 12:00:00 close=1.18686 hi=1.18665 lo=1.18435 entry=1.18687 sl=1.18435 tp=1.18939 vol=0.01
+391,2026.02.02 12:15:00,fill,dir=BUY vol=0.01 price=1.18687 sl=1.18435 tp=1.18939 deal=194
+392,2026.02.03 11:00:00,range,hi=1.18194 lo=1.18037 width_pips=15.70
+393,2026.02.03 11:45:00,signal,dir=SELL bar=2026.02.03 11:30:00 close=1.18006 hi=1.18194 lo=1.18037 entry=1.18006 sl=1.18194 tp=1.17818 vol=0.01
+394,2026.02.03 11:45:00,fill,dir=SELL vol=0.01 price=1.18006 sl=1.18194 tp=1.17818 deal=196
+395,2026.02.04 11:00:00,range,hi=1.18382 lo=1.18237 width_pips=14.50
+396,2026.02.04 11:45:00,signal,dir=SELL bar=2026.02.04 11:30:00 close=1.18179 hi=1.18382 lo=1.18237 entry=1.18180 sl=1.18382 tp=1.17978 vol=0.01
+397,2026.02.04 11:45:00,fill,dir=SELL vol=0.01 price=1.18180 sl=1.18382 tp=1.17978 deal=198
+398,2026.02.05 11:00:00,range,hi=1.18088 lo=1.17956 width_pips=13.20
+399,2026.02.05 11:15:00,signal,dir=SELL bar=2026.02.05 11:00:00 close=1.17929 hi=1.18088 lo=1.17956 entry=1.17928 sl=1.18088 tp=1.17768 vol=0.01
+400,2026.02.05 11:15:00,fill,dir=SELL vol=0.01 price=1.17928 sl=1.18088 tp=1.17768 deal=200
+401,2026.02.06 11:00:00,range,hi=1.17958 lo=1.17857 width_pips=10.10
+402,2026.02.06 11:45:00,signal,dir=BUY bar=2026.02.06 11:30:00 close=1.17962 hi=1.17958 lo=1.17857 entry=1.17964 sl=1.17857 tp=1.18071 vol=0.01
+403,2026.02.06 11:45:00,fill,dir=BUY vol=0.01 price=1.17964 sl=1.17857 tp=1.18071 deal=202
+404,2026.02.09 11:00:00,range,hi=1.18647 lo=1.18516 width_pips=13.10
+405,2026.02.09 11:30:00,signal,dir=BUY bar=2026.02.09 11:15:00 close=1.18682 hi=1.18647 lo=1.18516 entry=1.18682 sl=1.18516 tp=1.18848 vol=0.01
+406,2026.02.09 11:30:00,fill,dir=BUY vol=0.01 price=1.18682 sl=1.18516 tp=1.18848 deal=204
+407,2026.02.10 11:00:00,range,hi=1.19152 lo=1.18997 width_pips=15.50
+408,2026.02.10 11:30:00,signal,dir=BUY bar=2026.02.10 11:15:00 close=1.19189 hi=1.19152 lo=1.18997 entry=1.19193 sl=1.18997 tp=1.19389 vol=0.01
+409,2026.02.10 11:30:00,fill,dir=BUY vol=0.01 price=1.19193 sl=1.18997 tp=1.19389 deal=206
+410,2026.02.11 11:00:00,range,hi=1.19201 lo=1.19130 width_pips=7.10
+411,2026.02.11 12:45:00,signal,dir=BUY bar=2026.02.11 12:30:00 close=1.19232 hi=1.19201 lo=1.19130 entry=1.19233 sl=1.19130 tp=1.19336 vol=0.01
+412,2026.02.11 12:45:00,fill,dir=BUY vol=0.01 price=1.19233 sl=1.19130 tp=1.19336 deal=208
+413,2026.02.11 13:45:00,skip,one_a_day_cap_reached
+414,2026.02.11 14:00:00,skip,one_a_day_cap_reached
+415,2026.02.12 11:00:00,range,hi=1.18809 lo=1.18713 width_pips=9.60
+416,2026.02.12 11:15:00,signal,dir=BUY bar=2026.02.12 11:00:00 close=1.18870 hi=1.18809 lo=1.18713 entry=1.18870 sl=1.18713 tp=1.19027 vol=0.01
+417,2026.02.12 11:15:00,fill,dir=BUY vol=0.01 price=1.18870 sl=1.18713 tp=1.19027 deal=210
+418,2026.02.13 11:00:00,range,hi=1.18628 lo=1.18560 width_pips=6.80
+419,2026.02.13 11:15:00,signal,dir=BUY bar=2026.02.13 11:00:00 close=1.18643 hi=1.18628 lo=1.18560 entry=1.18645 sl=1.18560 tp=1.18730 vol=0.01
+420,2026.02.13 11:15:00,fill,dir=BUY vol=0.01 price=1.18645 sl=1.18560 tp=1.18730 deal=212
+421,2026.02.13 12:45:00,skip,one_a_day_cap_reached
+422,2026.02.16 11:00:00,range,hi=1.18704 lo=1.18567 width_pips=13.70
+423,2026.02.17 11:00:00,range,hi=1.18441 lo=1.18300 width_pips=14.10
+424,2026.02.17 11:30:00,signal,dir=BUY bar=2026.02.17 11:15:00 close=1.18468 hi=1.18441 lo=1.18300 entry=1.18475 sl=1.18300 tp=1.18650 vol=0.01
+425,2026.02.17 11:30:00,fill,dir=BUY vol=0.01 price=1.18475 sl=1.18300 tp=1.18650 deal=214
+426,2026.02.18 11:00:00,range,hi=1.18381 lo=1.18285 width_pips=9.60
+427,2026.02.18 12:15:00,signal,dir=BUY bar=2026.02.18 12:00:00 close=1.18388 hi=1.18381 lo=1.18285 entry=1.18388 sl=1.18285 tp=1.18491 vol=0.01
+428,2026.02.18 12:15:00,fill,dir=BUY vol=0.01 price=1.18388 sl=1.18285 tp=1.18491 deal=216
+429,2026.02.19 11:00:00,range,hi=1.18051 lo=1.17973 width_pips=7.80
+430,2026.02.19 11:15:00,signal,dir=BUY bar=2026.02.19 11:00:00 close=1.18070 hi=1.18051 lo=1.17973 entry=1.18070 sl=1.17973 tp=1.18167 vol=0.01
+431,2026.02.19 11:15:00,fill,dir=BUY vol=0.01 price=1.18070 sl=1.17973 tp=1.18167 deal=218
+432,2026.02.19 12:15:00,skip,one_a_day_cap_reached
+433,2026.02.19 12:30:00,skip,one_a_day_cap_reached
+434,2026.02.19 12:45:00,skip,one_a_day_cap_reached
+435,2026.02.19 13:00:00,skip,one_a_day_cap_reached
+436,2026.02.19 13:15:00,skip,one_a_day_cap_reached
+437,2026.02.19 13:30:00,skip,one_a_day_cap_reached
+438,2026.02.19 13:45:00,skip,one_a_day_cap_reached
+439,2026.02.19 14:00:00,skip,one_a_day_cap_reached
+440,2026.02.20 11:00:00,range,hi=1.17635 lo=1.17434 width_pips=20.10
+441,2026.02.20 11:15:00,signal,dir=BUY bar=2026.02.20 11:00:00 close=1.17648 hi=1.17635 lo=1.17434 entry=1.17650 sl=1.17434 tp=1.17866 vol=0.01
+442,2026.02.20 11:15:00,fill,dir=BUY vol=0.01 price=1.17650 sl=1.17434 tp=1.17866 deal=220
+443,2026.02.23 11:00:00,range,hi=1.18250 lo=1.18070 width_pips=18.00
+444,2026.02.23 12:00:00,signal,dir=SELL bar=2026.02.23 11:45:00 close=1.18007 hi=1.18250 lo=1.18070 entry=1.18008 sl=1.18250 tp=1.17766 vol=0.01
+445,2026.02.23 12:00:00,fill,dir=SELL vol=0.01 price=1.18008 sl=1.18250 tp=1.17766 deal=222
+446,2026.02.24 11:00:00,range,hi=1.17898 lo=1.17733 width_pips=16.50
+447,2026.02.25 11:00:00,range,hi=1.17998 lo=1.17895 width_pips=10.30
+448,2026.02.25 11:15:00,signal,dir=SELL bar=2026.02.25 11:00:00 close=1.17886 hi=1.17998 lo=1.17895 entry=1.17884 sl=1.17998 tp=1.17770 vol=0.01
+449,2026.02.25 11:15:00,fill,dir=SELL vol=0.01 price=1.17884 sl=1.17998 tp=1.17770 deal=224
+450,2026.02.25 13:30:00,skip,one_a_day_cap_reached
+451,2026.02.25 13:45:00,skip,one_a_day_cap_reached
+452,2026.02.25 14:00:00,skip,one_a_day_cap_reached
+453,2026.02.26 11:00:00,range,hi=1.18158 lo=1.18022 width_pips=13.60
+454,2026.02.26 11:15:00,signal,dir=SELL bar=2026.02.26 11:00:00 close=1.18007 hi=1.18158 lo=1.18022 entry=1.18008 sl=1.18158 tp=1.17858 vol=0.01
+455,2026.02.26 11:15:00,fill,dir=SELL vol=0.01 price=1.18008 sl=1.18158 tp=1.17858 deal=226
+456,2026.02.27 11:00:00,range,hi=1.18217 lo=1.18081 width_pips=13.60
+457,2026.02.27 11:15:00,signal,dir=SELL bar=2026.02.27 11:00:00 close=1.18040 hi=1.18217 lo=1.18081 entry=1.18040 sl=1.18217 tp=1.17863 vol=0.01
+458,2026.02.27 11:15:00,fill,dir=SELL vol=0.01 price=1.18040 sl=1.18217 tp=1.17863 deal=228
+459,2026.03.02 11:00:00,range,hi=1.17238 lo=1.16982 width_pips=25.60
+460,2026.03.02 11:15:00,signal,dir=BUY bar=2026.03.02 11:00:00 close=1.17396 hi=1.17238 lo=1.16982 entry=1.17405 sl=1.16982 tp=1.17828 vol=0.01
+461,2026.03.02 11:15:00,fill,dir=BUY vol=0.01 price=1.17405 sl=1.16982 tp=1.17828 deal=230
+462,2026.03.03 11:00:00,range,hi=1.16462 lo=1.16177 width_pips=28.50
+463,2026.03.03 11:30:00,signal,dir=SELL bar=2026.03.03 11:15:00 close=1.16157 hi=1.16462 lo=1.16177 entry=1.16158 sl=1.16462 tp=1.15854 vol=0.01
+464,2026.03.03 11:30:00,fill,dir=SELL vol=0.01 price=1.16158 sl=1.16462 tp=1.15854 deal=232
+465,2026.03.03 13:15:00,skip,one_a_day_cap_reached
+466,2026.03.03 13:30:00,skip,one_a_day_cap_reached
+467,2026.03.03 13:45:00,skip,one_a_day_cap_reached
+468,2026.03.03 14:00:00,skip,one_a_day_cap_reached
+469,2026.03.04 11:00:00,range,hi=1.16168 lo=1.15950 width_pips=21.80
+470,2026.03.04 12:15:00,signal,dir=BUY bar=2026.03.04 12:00:00 close=1.16391 hi=1.16168 lo=1.15950 entry=1.16393 sl=1.15950 tp=1.16836 vol=0.01
+471,2026.03.04 12:15:00,fill,dir=BUY vol=0.01 price=1.16393 sl=1.15950 tp=1.16836 deal=234
+472,2026.03.04 19:00:20,exit,time_exit price=1.16377 deal=235
+473,2026.03.05 11:00:00,range,hi=1.16049 lo=1.15814 width_pips=23.50
+474,2026.03.05 11:15:00,signal,dir=BUY bar=2026.03.05 11:00:00 close=1.16408 hi=1.16049 lo=1.15814 entry=1.16410 sl=1.15814 tp=1.17006 vol=0.01
+475,2026.03.05 11:15:00,fill,dir=BUY vol=0.01 price=1.16410 sl=1.15814 tp=1.17006 deal=236
+476,2026.03.06 11:00:00,range,hi=1.16146 lo=1.16016 width_pips=13.00
+477,2026.03.06 11:15:00,signal,dir=SELL bar=2026.03.06 11:00:00 close=1.15909 hi=1.16146 lo=1.16016 entry=1.15910 sl=1.16146 tp=1.15674 vol=0.01
+478,2026.03.06 11:15:00,fill,dir=SELL vol=0.01 price=1.15910 sl=1.16146 tp=1.15674 deal=238
+479,2026.03.06 13:15:00,skip,one_a_day_cap_reached
+480,2026.03.06 13:30:00,skip,one_a_day_cap_reached
+481,2026.03.06 13:45:00,skip,one_a_day_cap_reached
+482,2026.03.06 14:00:00,skip,one_a_day_cap_reached
+483,2026.03.09 11:00:00,range,hi=1.15651 lo=1.15355 width_pips=29.60
+484,2026.03.09 11:30:00,signal,dir=SELL bar=2026.03.09 11:15:00 close=1.15221 hi=1.15651 lo=1.15355 entry=1.15222 sl=1.15651 tp=1.14793 vol=0.01
+485,2026.03.09 11:30:00,fill,dir=SELL vol=0.01 price=1.15222 sl=1.15651 tp=1.14793 deal=240
+486,2026.03.10 11:00:00,range,hi=1.16635 lo=1.16278 width_pips=35.70
+487,2026.03.11 11:00:00,range,hi=1.16453 lo=1.16133 width_pips=32.00
+488,2026.03.11 11:45:00,signal,dir=SELL bar=2026.03.11 11:30:00 close=1.16066 hi=1.16453 lo=1.16133 entry=1.16067 sl=1.16453 tp=1.15681 vol=0.01
+489,2026.03.11 11:45:00,fill,dir=SELL vol=0.01 price=1.16067 sl=1.16453 tp=1.15681 deal=242
+490,2026.03.12 11:00:00,range,hi=1.15527 lo=1.15415 width_pips=11.20
+491,2026.03.12 11:15:00,signal,dir=BUY bar=2026.03.12 11:00:00 close=1.15543 hi=1.15527 lo=1.15415 entry=1.15545 sl=1.15415 tp=1.15675 vol=0.01
+492,2026.03.12 11:15:00,fill,dir=BUY vol=0.01 price=1.15545 sl=1.15415 tp=1.15675 deal=244
+493,2026.03.13 11:00:00,range,hi=1.14835 lo=1.14540 width_pips=29.50
+494,2026.03.13 11:15:00,signal,dir=SELL bar=2026.03.13 11:00:00 close=1.14398 hi=1.14835 lo=1.14540 entry=1.14398 sl=1.14835 tp=1.13961 vol=0.01
+495,2026.03.13 11:15:00,fill,dir=SELL vol=0.01 price=1.14398 sl=1.14835 tp=1.13961 deal=246
+496,2026.03.16 11:00:00,range,hi=1.14348 lo=1.14142 width_pips=20.60
+497,2026.03.16 11:30:00,signal,dir=BUY bar=2026.03.16 11:15:00 close=1.14421 hi=1.14348 lo=1.14142 entry=1.14422 sl=1.14142 tp=1.14702 vol=0.01
+498,2026.03.16 11:30:00,fill,dir=BUY vol=0.01 price=1.14422 sl=1.14142 tp=1.14702 deal=248
+499,2026.03.16 13:30:00,skip,one_a_day_cap_reached
+500,2026.03.16 13:45:00,skip,one_a_day_cap_reached
+501,2026.03.16 14:00:00,skip,one_a_day_cap_reached
+502,2026.03.17 11:00:00,range,hi=1.15001 lo=1.14795 width_pips=20.60
+503,2026.03.17 11:45:00,signal,dir=BUY bar=2026.03.17 11:30:00 close=1.15104 hi=1.15001 lo=1.14795 entry=1.15102 sl=1.14795 tp=1.15409 vol=0.01
+504,2026.03.17 11:45:00,fill,dir=BUY vol=0.01 price=1.15102 sl=1.14795 tp=1.15409 deal=250
+505,2026.03.18 11:00:00,range,hi=1.15457 lo=1.15234 width_pips=22.30
+506,2026.03.18 11:30:00,signal,dir=SELL bar=2026.03.18 11:15:00 close=1.15207 hi=1.15457 lo=1.15234 entry=1.15207 sl=1.15457 tp=1.14957 vol=0.01
+507,2026.03.18 11:30:00,fill,dir=SELL vol=0.01 price=1.15207 sl=1.15457 tp=1.14957 deal=252
+508,2026.03.19 11:00:00,range,hi=1.14753 lo=1.14508 width_pips=24.50
+509,2026.03.19 11:15:00,signal,dir=SELL bar=2026.03.19 11:00:00 close=1.14477 hi=1.14753 lo=1.14508 entry=1.14480 sl=1.14753 tp=1.14207 vol=0.01
+510,2026.03.19 11:15:00,fill,dir=SELL vol=0.01 price=1.14480 sl=1.14753 tp=1.14207 deal=254
+511,2026.03.19 13:00:00,skip,one_a_day_cap_reached
+512,2026.03.20 11:00:00,range,hi=1.15751 lo=1.15557 width_pips=19.40
+513,2026.03.20 11:30:00,signal,dir=BUY bar=2026.03.20 11:15:00 close=1.15772 hi=1.15751 lo=1.15557 entry=1.15774 sl=1.15557 tp=1.15991 vol=0.01
+514,2026.03.20 11:30:00,fill,dir=BUY vol=0.01 price=1.15774 sl=1.15557 tp=1.15991 deal=256
+515,2026.03.20 13:00:00,skip,one_a_day_cap_reached
+516,2026.03.20 13:15:00,skip,one_a_day_cap_reached
+517,2026.03.20 13:30:00,skip,one_a_day_cap_reached
+518,2026.03.23 11:00:00,range,hi=1.15403 lo=1.15236 width_pips=16.70
+519,2026.03.23 11:30:00,signal,dir=BUY bar=2026.03.23 11:15:00 close=1.15432 hi=1.15403 lo=1.15236 entry=1.15433 sl=1.15236 tp=1.15630 vol=0.01
+520,2026.03.23 11:30:00,fill,dir=BUY vol=0.01 price=1.15433 sl=1.15236 tp=1.15630 deal=258
+521,2026.03.23 12:30:00,skip,one_a_day_cap_reached
+522,2026.03.23 12:45:00,skip,one_a_day_cap_reached
+523,2026.03.23 13:00:00,skip,one_a_day_cap_reached
+524,2026.03.23 13:15:00,skip,one_a_day_cap_reached
+525,2026.03.23 13:30:00,skip,one_a_day_cap_reached
+526,2026.03.23 13:45:00,skip,one_a_day_cap_reached
+527,2026.03.23 14:00:00,skip,one_a_day_cap_reached
+528,2026.03.24 11:00:00,range,hi=1.16178 lo=1.15892 width_pips=28.60
+529,2026.03.24 12:00:00,signal,dir=SELL bar=2026.03.24 11:45:00 close=1.15882 hi=1.16178 lo=1.15892 entry=1.15892 sl=1.16178 tp=1.15606 vol=0.01
+530,2026.03.24 12:00:00,fill,dir=SELL vol=0.01 price=1.15892 sl=1.16178 tp=1.15606 deal=260
+531,2026.03.24 19:00:20,exit,time_exit price=1.15778 deal=261
+532,2026.03.25 11:00:00,range,hi=1.16051 lo=1.15884 width_pips=16.70
+533,2026.03.25 11:15:00,signal,dir=BUY bar=2026.03.25 11:00:00 close=1.16063 hi=1.16051 lo=1.15884 entry=1.16064 sl=1.15884 tp=1.16244 vol=0.01
+534,2026.03.25 11:15:00,fill,dir=BUY vol=0.01 price=1.16064 sl=1.15884 tp=1.16244 deal=262
+535,2026.03.26 11:00:00,range,hi=1.15667 lo=1.15508 width_pips=15.90
+536,2026.03.27 11:00:00,range,hi=1.15350 lo=1.15169 width_pips=18.10
+537,2026.03.27 13:45:00,signal,dir=SELL bar=2026.03.27 13:30:00 close=1.15143 hi=1.15350 lo=1.15169 entry=1.15142 sl=1.15350 tp=1.14934 vol=0.01
+538,2026.03.27 13:45:00,fill,dir=SELL vol=0.01 price=1.15142 sl=1.15350 tp=1.14934 deal=264
+539,2026.03.30 11:00:00,range,hi=1.15128 lo=1.14939 width_pips=18.90
+540,2026.03.30 11:45:00,signal,dir=SELL bar=2026.03.30 11:30:00 close=1.14937 hi=1.15128 lo=1.14939 entry=1.14937 sl=1.15128 tp=1.14746 vol=0.01
+541,2026.03.30 11:45:00,fill,dir=SELL vol=0.01 price=1.14937 sl=1.15128 tp=1.14746 deal=266
+542,2026.03.31 11:00:00,range,hi=1.14741 lo=1.14629 width_pips=11.20
+543,2026.03.31 14:00:00,signal,dir=SELL bar=2026.03.31 13:45:00 close=1.14589 hi=1.14741 lo=1.14629 entry=1.14590 sl=1.14741 tp=1.14439 vol=0.01
+544,2026.03.31 14:00:00,fill,dir=SELL vol=0.01 price=1.14590 sl=1.14741 tp=1.14439 deal=268
+545,2026.04.01 11:00:00,range,hi=1.15986 lo=1.15770 width_pips=21.60
+546,2026.04.01 11:30:00,signal,dir=BUY bar=2026.04.01 11:15:00 close=1.15994 hi=1.15986 lo=1.15770 entry=1.15996 sl=1.15770 tp=1.16222 vol=0.01
+547,2026.04.01 11:30:00,fill,dir=BUY vol=0.01 price=1.15996 sl=1.15770 tp=1.16222 deal=270
+548,2026.04.02 11:00:00,range,hi=1.15378 lo=1.15187 width_pips=19.10
+549,2026.04.02 13:15:00,signal,dir=SELL bar=2026.04.02 13:00:00 close=1.15158 hi=1.15378 lo=1.15187 entry=1.15157 sl=1.15378 tp=1.14936 vol=0.01
+550,2026.04.02 13:15:00,fill,dir=SELL vol=0.01 price=1.15157 sl=1.15378 tp=1.14936 deal=272
+551,2026.04.03 11:00:00,range,hi=1.15463 lo=1.15391 width_pips=7.20
+552,2026.04.06 11:00:00,range,hi=1.15689 lo=1.15253 width_pips=43.60
+553,2026.04.07 11:00:00,range,hi=1.15460 lo=1.15367 width_pips=9.30
+554,2026.04.07 11:15:00,signal,dir=BUY bar=2026.04.07 11:00:00 close=1.15661 hi=1.15460 lo=1.15367 entry=1.15658 sl=1.15367 tp=1.15949 vol=0.01
+555,2026.04.07 11:15:00,fill,dir=BUY vol=0.01 price=1.15658 sl=1.15367 tp=1.15949 deal=274
+556,2026.04.07 19:00:20,exit,time_exit price=1.15707 deal=275
+557,2026.04.08 11:00:00,range,hi=1.17001 lo=1.16790 width_pips=21.10
+558,2026.04.08 11:45:00,signal,dir=SELL bar=2026.04.08 11:30:00 close=1.16775 hi=1.17001 lo=1.16790 entry=1.16775 sl=1.17001 tp=1.16549 vol=0.01
+559,2026.04.08 11:45:00,fill,dir=SELL vol=0.01 price=1.16775 sl=1.17001 tp=1.16549 deal=276
+560,2026.04.09 11:00:00,range,hi=1.16692 lo=1.16555 width_pips=13.70
+561,2026.04.09 12:00:00,signal,dir=BUY bar=2026.04.09 11:45:00 close=1.16720 hi=1.16692 lo=1.16555 entry=1.16721 sl=1.16555 tp=1.16887 vol=0.01
+562,2026.04.09 12:00:00,fill,dir=BUY vol=0.01 price=1.16721 sl=1.16555 tp=1.16887 deal=278
+563,2026.04.10 11:00:00,range,hi=1.16896 lo=1.16789 width_pips=10.70
+564,2026.04.10 12:30:00,signal,dir=BUY bar=2026.04.10 12:15:00 close=1.16972 hi=1.16896 lo=1.16789 entry=1.16972 sl=1.16789 tp=1.17155 vol=0.01
+565,2026.04.10 12:30:00,fill,dir=BUY vol=0.01 price=1.16972 sl=1.16789 tp=1.17155 deal=280
+566,2026.04.10 14:00:00,skip,one_a_day_cap_reached
+567,2026.04.13 11:00:00,range,hi=1.17001 lo=1.16856 width_pips=14.50
+568,2026.04.13 12:15:00,signal,dir=SELL bar=2026.04.13 12:00:00 close=1.16844 hi=1.17001 lo=1.16856 entry=1.16845 sl=1.17001 tp=1.16689 vol=0.01
+569,2026.04.13 12:15:00,fill,dir=SELL vol=0.01 price=1.16845 sl=1.17001 tp=1.16689 deal=282
+570,2026.04.14 11:00:00,range,hi=1.17968 lo=1.17774 width_pips=19.40
+571,2026.04.14 11:15:00,signal,dir=SELL bar=2026.04.14 11:00:00 close=1.17771 hi=1.17968 lo=1.17774 entry=1.17771 sl=1.17968 tp=1.17574 vol=0.01
+572,2026.04.14 11:15:00,fill,dir=SELL vol=0.01 price=1.17771 sl=1.17968 tp=1.17574 deal=284
+573,2026.04.14 13:15:00,skip,one_a_day_cap_reached
+574,2026.04.15 11:00:00,range,hi=1.17904 lo=1.17828 width_pips=7.60
+575,2026.04.15 11:30:00,signal,dir=BUY bar=2026.04.15 11:15:00 close=1.17919 hi=1.17904 lo=1.17828 entry=1.17920 sl=1.17828 tp=1.18012 vol=0.01
+576,2026.04.15 11:30:00,fill,dir=BUY vol=0.01 price=1.17920 sl=1.17828 tp=1.18012 deal=286
+577,2026.04.15 12:15:00,skip,one_a_day_cap_reached
+578,2026.04.15 12:45:00,skip,one_a_day_cap_reached
+579,2026.04.15 13:00:00,skip,one_a_day_cap_reached
+580,2026.04.15 13:30:00,skip,one_a_day_cap_reached
+581,2026.04.15 13:45:00,skip,one_a_day_cap_reached
+582,2026.04.15 14:00:00,skip,one_a_day_cap_reached
+583,2026.04.16 11:00:00,range,hi=1.18049 lo=1.17910 width_pips=13.90
+584,2026.04.16 11:15:00,signal,dir=SELL bar=2026.04.16 11:00:00 close=1.17844 hi=1.18049 lo=1.17910 entry=1.17846 sl=1.18049 tp=1.17643 vol=0.01
+585,2026.04.16 11:15:00,fill,dir=SELL vol=0.01 price=1.17846 sl=1.18049 tp=1.17643 deal=288
+586,2026.04.16 19:00:20,exit,time_exit price=1.17819 deal=289
+587,2026.04.17 11:00:00,range,hi=1.17831 lo=1.17749 width_pips=8.20
+588,2026.04.17 11:30:00,signal,dir=BUY bar=2026.04.17 11:15:00 close=1.17837 hi=1.17831 lo=1.17749 entry=1.17839 sl=1.17749 tp=1.17929 vol=0.01
+589,2026.04.17 11:30:00,fill,dir=BUY vol=0.01 price=1.17839 sl=1.17749 tp=1.17929 deal=290
+590,2026.04.17 12:00:00,skip,one_a_day_cap_reached
+591,2026.04.17 12:15:00,skip,one_a_day_cap_reached
+592,2026.04.17 12:30:00,skip,one_a_day_cap_reached
+593,2026.04.17 12:45:00,skip,one_a_day_cap_reached
+594,2026.04.17 13:00:00,skip,one_a_day_cap_reached
+595,2026.04.17 13:15:00,skip,one_a_day_cap_reached
+596,2026.04.17 13:30:00,skip,one_a_day_cap_reached
+597,2026.04.17 13:45:00,skip,one_a_day_cap_reached
+598,2026.04.17 14:00:00,skip,one_a_day_cap_reached
+599,2026.04.20 11:00:00,range,hi=1.17719 lo=1.17536 width_pips=18.30
+600,2026.04.21 11:00:00,range,hi=1.17769 lo=1.17634 width_pips=13.50
+601,2026.04.21 11:15:00,signal,dir=SELL bar=2026.04.21 11:00:00 close=1.17575 hi=1.17769 lo=1.17634 entry=1.17574 sl=1.17769 tp=1.17379 vol=0.01
+602,2026.04.21 11:15:00,fill,dir=SELL vol=0.01 price=1.17574 sl=1.17769 tp=1.17379 deal=292
+603,2026.04.21 19:00:20,exit,time_exit price=1.17516 deal=293
+604,2026.04.22 11:00:00,range,hi=1.17564 lo=1.17460 width_pips=10.40
+605,2026.04.22 11:15:00,signal,dir=BUY bar=2026.04.22 11:00:00 close=1.17570 hi=1.17564 lo=1.17460 entry=1.17571 sl=1.17460 tp=1.17682 vol=0.01
+606,2026.04.22 11:15:00,fill,dir=BUY vol=0.01 price=1.17571 sl=1.17460 tp=1.17682 deal=294
+607,2026.04.22 13:15:00,skip,one_a_day_cap_reached
+608,2026.04.23 11:00:00,range,hi=1.17120 lo=1.16952 width_pips=16.80
+609,2026.04.23 12:15:00,signal,dir=SELL bar=2026.04.23 12:00:00 close=1.16950 hi=1.17120 lo=1.16952 entry=1.16950 sl=1.17120 tp=1.16780 vol=0.01
+610,2026.04.23 12:15:00,fill,dir=SELL vol=0.01 price=1.16950 sl=1.17120 tp=1.16780 deal=296
+611,2026.04.24 11:00:00,range,hi=1.16938 lo=1.16761 width_pips=17.70
+612,2026.04.24 13:30:00,signal,dir=BUY bar=2026.04.24 13:15:00 close=1.16960 hi=1.16938 lo=1.16761 entry=1.16962 sl=1.16761 tp=1.17163 vol=0.01
+613,2026.04.24 13:30:00,fill,dir=BUY vol=0.01 price=1.16962 sl=1.16761 tp=1.17163 deal=298
+614,2026.04.27 11:00:00,range,hi=1.17451 lo=1.17290 width_pips=16.10
+615,2026.04.27 11:45:00,signal,dir=BUY bar=2026.04.27 11:30:00 close=1.17454 hi=1.17451 lo=1.17290 entry=1.17455 sl=1.17290 tp=1.17620 vol=0.01
+616,2026.04.27 11:45:00,fill,dir=BUY vol=0.01 price=1.17455 sl=1.17290 tp=1.17620 deal=300
+617,2026.04.27 19:00:20,exit,time_exit price=1.17300 deal=301
+618,2026.04.28 11:00:00,range,hi=1.17007 lo=1.16859 width_pips=14.80
+619,2026.04.28 11:30:00,signal,dir=BUY bar=2026.04.28 11:15:00 close=1.17066 hi=1.17007 lo=1.16859 entry=1.17063 sl=1.16859 tp=1.17267 vol=0.01
+620,2026.04.28 11:30:00,fill,dir=BUY vol=0.01 price=1.17063 sl=1.16859 tp=1.17267 deal=302
+621,2026.04.29 11:00:00,range,hi=1.17081 lo=1.16981 width_pips=10.00
+622,2026.04.29 11:15:00,signal,dir=SELL bar=2026.04.29 11:00:00 close=1.16952 hi=1.17081 lo=1.16981 entry=1.16954 sl=1.17081 tp=1.16827 vol=0.01
+623,2026.04.29 11:15:00,fill,dir=SELL vol=0.01 price=1.16954 sl=1.17081 tp=1.16827 deal=304
+624,2026.04.29 14:00:00,skip,one_a_day_cap_reached
+625,2026.04.30 11:00:00,range,hi=1.16838 lo=1.16699 width_pips=13.90
+626,2026.04.30 11:15:00,signal,dir=BUY bar=2026.04.30 11:00:00 close=1.16902 hi=1.16838 lo=1.16699 entry=1.16904 sl=1.16699 tp=1.17109 vol=0.01
+627,2026.04.30 11:15:00,fill,dir=BUY vol=0.01 price=1.16904 sl=1.16699 tp=1.17109 deal=306
+628,2026.04.30 13:45:00,skip,one_a_day_cap_reached
+629,2026.04.30 14:00:00,skip,one_a_day_cap_reached
+630,2026.05.01 11:00:00,range,hi=1.17420 lo=1.17312 width_pips=10.80
+631,2026.05.01 11:30:00,signal,dir=BUY bar=2026.05.01 11:15:00 close=1.17444 hi=1.17420 lo=1.17312 entry=1.17446 sl=1.17312 tp=1.17580 vol=0.01
+632,2026.05.01 11:30:00,fill,dir=BUY vol=0.01 price=1.17446 sl=1.17312 tp=1.17580 deal=308
+633,2026.05.01 13:30:00,skip,one_a_day_cap_reached
+634,2026.05.01 14:00:00,skip,one_a_day_cap_reached
+635,2026.05.04 11:00:00,range,hi=1.17291 lo=1.17152 width_pips=13.90
+636,2026.05.04 13:15:00,signal,dir=SELL bar=2026.05.04 13:00:00 close=1.16965 hi=1.17291 lo=1.17152 entry=1.16965 sl=1.17291 tp=1.16639 vol=0.01
+637,2026.05.04 13:15:00,fill,dir=SELL vol=0.01 price=1.16965 sl=1.17291 tp=1.16639 deal=310
+638,2026.05.04 19:00:20,exit,time_exit price=1.16968 deal=311
+639,2026.05.05 11:00:00,range,hi=1.16967 lo=1.16857 width_pips=11.00
+640,2026.05.06 11:00:00,range,hi=1.17383 lo=1.17244 width_pips=13.90
+641,2026.05.06 11:45:00,signal,dir=BUY bar=2026.05.06 11:30:00 close=1.17479 hi=1.17383 lo=1.17244 entry=1.17479 sl=1.17244 tp=1.17714 vol=0.01
+642,2026.05.06 11:45:00,fill,dir=BUY vol=0.01 price=1.17479 sl=1.17244 tp=1.17714 deal=312
+643,2026.05.06 12:45:00,skip,one_a_day_cap_reached
+644,2026.05.06 13:00:00,skip,one_a_day_cap_reached
+645,2026.05.06 13:15:00,skip,one_a_day_cap_reached
+646,2026.05.06 13:30:00,skip,one_a_day_cap_reached
+647,2026.05.06 13:45:00,skip,one_a_day_cap_reached
+648,2026.05.06 14:00:00,skip,one_a_day_cap_reached
+649,2026.05.07 11:00:00,range,hi=1.17686 lo=1.17478 width_pips=20.80
+650,2026.05.07 11:30:00,signal,dir=BUY bar=2026.05.07 11:15:00 close=1.17698 hi=1.17686 lo=1.17478 entry=1.17699 sl=1.17478 tp=1.17920 vol=0.01
+651,2026.05.07 11:30:00,fill,dir=BUY vol=0.01 price=1.17699 sl=1.17478 tp=1.17920 deal=314
+652,2026.05.07 19:00:20,exit,time_exit price=1.17638 deal=315
+653,2026.05.08 11:00:00,range,hi=1.17480 lo=1.17418 width_pips=6.20
+654,2026.05.08 11:30:00,signal,dir=BUY bar=2026.05.08 11:15:00 close=1.17553 hi=1.17480 lo=1.17418 entry=1.17552 sl=1.17418 tp=1.17686 vol=0.01
+655,2026.05.08 11:30:00,fill,dir=BUY vol=0.01 price=1.17552 sl=1.17418 tp=1.17686 deal=316
+656,2026.05.08 12:15:00,skip,one_a_day_cap_reached
+657,2026.05.08 12:30:00,skip,one_a_day_cap_reached
+658,2026.05.08 12:45:00,skip,one_a_day_cap_reached
+659,2026.05.08 13:00:00,skip,one_a_day_cap_reached
+660,2026.05.08 13:15:00,skip,one_a_day_cap_reached
+661,2026.05.08 13:30:00,skip,one_a_day_cap_reached
+662,2026.05.08 13:45:00,skip,one_a_day_cap_reached
+663,2026.05.08 14:00:00,skip,one_a_day_cap_reached
+664,2026.05.11 11:00:00,range,hi=1.17747 lo=1.17645 width_pips=10.20
+665,2026.05.11 11:15:00,signal,dir=BUY bar=2026.05.11 11:00:00 close=1.17759 hi=1.17747 lo=1.17645 entry=1.17760 sl=1.17645 tp=1.17875 vol=0.01
+666,2026.05.11 11:15:00,fill,dir=BUY vol=0.01 price=1.17760 sl=1.17645 tp=1.17875 deal=318
+667,2026.05.12 11:00:00,range,hi=1.17534 lo=1.17436 width_pips=9.80
+668,2026.05.12 11:45:00,signal,dir=SELL bar=2026.05.12 11:30:00 close=1.17421 hi=1.17534 lo=1.17436 entry=1.17421 sl=1.17534 tp=1.17308 vol=0.01
+669,2026.05.12 11:45:00,fill,dir=SELL vol=0.01 price=1.17421 sl=1.17534 tp=1.17308 deal=320
+670,2026.05.13 11:00:00,range,hi=1.17233 lo=1.17070 width_pips=16.30
+671,2026.05.13 11:45:00,signal,dir=SELL bar=2026.05.13 11:30:00 close=1.17064 hi=1.17233 lo=1.17070 entry=1.17064 sl=1.17233 tp=1.16895 vol=0.01
+672,2026.05.13 11:45:00,fill,dir=SELL vol=0.01 price=1.17064 sl=1.17233 tp=1.16895 deal=322
+673,2026.05.13 19:00:20,exit,time_exit price=1.17111 deal=323
+674,2026.05.14 11:00:00,range,hi=1.17186 lo=1.17060 width_pips=12.60
+675,2026.05.15 11:00:00,range,hi=1.16490 lo=1.16319 width_pips=17.10
+676,2026.05.15 12:15:00,signal,dir=SELL bar=2026.05.15 12:00:00 close=1.16200 hi=1.16490 lo=1.16319 entry=1.16203 sl=1.16490 tp=1.15916 vol=0.01
+677,2026.05.15 12:15:00,fill,dir=SELL vol=0.01 price=1.16203 sl=1.16490 tp=1.15916 deal=324
+678,2026.05.15 14:00:00,skip,one_a_day_cap_reached
+679,2026.05.18 11:00:00,range,hi=1.16403 lo=1.16314 width_pips=8.90
+680,2026.05.18 12:00:00,signal,dir=BUY bar=2026.05.18 11:45:00 close=1.16415 hi=1.16403 lo=1.16314 entry=1.16414 sl=1.16314 tp=1.16514 vol=0.01
+681,2026.05.18 12:00:00,fill,dir=BUY vol=0.01 price=1.16414 sl=1.16314 tp=1.16514 deal=326
+682,2026.05.18 14:00:00,skip,one_a_day_cap_reached
+683,2026.05.19 11:00:00,range,hi=1.16375 lo=1.16299 width_pips=7.60
+684,2026.05.19 11:15:00,signal,dir=SELL bar=2026.05.19 11:00:00 close=1.16281 hi=1.16375 lo=1.16299 entry=1.16281 sl=1.16375 tp=1.16187 vol=0.01
+685,2026.05.19 11:15:00,fill,dir=SELL vol=0.01 price=1.16281 sl=1.16375 tp=1.16187 deal=328
+686,2026.05.19 12:15:00,skip,one_a_day_cap_reached
+687,2026.05.19 12:30:00,skip,one_a_day_cap_reached
+688,2026.05.19 12:45:00,skip,one_a_day_cap_reached
+689,2026.05.19 13:00:00,skip,one_a_day_cap_reached
+690,2026.05.19 13:15:00,skip,one_a_day_cap_reached
+691,2026.05.19 13:30:00,skip,one_a_day_cap_reached
+692,2026.05.19 13:45:00,skip,one_a_day_cap_reached
+693,2026.05.19 14:00:00,skip,one_a_day_cap_reached
+694,2026.05.20 11:00:00,range,hi=1.16015 lo=1.15918 width_pips=9.70
+695,2026.05.20 11:15:00,signal,dir=SELL bar=2026.05.20 11:00:00 close=1.15877 hi=1.16015 lo=1.15918 entry=1.15876 sl=1.16015 tp=1.15737 vol=0.01
+696,2026.05.20 11:15:00,fill,dir=SELL vol=0.01 price=1.15876 sl=1.16015 tp=1.15737 deal=330
+697,2026.05.21 11:00:00,range,hi=1.16209 lo=1.15938 width_pips=27.10
+698,2026.05.21 11:15:00,signal,dir=BUY bar=2026.05.21 11:00:00 close=1.16259 hi=1.16209 lo=1.15938 entry=1.16261 sl=1.15938 tp=1.16584 vol=0.01
+699,2026.05.21 11:15:00,fill,dir=BUY vol=0.01 price=1.16261 sl=1.15938 tp=1.16584 deal=332
+700,2026.05.22 11:00:00,range,hi=1.16098 lo=1.16013 width_pips=8.50
+701,2026.05.22 11:30:00,signal,dir=BUY bar=2026.05.22 11:15:00 close=1.16113 hi=1.16098 lo=1.16013 entry=1.16115 sl=1.16013 tp=1.16217 vol=0.01
+702,2026.05.22 11:30:00,fill,dir=BUY vol=0.01 price=1.16115 sl=1.16013 tp=1.16217 deal=334
+703,2026.05.22 12:15:00,skip,one_a_day_cap_reached
+704,2026.05.22 12:30:00,skip,one_a_day_cap_reached
+705,2026.05.22 13:30:00,skip,one_a_day_cap_reached
+706,2026.05.22 13:45:00,skip,one_a_day_cap_reached
+707,2026.05.22 14:00:00,skip,one_a_day_cap_reached
+708,2026.05.25 11:00:00,range,hi=1.16420 lo=1.16296 width_pips=12.40
+709,2026.05.25 11:45:00,signal,dir=BUY bar=2026.05.25 11:30:00 close=1.16422 hi=1.16420 lo=1.16296 entry=1.16424 sl=1.16296 tp=1.16552 vol=0.01
+710,2026.05.25 11:45:00,fill,dir=BUY vol=0.01 price=1.16424 sl=1.16296 tp=1.16552 deal=336
+711,2026.05.25 19:00:20,exit,time_exit price=1.16424 deal=337
+712,2026.05.26 11:00:00,range,hi=1.16403 lo=1.16240 width_pips=16.30
+713,2026.05.26 12:30:00,signal,dir=BUY bar=2026.05.26 12:15:00 close=1.16418 hi=1.16403 lo=1.16240 entry=1.16419 sl=1.16240 tp=1.16598 vol=0.01
+714,2026.05.26 12:30:00,fill,dir=BUY vol=0.01 price=1.16419 sl=1.16240 tp=1.16598 deal=338
+715,2026.05.27 11:00:00,range,hi=1.16488 lo=1.16402 width_pips=8.60
+716,2026.05.27 13:30:00,signal,dir=SELL bar=2026.05.27 13:15:00 close=1.16375 hi=1.16488 lo=1.16402 entry=1.16375 sl=1.16488 tp=1.16262 vol=0.01
+717,2026.05.27 13:30:00,fill,dir=SELL vol=0.01 price=1.16375 sl=1.16488 tp=1.16262 deal=340
+718,2026.05.28 11:00:00,range,hi=1.16177 lo=1.16100 width_pips=7.70
+719,2026.05.28 11:30:00,signal,dir=SELL bar=2026.05.28 11:15:00 close=1.16095 hi=1.16177 lo=1.16100 entry=1.16096 sl=1.16177 tp=1.16015 vol=0.01
+720,2026.05.28 11:30:00,fill,dir=SELL vol=0.01 price=1.16096 sl=1.16177 tp=1.16015 deal=342
+721,2026.05.28 12:15:00,skip,one_a_day_cap_reached
+722,2026.05.28 12:30:00,skip,one_a_day_cap_reached
+723,2026.05.28 13:45:00,skip,one_a_day_cap_reached
+724,2026.05.28 14:00:00,skip,one_a_day_cap_reached
+725,2026.05.29 11:00:00,range,hi=1.16534 lo=1.16378 width_pips=15.60
+726,2026.05.29 11:15:00,signal,dir=SELL bar=2026.05.29 11:00:00 close=1.16349 hi=1.16534 lo=1.16378 entry=1.16350 sl=1.16534 tp=1.16166 vol=0.01
+727,2026.05.29 11:15:00,fill,dir=SELL vol=0.01 price=1.16350 sl=1.16534 tp=1.16166 deal=344
+728,2026.06.01 11:00:00,range,hi=1.16648 lo=1.16517 width_pips=13.10
+729,2026.06.01 12:30:00,signal,dir=SELL bar=2026.06.01 12:15:00 close=1.16497 hi=1.16648 lo=1.16517 entry=1.16498 sl=1.16648 tp=1.16348 vol=0.01
+730,2026.06.01 12:30:00,fill,dir=SELL vol=0.01 price=1.16498 sl=1.16648 tp=1.16348 deal=346
+731,2026.06.02 11:00:00,range,hi=1.16508 lo=1.16448 width_pips=6.00
+732,2026.06.02 12:00:00,signal,dir=SELL bar=2026.06.02 11:45:00 close=1.16424 hi=1.16508 lo=1.16448 entry=1.16424 sl=1.16508 tp=1.16340 vol=0.01
+733,2026.06.02 12:00:00,fill,dir=SELL vol=0.01 price=1.16424 sl=1.16508 tp=1.16340 deal=348
+734,2026.06.03 11:00:00,range,hi=1.16243 lo=1.16128 width_pips=11.50
+735,2026.06.03 11:15:00,signal,dir=SELL bar=2026.06.03 11:00:00 close=1.16121 hi=1.16243 lo=1.16128 entry=1.16121 sl=1.16243 tp=1.15999 vol=0.01
+736,2026.06.03 11:15:00,fill,dir=SELL vol=0.01 price=1.16121 sl=1.16243 tp=1.15999 deal=350
+737,2026.06.04 11:00:00,range,hi=1.16126 lo=1.15985 width_pips=14.10
+738,2026.06.04 12:00:00,signal,dir=BUY bar=2026.06.04 11:45:00 close=1.16131 hi=1.16126 lo=1.15985 entry=1.16131 sl=1.15985 tp=1.16277 vol=0.01
+739,2026.06.04 12:00:00,fill,dir=BUY vol=0.01 price=1.16131 sl=1.15985 tp=1.16277 deal=352
+740,2026.06.04 13:00:00,skip,one_a_day_cap_reached
+741,2026.06.04 13:15:00,skip,one_a_day_cap_reached
+742,2026.06.04 13:30:00,skip,one_a_day_cap_reached
+743,2026.06.04 13:45:00,skip,one_a_day_cap_reached
+744,2026.06.04 14:00:00,skip,one_a_day_cap_reached
+745,2026.06.05 11:00:00,range,hi=1.16371 lo=1.16215 width_pips=15.60
+746,2026.06.05 11:15:00,signal,dir=BUY bar=2026.06.05 11:00:00 close=1.16393 hi=1.16371 lo=1.16215 entry=1.16393 sl=1.16215 tp=1.16571 vol=0.01
+747,2026.06.05 11:15:00,fill,dir=BUY vol=0.01 price=1.16393 sl=1.16215 tp=1.16571 deal=354
+748,2026.06.08 11:00:00,range,hi=1.15269 lo=1.15142 width_pips=12.70
+749,2026.06.08 12:00:00,signal,dir=SELL bar=2026.06.08 11:45:00 close=1.15082 hi=1.15269 lo=1.15142 entry=1.15083 sl=1.15269 tp=1.14897 vol=0.01
+750,2026.06.08 12:00:00,fill,dir=SELL vol=0.01 price=1.15083 sl=1.15269 tp=1.14897 deal=356
+751,2026.06.09 11:00:00,range,hi=1.15469 lo=1.15374 width_pips=9.50
+752,2026.06.09 12:00:00,signal,dir=BUY bar=2026.06.09 11:45:00 close=1.15506 hi=1.15469 lo=1.15374 entry=1.15509 sl=1.15374 tp=1.15644 vol=0.01
+753,2026.06.09 12:00:00,fill,dir=BUY vol=0.01 price=1.15509 sl=1.15374 tp=1.15644 deal=358
+754,2026.06.09 13:30:00,skip,one_a_day_cap_reached
+755,2026.06.09 13:45:00,skip,one_a_day_cap_reached
+756,2026.06.09 14:00:00,skip,one_a_day_cap_reached
+757,2026.06.10 11:00:00,range,hi=1.15586 lo=1.15466 width_pips=12.00
+758,2026.06.11 11:00:00,range,hi=1.15555 lo=1.15413 width_pips=14.20
+759,2026.06.11 11:30:00,signal,dir=SELL bar=2026.06.11 11:15:00 close=1.15387 hi=1.15555 lo=1.15413 entry=1.15386 sl=1.15555 tp=1.15217 vol=0.01
+760,2026.06.11 11:30:00,fill,dir=SELL vol=0.01 price=1.15386 sl=1.15555 tp=1.15217 deal=360
+761,2026.06.12 11:00:00,range,hi=1.15733 lo=1.15571 width_pips=16.20
+762,2026.06.12 11:30:00,signal,dir=BUY bar=2026.06.12 11:15:00 close=1.15761 hi=1.15733 lo=1.15571 entry=1.15763 sl=1.15571 tp=1.15955 vol=0.01
+763,2026.06.12 11:30:00,fill,dir=BUY vol=0.01 price=1.15763 sl=1.15571 tp=1.15955 deal=362
+764,2026.06.12 19:00:20,exit,time_exit price=1.15724 deal=363
+765,2026.06.15 11:00:00,range,hi=1.16105 lo=1.16012 width_pips=9.30
+766,2026.06.15 11:45:00,signal,dir=SELL bar=2026.06.15 11:30:00 close=1.16010 hi=1.16105 lo=1.16012 entry=1.16012 sl=1.16105 tp=1.15919 vol=0.01
+767,2026.06.15 11:45:00,fill,dir=SELL vol=0.01 price=1.16012 sl=1.16105 tp=1.15919 deal=364
+768,2026.06.15 13:45:00,skip,one_a_day_cap_reached
+769,2026.06.16 11:00:00,range,hi=1.15956 lo=1.15852 width_pips=10.40
+770,2026.06.16 11:15:00,signal,dir=BUY bar=2026.06.16 11:00:00 close=1.15987 hi=1.15956 lo=1.15852 entry=1.15987 sl=1.15852 tp=1.16122 vol=0.01
+771,2026.06.16 11:15:00,fill,dir=BUY vol=0.01 price=1.15987 sl=1.15852 tp=1.16122 deal=366
+772,2026.06.16 13:30:00,skip,one_a_day_cap_reached
+773,2026.06.16 13:45:00,skip,one_a_day_cap_reached
+774,2026.06.16 14:00:00,skip,one_a_day_cap_reached
+775,2026.06.17 11:00:00,range,hi=1.16148 lo=1.16045 width_pips=10.30
+776,2026.06.17 11:30:00,signal,dir=SELL bar=2026.06.17 11:15:00 close=1.16021 hi=1.16148 lo=1.16045 entry=1.16020 sl=1.16148 tp=1.15892 vol=0.01
+777,2026.06.17 11:30:00,fill,dir=SELL vol=0.01 price=1.16020 sl=1.16148 tp=1.15892 deal=368
+778,2026.06.18 11:00:00,range,hi=1.15229 lo=1.15065 width_pips=16.40
+779,2026.06.18 11:15:00,signal,dir=SELL bar=2026.06.18 11:00:00 close=1.15053 hi=1.15229 lo=1.15065 entry=1.15054 sl=1.15229 tp=1.14879 vol=0.01
+780,2026.06.18 11:15:00,fill,dir=SELL vol=0.01 price=1.15054 sl=1.15229 tp=1.14879 deal=370
+781,2026.06.18 12:00:00,skip,one_a_day_cap_reached
+782,2026.06.18 12:15:00,skip,one_a_day_cap_reached
+783,2026.06.18 12:30:00,skip,one_a_day_cap_reached
+784,2026.06.18 12:45:00,skip,one_a_day_cap_reached
+785,2026.06.18 13:00:00,skip,one_a_day_cap_reached
+786,2026.06.18 13:15:00,skip,one_a_day_cap_reached
+787,2026.06.18 13:30:00,skip,one_a_day_cap_reached
+788,2026.06.18 13:45:00,skip,one_a_day_cap_reached
+789,2026.06.18 14:00:00,skip,one_a_day_cap_reached
+790,2026.06.19 11:00:00,range,hi=1.14492 lo=1.14417 width_pips=7.50
+791,2026.06.19 11:15:00,signal,dir=BUY bar=2026.06.19 11:00:00 close=1.14497 hi=1.14492 lo=1.14417 entry=1.14499 sl=1.14417 tp=1.14581 vol=0.01
+792,2026.06.19 11:15:00,fill,dir=BUY vol=0.01 price=1.14499 sl=1.14417 tp=1.14581 deal=372
+793,2026.06.19 11:30:00,skip,one_a_day_cap_reached
+794,2026.06.19 11:45:00,skip,one_a_day_cap_reached
+795,2026.06.19 12:00:00,skip,one_a_day_cap_reached
+796,2026.06.19 12:15:00,skip,one_a_day_cap_reached
+797,2026.06.19 12:30:00,skip,one_a_day_cap_reached
+798,2026.06.19 12:45:00,skip,one_a_day_cap_reached
+799,2026.06.19 13:00:00,skip,one_a_day_cap_reached
+800,2026.06.19 13:15:00,skip,one_a_day_cap_reached
+801,2026.06.19 13:30:00,skip,one_a_day_cap_reached
+802,2026.06.19 13:45:00,skip,one_a_day_cap_reached
+803,2026.06.19 14:00:00,skip,one_a_day_cap_reached
+804,2026.06.22 11:00:00,range,hi=1.14627 lo=1.14442 width_pips=18.50
+805,2026.06.22 11:15:00,signal,dir=SELL bar=2026.06.22 11:00:00 close=1.14434 hi=1.14627 lo=1.14442 entry=1.14432 sl=1.14627 tp=1.14237 vol=0.01
+806,2026.06.22 11:15:00,fill,dir=SELL vol=0.01 price=1.14432 sl=1.14627 tp=1.14237 deal=374
+807,2026.06.23 11:00:00,range,hi=1.14391 lo=1.14095 width_pips=29.60
+808,2026.06.23 11:30:00,signal,dir=SELL bar=2026.06.23 11:15:00 close=1.14076 hi=1.14391 lo=1.14095 entry=1.14075 sl=1.14391 tp=1.13759 vol=0.01
+809,2026.06.23 11:30:00,fill,dir=SELL vol=0.01 price=1.14075 sl=1.14391 tp=1.13759 deal=376
+810,2026.06.24 11:00:00,range,hi=1.13609 lo=1.13514 width_pips=9.50
+811,2026.06.24 11:15:00,signal,dir=SELL bar=2026.06.24 11:00:00 close=1.13397 hi=1.13609 lo=1.13514 entry=1.13396 sl=1.13609 tp=1.13183 vol=0.01
+812,2026.06.24 11:15:00,fill,dir=SELL vol=0.01 price=1.13396 sl=1.13609 tp=1.13183 deal=378
+813,2026.06.25 11:00:00,range,hi=1.13604 lo=1.13446 width_pips=15.80
+814,2026.06.25 11:15:00,signal,dir=BUY bar=2026.06.25 11:00:00 close=1.13613 hi=1.13604 lo=1.13446 entry=1.13616 sl=1.13446 tp=1.13786 vol=0.01
+815,2026.06.25 11:15:00,fill,dir=BUY vol=0.01 price=1.13616 sl=1.13446 tp=1.13786 deal=380
+816,2026.06.26 11:00:00,range,hi=1.13887 lo=1.13730 width_pips=15.70
+817,2026.06.26 11:15:00,signal,dir=BUY bar=2026.06.26 11:00:00 close=1.13977 hi=1.13887 lo=1.13730 entry=1.13979 sl=1.13730 tp=1.14228 vol=0.01
+818,2026.06.26 11:15:00,fill,dir=BUY vol=0.01 price=1.13979 sl=1.13730 tp=1.14228 deal=382
+819,2026.06.29 11:00:00,range,hi=1.14132 lo=1.14000 width_pips=13.20
+820,2026.06.29 11:45:00,signal,dir=SELL bar=2026.06.29 11:30:00 close=1.13988 hi=1.14132 lo=1.14000 entry=1.13989 sl=1.14132 tp=1.13846 vol=0.01
+821,2026.06.29 11:45:00,fill,dir=SELL vol=0.01 price=1.13989 sl=1.14132 tp=1.13846 deal=384
+822,2026.06.30 11:00:00,range,hi=1.14094 lo=1.13970 width_pips=12.40
+823,2026.06.30 11:15:00,signal,dir=SELL bar=2026.06.30 11:00:00 close=1.13899 hi=1.14094 lo=1.13970 entry=1.13898 sl=1.14094 tp=1.13702 vol=0.01
+824,2026.06.30 11:15:00,fill,dir=SELL vol=0.01 price=1.13898 sl=1.14094 tp=1.13702 deal=386
+825,2026.07.01 11:00:00,range,hi=1.14043 lo=1.13930 width_pips=11.30
+826,2026.07.01 12:30:00,signal,dir=SELL bar=2026.07.01 12:15:00 close=1.13924 hi=1.14043 lo=1.13930 entry=1.13920 sl=1.14043 tp=1.13797 vol=0.01
+827,2026.07.01 12:30:00,fill,dir=SELL vol=0.01 price=1.13920 sl=1.14043 tp=1.13797 deal=388
+828,2026.07.02 11:00:00,range,hi=1.14093 lo=1.13905 width_pips=18.80
+829,2026.07.02 11:15:00,signal,dir=BUY bar=2026.07.02 11:00:00 close=1.14170 hi=1.14093 lo=1.13905 entry=1.14172 sl=1.13905 tp=1.14439 vol=0.01
+830,2026.07.02 11:15:00,fill,dir=BUY vol=0.01 price=1.14172 sl=1.13905 tp=1.14439 deal=390
+831,2026.07.03 11:00:00,range,hi=1.14580 lo=1.14474 width_pips=10.60
+832,2026.07.03 12:45:00,signal,dir=SELL bar=2026.07.03 12:30:00 close=1.14470 hi=1.14580 lo=1.14474 entry=1.14470 sl=1.14580 tp=1.14360 vol=0.01
+833,2026.07.03 12:45:00,fill,dir=SELL vol=0.01 price=1.14470 sl=1.14580 tp=1.14360 deal=392
+834,2026.07.06 11:00:00,range,hi=1.14283 lo=1.14166 width_pips=11.70
+835,2026.07.06 11:45:00,signal,dir=SELL bar=2026.07.06 11:30:00 close=1.14165 hi=1.14283 lo=1.14166 entry=1.14166 sl=1.14283 tp=1.14049 vol=0.01
+836,2026.07.06 11:45:00,fill,dir=SELL vol=0.01 price=1.14166 sl=1.14283 tp=1.14049 deal=394
+837,2026.07.06 19:00:20,exit,time_exit price=1.14250 deal=395
+838,2026.07.07 11:00:00,range,hi=1.14321 lo=1.14248 width_pips=7.30
+839,2026.07.07 11:30:00,signal,dir=BUY bar=2026.07.07 11:15:00 close=1.14325 hi=1.14321 lo=1.14248 entry=1.14326 sl=1.14248 tp=1.14404 vol=0.01
+840,2026.07.07 11:30:00,fill,dir=BUY vol=0.01 price=1.14326 sl=1.14248 tp=1.14404 deal=396
+841,2026.07.07 14:00:00,skip,one_a_day_cap_reached
+842,2026.07.08 11:00:00,range,hi=1.14314 lo=1.14169 width_pips=14.50
+843,2026.07.08 11:30:00,signal,dir=SELL bar=2026.07.08 11:15:00 close=1.14141 hi=1.14314 lo=1.14169 entry=1.14140 sl=1.14314 tp=1.13966 vol=0.01
+844,2026.07.08 11:30:00,fill,dir=SELL vol=0.01 price=1.14140 sl=1.14314 tp=1.13966 deal=398
+845,2026.07.08 12:15:00,skip,one_a_day_cap_reached
+846,2026.07.08 12:30:00,skip,one_a_day_cap_reached
+847,2026.07.08 12:45:00,skip,one_a_day_cap_reached
+848,2026.07.08 13:00:00,skip,one_a_day_cap_reached
+849,2026.07.08 13:15:00,skip,one_a_day_cap_reached
+850,2026.07.08 13:30:00,skip,one_a_day_cap_reached
+851,2026.07.08 13:45:00,skip,one_a_day_cap_reached
+852,2026.07.08 14:00:00,skip,one_a_day_cap_reached
+853,2026.07.09 11:00:00,range,hi=1.14422 lo=1.14325 width_pips=9.70
+854,2026.07.09 11:45:00,signal,dir=SELL bar=2026.07.09 11:30:00 close=1.14321 hi=1.14422 lo=1.14325 entry=1.14322 sl=1.14422 tp=1.14222 vol=0.01
+855,2026.07.09 11:45:00,fill,dir=SELL vol=0.01 price=1.14322 sl=1.14422 tp=1.14222 deal=400
+856,2026.07.09 14:00:00,skip,one_a_day_cap_reached
+857,2026.07.10 11:00:00,range,hi=1.14425 lo=1.14364 width_pips=6.10
+858,2026.07.10 11:30:00,signal,dir=SELL bar=2026.07.10 11:15:00 close=1.14339 hi=1.14425 lo=1.14364 entry=1.14341 sl=1.14425 tp=1.14257 vol=0.01
+859,2026.07.10 11:30:00,fill,dir=SELL vol=0.01 price=1.14341 sl=1.14425 tp=1.14257 deal=402
+860,2026.07.13 11:00:00,range,hi=1.14262 lo=1.14007 width_pips=25.50
+861,2026.07.13 11:15:00,signal,dir=BUY bar=2026.07.13 11:00:00 close=1.14398 hi=1.14262 lo=1.14007 entry=1.14399 sl=1.14007 tp=1.14791 vol=0.01
+862,2026.07.13 11:15:00,fill,dir=BUY vol=0.01 price=1.14399 sl=1.14007 tp=1.14791 deal=404
+863,2026.07.14 11:00:00,range,hi=1.13974 lo=1.13841 width_pips=13.30
+864,2026.07.14 11:30:00,signal,dir=BUY bar=2026.07.14 11:15:00 close=1.13999 hi=1.13974 lo=1.13841 entry=1.14003 sl=1.13841 tp=1.14165 vol=0.01
+865,2026.07.14 11:30:00,fill,dir=BUY vol=0.01 price=1.14003 sl=1.13841 tp=1.14165 deal=406
+866,2026.07.15 11:00:00,range,hi=1.14319 lo=1.14198 width_pips=12.10
+867,2026.07.15 13:00:00,signal,dir=SELL bar=2026.07.15 12:45:00 close=1.14169 hi=1.14319 lo=1.14198 entry=1.14170 sl=1.14319 tp=1.14021 vol=0.01
+868,2026.07.15 13:00:00,fill,dir=SELL vol=0.01 price=1.14170 sl=1.14319 tp=1.14021 deal=408
+869,2026.07.16 11:00:00,range,hi=1.14762 lo=1.14666 width_pips=9.60
+870,2026.07.16 11:15:00,signal,dir=SELL bar=2026.07.16 11:00:00 close=1.14643 hi=1.14762 lo=1.14666 entry=1.14642 sl=1.14762 tp=1.14522 vol=0.01
+871,2026.07.16 11:15:00,fill,dir=SELL vol=0.01 price=1.14642 sl=1.14762 tp=1.14522 deal=410
+872,2026.07.17 11:00:00,range,hi=1.14522 lo=1.14443 width_pips=7.90
+873,2026.07.17 11:15:00,signal,dir=SELL bar=2026.07.17 11:00:00 close=1.14409 hi=1.14522 lo=1.14443 entry=1.14408 sl=1.14522 tp=1.14294 vol=0.01
+874,2026.07.17 11:15:00,fill,dir=SELL vol=0.01 price=1.14408 sl=1.14522 tp=1.14294 deal=412
+875,2026.07.17 14:00:00,skip,one_a_day_cap_reached
+876,2026.07.20 11:00:00,range,hi=1.14495 lo=1.14342 width_pips=15.30
+877,2026.07.20 12:30:00,signal,dir=SELL bar=2026.07.20 12:15:00 close=1.14307 hi=1.14495 lo=1.14342 entry=1.14307 sl=1.14495 tp=1.14119 vol=0.01
+878,2026.07.20 12:30:00,fill,dir=SELL vol=0.01 price=1.14307 sl=1.14495 tp=1.14119 deal=414
+879,2026.07.21 11:00:00,range,hi=1.14276 lo=1.14206 width_pips=7.00
+880,2026.07.21 14:00:00,signal,dir=SELL bar=2026.07.21 13:45:00 close=1.14200 hi=1.14276 lo=1.14206 entry=1.14201 sl=1.14276 tp=1.14126 vol=0.01
+881,2026.07.21 14:00:00,fill,dir=SELL vol=0.01 price=1.14201 sl=1.14276 tp=1.14126 deal=416
+882,2026.07.22 11:00:00,range,hi=1.14181 lo=1.14034 width_pips=14.70
+883,2026.07.22 13:15:00,signal,dir=SELL bar=2026.07.22 13:00:00 close=1.14029 hi=1.14181 lo=1.14034 entry=1.14030 sl=1.14181 tp=1.13879 vol=0.01
+884,2026.07.22 13:15:00,fill,dir=SELL vol=0.01 price=1.14030 sl=1.14181 tp=1.13879 deal=418
+885,2026.07.23 11:00:00,range,hi=1.14275 lo=1.14196 width_pips=7.90
+886,2026.07.23 11:15:00,signal,dir=SELL bar=2026.07.23 11:00:00 close=1.14194 hi=1.14275 lo=1.14196 entry=1.14195 sl=1.14275 tp=1.14115 vol=0.01
+887,2026.07.23 11:15:00,fill,dir=SELL vol=0.01 price=1.14195 sl=1.14275 tp=1.14115 deal=420
+888,2026.07.23 11:45:00,skip,one_a_day_cap_reached
+889,2026.07.23 12:00:00,skip,one_a_day_cap_reached
+890,2026.07.23 12:15:00,skip,one_a_day_cap_reached
+891,2026.07.23 12:30:00,skip,one_a_day_cap_reached
+892,2026.07.23 12:45:00,skip,one_a_day_cap_reached
+893,2026.07.23 13:00:00,skip,one_a_day_cap_reached
+894,2026.07.23 13:15:00,skip,one_a_day_cap_reached
+895,2026.07.23 13:30:00,skip,one_a_day_cap_reached
+896,2026.07.23 13:45:00,skip,one_a_day_cap_reached
+897,2026.07.23 14:00:00,skip,one_a_day_cap_reached
+898,2026.07.24 11:00:00,range,hi=1.14010 lo=1.13863 width_pips=14.70
+899,2026.07.24 11:45:00,signal,dir=SELL bar=2026.07.24 11:30:00 close=1.13858 hi=1.14010 lo=1.13863 entry=1.13859 sl=1.14010 tp=1.13708 vol=0.01
+900,2026.07.24 11:45:00,fill,dir=SELL vol=0.01 price=1.13859 sl=1.14010 tp=1.13708 deal=422
+901,2026.07.27 11:00:00,range,hi=1.14099 lo=1.13961 width_pips=13.80
+902,2026.07.27 11:30:00,signal,dir=SELL bar=2026.07.27 11:15:00 close=1.13955 hi=1.14099 lo=1.13961 entry=1.13954 sl=1.14099 tp=1.13809 vol=0.01
+903,2026.07.27 11:30:00,fill,dir=SELL vol=0.01 price=1.13954 sl=1.14099 tp=1.13809 deal=424
+904,2026.07.28 11:00:00,range,hi=1.13735 lo=1.13631 width_pips=10.40
+905,2026.07.28 12:45:00,signal,dir=SELL bar=2026.07.28 12:30:00 close=1.13623 hi=1.13735 lo=1.13631 entry=1.13624 sl=1.13735 tp=1.13513 vol=0.01
+906,2026.07.28 12:45:00,fill,dir=SELL vol=0.01 price=1.13624 sl=1.13735 tp=1.13513 deal=426
+907,2026.07.29 11:00:00,range,hi=1.14011 lo=1.13901 width_pips=11.00
+908,2026.07.29 13:45:00,signal,dir=SELL bar=2026.07.29 13:30:00 close=1.13880 hi=1.14011 lo=1.13901 entry=1.13879 sl=1.14011 tp=1.13747 vol=0.01
+909,2026.07.29 13:45:00,fill,dir=SELL vol=0.01 price=1.13879 sl=1.14011 tp=1.13747 deal=428
+910,2026.07.30 11:00:00,range,hi=1.14510 lo=1.14342 width_pips=16.80
+911,2026.07.30 11:30:00,signal,dir=BUY bar=2026.07.30 11:15:00 close=1.14544 hi=1.14510 lo=1.14342 entry=1.14545 sl=1.14342 tp=1.14748 vol=0.01
+912,2026.07.30 11:30:00,fill,dir=BUY vol=0.01 price=1.14545 sl=1.14342 tp=1.14748 deal=430
+913,2026.07.30 13:30:00,skip,one_a_day_cap_reached
+914,2026.07.30 13:45:00,skip,one_a_day_cap_reached
+915,2026.07.30 14:00:00,skip,one_a_day_cap_reached
+916,2026.07.31 11:00:00,range,hi=1.15248 lo=1.15115 width_pips=13.30
+917,2026.07.31 11:15:00,signal,dir=SELL bar=2026.07.31 11:00:00 close=1.15106 hi=1.15248 lo=1.15115 entry=1.15106 sl=1.15248 tp=1.14964 vol=0.01
+918,2026.07.31 11:15:00,fill,dir=SELL vol=0.01 price=1.15106 sl=1.15248 tp=1.14964 deal=432
+919,2026.07.31 12:30:00,skip,one_a_day_cap_reached
+920,2026.07.31 12:45:00,skip,one_a_day_cap_reached
+921,2026.07.31 13:00:00,skip,one_a_day_cap_reached
+922,2026.07.31 13:15:00,skip,one_a_day_cap_reached
+923,2026.07.31 13:30:00,skip,one_a_day_cap_reached
+924,2026.07.31 13:45:00,skip,one_a_day_cap_reached
+925,2026.07.31 14:00:00,skip,one_a_day_cap_reached
+926,2026.08.03 11:00:00,range,hi=1.15322 lo=1.15206 width_pips=11.60
+927,2026.08.04 11:00:00,range,hi=1.15170 lo=1.15062 width_pips=10.80
+928,2026.08.05 11:00:00,range,hi=1.15467 lo=1.15339 width_pips=12.80
+929,2026.08.06 11:00:00,range,hi=1.15466 lo=1.15410 width_pips=5.60
+930,2026.08.06 12:45:00,signal,dir=SELL bar=2026.08.06 12:30:00 close=1.15377 hi=1.15466 lo=1.15410 entry=1.15376 sl=1.15466 tp=1.15286 vol=0.01
+931,2026.08.06 12:45:00,fill,dir=SELL vol=0.01 price=1.15376 sl=1.15466 tp=1.15286 deal=434
+932,2026.08.07 11:00:00,range,hi=1.15242 lo=1.15176 width_pips=6.60
+933,2026.08.07 12:15:00,signal,dir=BUY bar=2026.08.07 12:00:00 close=1.15284 hi=1.15242 lo=1.15176 entry=1.15287 sl=1.15176 tp=1.15398 vol=0.01
+934,2026.08.07 12:15:00,fill,dir=BUY vol=0.01 price=1.15287 sl=1.15176 tp=1.15398 deal=436
+935,2026.08.10 11:00:00,range,hi=1.15654 lo=1.15519 width_pips=13.50
+936,2026.08.11 11:00:00,range,hi=1.15401 lo=1.15317 width_pips=8.40
+937,2026.08.12 11:00:00,range,hi=1.15394 lo=1.15358 width_pips=3.60
+938,2026.08.12 11:45:00,signal,dir=BUY bar=2026.08.12 11:30:00 close=1.15401 hi=1.15394 lo=1.15358 entry=1.15401 sl=1.15358 tp=1.15444 vol=0.01
+939,2026.08.12 11:45:00,fill,dir=BUY vol=0.01 price=1.15401 sl=1.15358 tp=1.15444 deal=438
+940,2026.08.12 12:30:00,skip,one_a_day_cap_reached
+941,2026.08.12 14:00:00,skip,one_a_day_cap_reached
+942,2026.08.13 11:00:00,range,hi=1.15278 lo=1.15169 width_pips=10.90
+943,2026.08.13 12:15:00,signal,dir=BUY bar=2026.08.13 12:00:00 close=1.15279 hi=1.15278 lo=1.15169 entry=1.15281 sl=1.15169 tp=1.15393 vol=0.01
+944,2026.08.13 12:15:00,fill,dir=BUY vol=0.01 price=1.15281 sl=1.15169 tp=1.15393 deal=440
+945,2026.08.14 11:00:00,range,hi=1.15511 lo=1.15430 width_pips=8.10
+946,2026.08.14 11:15:00,signal,dir=BUY bar=2026.08.14 11:00:00 close=1.15540 hi=1.15511 lo=1.15430 entry=1.15543 sl=1.15430 tp=1.15656 vol=0.01
+947,2026.08.14 11:15:00,fill,dir=BUY vol=0.01 price=1.15543 sl=1.15430 tp=1.15656 deal=442
+948,2026.08.17 11:00:00,range,hi=1.16119 lo=1.15927 width_pips=19.20
+949,2026.08.17 11:30:00,signal,dir=BUY bar=2026.08.17 11:15:00 close=1.16140 hi=1.16119 lo=1.15927 entry=1.16143 sl=1.15927 tp=1.16359 vol=0.01
+950,2026.08.17 11:30:00,fill,dir=BUY vol=0.01 price=1.16143 sl=1.15927 tp=1.16359 deal=444
+951,2026.08.17 13:45:00,skip,one_a_day_cap_reached
+952,2026.08.17 14:00:00,skip,one_a_day_cap_reached
+953,2026.08.18 11:00:00,range,hi=1.15776 lo=1.15694 width_pips=8.20
+954,2026.08.18 13:00:00,signal,dir=BUY bar=2026.08.18 12:45:00 close=1.15792 hi=1.15776 lo=1.15694 entry=1.15793 sl=1.15694 tp=1.15892 vol=0.01
+955,2026.08.18 13:00:00,fill,dir=BUY vol=0.01 price=1.15793 sl=1.15694 tp=1.15892 deal=446
+956,2026.08.18 19:00:20,exit,time_exit price=1.15792 deal=447
+957,2026.08.19 11:00:00,range,hi=1.15977 lo=1.15915 width_pips=6.20
+958,2026.08.19 11:15:00,signal,dir=BUY bar=2026.08.19 11:00:00 close=1.16035 hi=1.15977 lo=1.15915 entry=1.16036 sl=1.15915 tp=1.16157 vol=0.01
+959,2026.08.19 11:15:00,fill,dir=BUY vol=0.01 price=1.16036 sl=1.15915 tp=1.16157 deal=448
+960,2026.08.20 11:00:00,range,hi=1.16935 lo=1.16782 width_pips=15.30
+961,2026.08.20 11:15:00,signal,dir=BUY bar=2026.08.20 11:00:00 close=1.16945 hi=1.16935 lo=1.16782 entry=1.16948 sl=1.16782 tp=1.17114 vol=0.01
+962,2026.08.20 11:15:00,fill,dir=BUY vol=0.01 price=1.16948 sl=1.16782 tp=1.17114 deal=450
+963,2026.08.21 11:00:00,range,hi=1.17004 lo=1.16867 width_pips=13.70
+964,2026.08.21 11:45:00,signal,dir=BUY bar=2026.08.21 11:30:00 close=1.17039 hi=1.17004 lo=1.16867 entry=1.17039 sl=1.16867 tp=1.17211 vol=0.01
+965,2026.08.21 11:45:00,fill,dir=BUY vol=0.01 price=1.17039 sl=1.16867 tp=1.17211 deal=452
+966,2026.08.24 11:00:00,range,hi=1.16805 lo=1.16646 width_pips=15.90
+967,2026.08.24 11:15:00,signal,dir=SELL bar=2026.08.24 11:00:00 close=1.16636 hi=1.16805 lo=1.16646 entry=1.16636 sl=1.16805 tp=1.16467 vol=0.01
+968,2026.08.24 11:15:00,fill,dir=SELL vol=0.01 price=1.16636 sl=1.16805 tp=1.16467 deal=454
+969,2026.08.24 19:00:20,exit,time_exit price=1.16647 deal=455
+970,2026.08.25 11:00:00,range,hi=1.16630 lo=1.16525 width_pips=10.50
+971,2026.08.25 11:45:00,signal,dir=BUY bar=2026.08.25 11:30:00 close=1.16654 hi=1.16630 lo=1.16525 entry=1.16656 sl=1.16525 tp=1.16787 vol=0.01
+972,2026.08.25 11:45:00,fill,dir=BUY vol=0.01 price=1.16656 sl=1.16525 tp=1.16787 deal=456
+973,2026.08.25 19:00:20,exit,time_exit price=1.16726 deal=457
+974,2026.08.26 11:00:00,range,hi=1.16731 lo=1.16669 width_pips=6.20
+975,2026.08.26 11:15:00,signal,dir=BUY bar=2026.08.26 11:00:00 close=1.16748 hi=1.16731 lo=1.16669 entry=1.16750 sl=1.16669 tp=1.16831 vol=0.01
+976,2026.08.26 11:15:00,fill,dir=BUY vol=0.01 price=1.16750 sl=1.16669 tp=1.16831 deal=458
+977,2026.08.26 12:15:00,skip,one_a_day_cap_reached
+978,2026.08.26 12:30:00,skip,one_a_day_cap_reached
+979,2026.08.26 12:45:00,skip,one_a_day_cap_reached
+980,2026.08.26 13:00:00,skip,one_a_day_cap_reached
+981,2026.08.26 13:15:00,skip,one_a_day_cap_reached
+982,2026.08.26 13:30:00,skip,one_a_day_cap_reached
+983,2026.08.26 13:45:00,skip,one_a_day_cap_reached
+984,2026.08.26 14:00:00,skip,one_a_day_cap_reached
+985,2026.08.27 11:00:00,range,hi=1.16563 lo=1.16518 width_pips=4.50
+986,2026.08.27 11:30:00,signal,dir=SELL bar=2026.08.27 11:15:00 close=1.16505 hi=1.16563 lo=1.16518 entry=1.16506 sl=1.16563 tp=1.16449 vol=0.01
+987,2026.08.27 11:30:00,fill,dir=SELL vol=0.01 price=1.16506 sl=1.16563 tp=1.16449 deal=460
+988,2026.08.27 12:15:00,skip,one_a_day_cap_reached
+989,2026.08.27 12:30:00,skip,one_a_day_cap_reached
+990,2026.08.27 12:45:00,skip,one_a_day_cap_reached
+991,2026.08.27 13:00:00,skip,one_a_day_cap_reached
+992,2026.08.27 13:15:00,skip,one_a_day_cap_reached
+993,2026.08.27 13:30:00,skip,one_a_day_cap_reached
+994,2026.08.27 13:45:00,skip,one_a_day_cap_reached
+995,2026.08.27 14:00:00,skip,one_a_day_cap_reached
+996,2026.08.28 11:00:00,range,hi=1.16488 lo=1.16417 width_pips=7.10
+997,2026.08.28 12:45:00,signal,dir=SELL bar=2026.08.28 12:30:00 close=1.16416 hi=1.16488 lo=1.16417 entry=1.16414 sl=1.16488 tp=1.16340 vol=0.01
+998,2026.08.28 12:45:00,fill,dir=SELL vol=0.01 price=1.16414 sl=1.16488 tp=1.16340 deal=462
+999,2026.08.28 14:00:00,skip,one_a_day_cap_reached
+1000,2026.08.31 11:00:00,range,hi=1.16033 lo=1.15847 width_pips=18.60
+1001,2026.08.31 23:59:59,deinit,reason=1 bars=24864 equity_ticks=1482899 deals=462 events=1001

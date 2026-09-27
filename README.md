@@ -1,4 +1,4 @@
-# StratCoreAlpha — MQL4/MQL5 Development Portfolio
+# StratCoreAlpha: MQL4/MQL5 Development Portfolio
 
 ![StratCoreAlpha: Know before you risk. Historical simulation, not a forecast.](docs/brand/github-banner.png)
 
@@ -26,6 +26,11 @@ rules. Deliverables can include editable MQ4/MQ5 source, the compiled build,
 documented inputs, setup notes and reproducible test cases.
 
 ## Public MQL5 engineering proof
+
+[Getestet #3: fixed morning breakout on MT5 server time](proof/london-morning-proxy-v12/README.md):
+one EURUSD M15 HolaPrime tester run over 12 months, with the frozen rule,
+tester-only source and native evidence. The 231 trades ended USD 59.26 below
+the starting balance. The server-time grid is not proven London wall time.
 
 [ORB-v1.0 historical MT5 rehearsal](proof/t99-orb/README.md): fixed EURUSD M15
 rules, exact tester-only EA source, native HolaPrime chart and log cases,
@@ -250,7 +255,7 @@ redacted expected-versus-observed event. Evidence files stay off public issues.
 
 ## Scope boundaries
 
-- No guaranteed profit, win rate, drawdown or prop-firm result.
+- Historical tests cannot predict profit, win rate, drawdown or a prop-firm result.
 - No protected-code extraction or EX4/EX5 decompilation.
 - No claim that TradingView and broker data will be identical.
 - Strategy invention, optimization and additional features are separate from a
