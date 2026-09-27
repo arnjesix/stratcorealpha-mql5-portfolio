@@ -39,6 +39,10 @@ test, with no prop verdict or future-performance claim.
 
 [Owned SMA(3)/SMA(5) EA and Pine parity sample](docs/EA_PARITY_HOLAPRIME_TRADINGVIEW_PROOF.md): editable sources, shared 12-bar fixture, actual HolaPrime Strategy Tester log and original TradingView chart snapshot. Exact cross-platform parity is limited to the shared fixture.
 
+[E149 close-before-opposite-entry check](docs/EA_PARITY_HOLAPRIME_TRADINGVIEW_PROOF.md): the [original HolaPrime MT5 visualizer log](assets/parity/E149_HolaPrime_visualizer_log_excerpt_20260925.txt) records retcode 10009, a confirmed close and the opposite tester position. It used generated one-minute OHLC ticks; this is not a live-order or performance result.
+
+[M179 full-August Pine/MT5 signal comparison](assets/parity/m179/README.md): the frozen EURUSD H1 rule was compared across 507 shared TradingView OANDA and HolaPrime MT5 bars, with 16 differences explained individually. The [public case](https://stratcorealpha.com/tested/pine-mt5-signal-parity?ref=github-mql5&intent=proof) shows the overlay, agreement table, source and limits. It compares signals, not orders or returns.
+
 The following projects are published on the official MQL5 CodeBase. They are
 implementation examples, not trading-performance claims.
 
