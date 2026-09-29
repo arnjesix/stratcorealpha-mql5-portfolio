@@ -45,6 +45,8 @@ test, with no prop verdict or future-performance claim.
 
 [SALMA MT5 indicator port](ports/salma/README.md): MPL-2.0 source with credit to RedKTrader, input mapping, explicit chart-timeframe limitation and deterministic checks. It compiled in the isolated HolaPrime MetaEditor with zero errors and warnings. Cross-platform signal parity is not claimed.
 
+[ITG Scalper MT5 indicator port](ports/itg-scalper/README.md): MPL-2.0 source with credit to Complector, a documented chart-timeframe filter and omitted percent label. Pine's EMA first-value seed is covered by deterministic checks. It compiled in the isolated HolaPrime MetaEditor with zero errors and warnings; chart parity remains unverified.
+
 The following projects are published on the official MQL5 CodeBase. They are
 implementation examples, not trading-performance claims.
 
