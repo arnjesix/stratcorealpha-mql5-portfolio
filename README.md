@@ -43,6 +43,8 @@ test, with no prop verdict or future-performance claim.
 
 [M179 full-August Pine/MT5 signal comparison](assets/parity/m179/README.md): the frozen EURUSD H1 rule was compared across 507 shared TradingView OANDA and HolaPrime MT5 bars, with 16 differences explained individually. The [public case](https://stratcorealpha.com/tested/pine-mt5-signal-parity?ref=github-mql5&intent=proof) shows the overlay, agreement table, source and limits. It compares signals, not orders or returns.
 
+[SALMA MT5 indicator port](ports/salma/README.md): MPL-2.0 source with credit to RedKTrader, input mapping, explicit chart-timeframe limitation and deterministic checks. It compiled in the isolated HolaPrime MetaEditor with zero errors and warnings. Cross-platform signal parity is not claimed.
+
 The following projects are published on the official MQL5 CodeBase. They are
 implementation examples, not trading-performance claims.
 
