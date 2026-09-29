@@ -4,3 +4,5 @@ Thumbs.db
 *.ex5
 *.set
 *.log
+__pycache__/
+*.pyc
