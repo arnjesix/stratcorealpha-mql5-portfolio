@@ -20,8 +20,7 @@
   proprietary, closed, or invite-only script.
 - Acceptance fixture: `acceptance/turtle_soup_check.py` — an independent
   Python mirror of the transcribed algorithm (no Pine text inside).
-- MQL5 port contributor: stratcorealpha worker session
-  (`muse-spark-1.3-contributor xhigh`, 2026-09-29).
+- MQL5 port contributor: StratCoreAlpha, 2026-09-29.
 - License of the port: Mozilla Public License 2.0 (same license as the
   original source header requires). Full text in `LICENSE`.
 

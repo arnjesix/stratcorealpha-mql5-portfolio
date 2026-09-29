@@ -22,8 +22,7 @@
   written from a short algorithm summary of the Pine script. No Pine Script
   source text was copied into it, and no text was taken from any unrelated
   proprietary script.
-- MQL5 port contributor: W7-PINE port-1 worker session
-  (`muse-spark-1.3-contributor xhigh`, 2026-09-28).
+- MQL5 port contributor: StratCoreAlpha, 2026-09-28.
 - License of the port: GNU General Public License v3.0 (same license as the
   original source header requires). Full text in `LICENSE` (verbatim copy of
   the official system GPL-3 text).
