@@ -1,0 +1,10 @@
+
+PureChecks         : 8
+NinjaTraderVersion : 8.1.8.1
+TransactionApis    : 0
+ExternalIoApis     : 0
+ProductId          : 2211
+CompileErrors      : 0
+RuntimeValidated   : False
+Passed             : True
+

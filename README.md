@@ -25,7 +25,17 @@ Every fixed scope starts by freezing entry, exit, risk, timing and acceptance
 rules. Deliverables can include editable MQ4/MQ5 source, the compiled build,
 documented inputs, setup notes and reproducible test cases.
 
-## Public MQL5 engineering proof
+## cTrader and NinjaTrader source/build proofs
+
+[cTrader order preflight](proof/ctrader-order-preflight/README.md): owned read-only
+source, genuine managed build and 22 passing tests. Native cTrader runtime checks
+remain open; no order or performance claim.
+
+[NinjaTrader bar-boundary inspector](proof/ninjatrader-bar-boundary/README.md):
+owned source, eight passing checks and a genuine build against NinjaTrader 8.1.8.1.
+Native chart/session/reload behaviour remains unverified.
+
+## Public MQL5 run proofs
 
 [Getestet #3: fixed morning breakout on MT5 server time](proof/london-morning-proxy-v12/README.md):
 one EURUSD M15 HolaPrime tester run over 12 months, with the frozen rule,

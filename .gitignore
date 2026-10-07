@@ -6,3 +6,7 @@ Thumbs.db
 *.log
 __pycache__/
 *.pyc
+proof/ctrader-order-preflight/**/bin/
+proof/ctrader-order-preflight/**/obj/
+proof/ninjatrader-bar-boundary/**/bin/
+proof/ninjatrader-bar-boundary/**/obj/

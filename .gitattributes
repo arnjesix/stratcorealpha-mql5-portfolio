@@ -1,0 +1,3 @@
+# Preserve the bytes identified by the build-proof source manifests.
+proof/ctrader-order-preflight/** -text
+proof/ninjatrader-bar-boundary/** -text

@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-10-07T19:58:19.7954491+02:00",
+  "dotnet_sdk": "9.0.304",
+  "proof_kind": "owned source, managed build and deterministic unit checks",
+  "native_runtime_verified": false,
+  "private_path_redactions": [
+    "repository root replaced by [repository]",
+    "NuGet home replaced by [nuget-cache]"
+  ],
+  "sources": [
+    {
+      "file": "OrderPreflightDiagnostic.cs",
+      "sha256": "83c4d799ade9db1cfbd4c32895ac0538aed0d09a5c9521e317dcb545648b35bf"
+    },
+    {
+      "file": "PreflightEngine.cs",
+      "sha256": "c2a56b04e7303317781e223d7da24493748995fc1dcb4345bd506bc7464333f0"
+    },
+    {
+      "file": "StateBoundaryEngine.cs",
+      "sha256": "b001c43d7df4617e4f1e65539935658e5b3893d4b7bfa411f5c83ebe7f5b33b7"
+    },
+    {
+      "file": "StratCoreAlpha.CTraderPreflight.csproj",
+      "sha256": "819b4e0b1aa359c300621dc3da2e57930fdb233dcdc3b77aa66e867ceebea1cc"
+    },
+    {
+      "file": "tests/StratCoreAlpha.CTraderPreflight.Tests.csproj",
+      "sha256": "1c9ee65f62b723f099443b42dcd78133f9bb06a32ef993272debe9bc6a1573f5"
+    },
+    {
+      "file": "tests/PreflightEngineTests.cs",
+      "sha256": "81c25c8c9a8bba78268d1959de3c9be4626da71cd1e056ad5cf83ccb2f464996"
+    },
+    {
+      "file": "tests/StateBoundaryEngineTests.cs",
+      "sha256": "66dcba110babffde10f2fcb5477225cfb35c786c20478209dd975039ab89db39"
+    }
+  ]
+}

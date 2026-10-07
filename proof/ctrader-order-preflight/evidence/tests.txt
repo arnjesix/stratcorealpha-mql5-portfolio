@@ -1,0 +1,9 @@
+  Determining projects to restore...
+  Restored [repository]\assets\proof\ctrader\order-preflight-diagnostic\tests\StratCoreAlpha.CTraderPreflight.Tests.csproj (in 307 ms).
+CSC : warning CS1668: Invalid search path 'C:\ta-lib\lib' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\tests\StratCoreAlpha.CTraderPreflight.Tests.csproj]
+CSC : warning CS1668: Invalid search path 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\tests\StratCoreAlpha.CTraderPreflight.Tests.csproj]
+  StratCoreAlpha.CTraderPreflight.Tests -> [repository]\assets\proof\ctrader\order-preflight-diagnostic\tests\bin\Release\net8.0\StratCoreAlpha.CTraderPreflight.Tests.dll
+Test run for [repository]\assets\proof\ctrader\order-preflight-diagnostic\tests\bin\Release\net8.0\StratCoreAlpha.CTraderPreflight.Tests.dll (.NETCoreApp,Version=v8.0)
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:    22, Skipped:     0, Total:    22, Duration: 126 ms - StratCoreAlpha.CTraderPreflight.Tests.dll (net8.0)

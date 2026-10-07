@@ -1,0 +1,15 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+CSC : warning CS1668: Invalid search path 'C:\ta-lib\lib' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\StratCoreAlpha.CTraderPreflight.csproj]
+CSC : warning CS1668: Invalid search path 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\StratCoreAlpha.CTraderPreflight.csproj]
+  StratCoreAlpha.CTraderPreflight -> [repository]\assets\proof\ctrader\order-preflight-diagnostic\bin\Release\net6.0\StratCoreAlpha.CTraderPreflight.dll
+  StratCoreAlpha.CTraderPreflight -> [repository]\assets\proof\ctrader\order-preflight-diagnostic\bin\Release\net6.0\ctrader.algo
+
+Build succeeded.
+
+CSC : warning CS1668: Invalid search path 'C:\ta-lib\lib' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\StratCoreAlpha.CTraderPreflight.csproj]
+CSC : warning CS1668: Invalid search path 'C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\lib\x64' specified in 'LIB environment variable' -- 'directory does not exist' [[repository]\assets\proof\ctrader\order-preflight-diagnostic\StratCoreAlpha.CTraderPreflight.csproj]
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23

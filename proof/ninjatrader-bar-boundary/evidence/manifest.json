@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-10-07T19:58:19.9883718+02:00",
+  "dotnet_sdk": "9.0.304",
+  "proof_kind": "owned source, managed build and deterministic unit checks",
+  "native_runtime_verified": false,
+  "private_path_redactions": [
+    "repository root replaced by [repository]",
+    "NuGet home replaced by [nuget-cache]"
+  ],
+  "sources": [
+    {
+      "file": "src/BarBoundaryEngine.cs",
+      "sha256": "3cd5f7e45685e823f4dd9baca654f071676e5790a272ead71e640b010884792c"
+    },
+    {
+      "file": "src/StratCoreBarBoundaryInspector.cs",
+      "sha256": "3cf4ac366901c8ccee2ab0418663bda303e86c174d0d8546e3dc30b888f0de5e"
+    },
+    {
+      "file": "NinjaTraderCompileProof.csproj",
+      "sha256": "4978e6365b5020bc4ce90da55bf773d621749809211784a7aa93bfb40d57e8b4"
+    },
+    {
+      "file": "tests/BarBoundaryEngineProof.csproj",
+      "sha256": "a0587532cf42c25b7df9cc22bc061fe1b9a810dab4e14c41a3e46f5e7679f44a"
+    },
+    {
+      "file": "tests/BarBoundaryEngineProof.cs",
+      "sha256": "d2c64bc190f1cef0da56bf60679164ffee4db206c30cfe2739c7955773050de1"
+    }
+  ],
+  "ninjatrader_assemblies": [
+    {
+      "version": "8.1.8.1",
+      "sha256": "a9d35b39db524ce665218f0868d41f9e2c34349dd53ac4995d4e1bec8f191884",
+      "assembly": "NinjaTrader.Core.dll"
+    },
+    {
+      "version": "8.1.8.1",
+      "sha256": "abd327003150425551906d64e3357498ea91a9680e8f2dd14cf7b2351e6d1b74",
+      "assembly": "NinjaTrader.Gui.dll"
+    },
+    {
+      "version": "8.1.8.1",
+      "sha256": "20da07b63b48d56725a512cc8256449c371d399115e0428dfec4d97d809724d6",
+      "assembly": "Custom/Backup/NinjaTrader.Custom.dll"
+    }
+  ]
+}
