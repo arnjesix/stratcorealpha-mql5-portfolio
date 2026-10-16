@@ -1,0 +1,53 @@
+{
+  "kind": "synthetic offline model",
+  "snapshot": {
+    "login": 10001,
+    "currency": "USD",
+    "balance": "1000.00",
+    "equity": "995.00",
+    "margin": "100.00",
+    "free_margin": "895.00",
+    "positions": [
+      {
+        "ticket": 101,
+        "symbol": "XAUUSD",
+        "side": "BUY",
+        "volume": "0.01",
+        "price_open": "2600.00",
+        "price_current": "2595.00",
+        "profit": "-5.00"
+      }
+    ],
+    "closed_net": "6.50",
+    "state": "CURRENT",
+    "age_seconds": 5
+  },
+  "disconnected": {
+    "login": 10001,
+    "currency": "USD",
+    "balance": "1000.00",
+    "equity": "995.00",
+    "margin": "100.00",
+    "free_margin": "895.00",
+    "positions": [
+      {
+        "ticket": 101,
+        "symbol": "XAUUSD",
+        "side": "BUY",
+        "volume": "0.01",
+        "price_open": "2600.00",
+        "price_current": "2595.00",
+        "profit": "-5.00"
+      }
+    ],
+    "closed_net": "6.50",
+    "state": "STALE",
+    "age_seconds": 40
+  },
+  "cases": [
+    "PASS account fields and open position",
+    "PASS net includes commission, swap and fee",
+    "PASS disconnected data remains visible and marked STALE"
+  ],
+  "limits": "No MT5 runtime, live feed, multi-account synchronization or broker test."
+}
