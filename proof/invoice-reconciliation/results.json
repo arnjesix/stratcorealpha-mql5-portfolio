@@ -1,0 +1,44 @@
+{
+  "scope": "Synthetic invoice reconciliation only. No client PDFs parsed, Excel workbook or supplier layout tested. Tax rounding is a stated sample convention, not a universal accounting rule.",
+  "cases_passed": 3,
+  "cases_total": 3,
+  "cases": [
+    {
+      "number": "DEMO-001",
+      "currency": "EUR",
+      "items_preserved": 2,
+      "issues": []
+    },
+    {
+      "number": "DEMO-001",
+      "currency": "EUR",
+      "items_preserved": 2,
+      "issues": [
+        {
+          "line": 1,
+          "kind": "missing",
+          "fields": [
+            "quantity"
+          ]
+        },
+        {
+          "kind": "invoice_mismatch",
+          "calculated": "2.40",
+          "observed": "49.88"
+        }
+      ]
+    },
+    {
+      "number": "DEMO-001",
+      "currency": "EUR",
+      "items_preserved": 2,
+      "issues": [
+        {
+          "kind": "invoice_mismatch",
+          "calculated": "49.88",
+          "observed": "49.89"
+        }
+      ]
+    }
+  ]
+}
